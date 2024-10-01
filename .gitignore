@@ -3,7 +3,6 @@ test.py
 settup.py
 .vscode/
 .idea/
-.workshop/
 __pycache__/
 checkpoints/
 model/02_tokenization/__pycache__/
