@@ -105,6 +105,19 @@
   },
 
 {
+    "tag": "CSS",
+    "patterns": ["Intro to Flexbox"],
+    "responses": ["Flexbox is a one-dimensional layout method for arranging items in rows or columns. CSS flexbox containers can alter their item’s width and height to best fill the space."],
+    "context_set": ["https://css-tricks.com/snippets/css/a-guide-to-flexbox/", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox", "https://www.youtube.com/watch?v=vQAvjof1oe4"]
+  },
+{
+    "tag": "CSS",
+    "patterns": ["Intro to Grid"],
+    "responses": ["CSS Grid Layout is a powerful layout system available in CSS. It’s a two-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a one-dimensional system."],
+    "context_set": ["https://css-tricks.com/snippets/css/complete-guide-grid/", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout", "https://www.youtube.com/watch?v=EFafSYg-PkI"]
+},
+
+{
     "tag": "Javascript",
     "patterns": ["Intro to Javascript"],
     "responses": ["JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on. "],
