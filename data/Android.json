@@ -1,0 +1,115 @@
+{"intents": [
+    {
+        "tag": "",
+        "patterns": [""],
+        "responses":[""],
+        "context_set":[""]
+
+    },
+    {
+        "tag": "Pick a Language",
+        "patterns": ["Kotlin"],
+        "responses":["Kotlin is a cross-platform, statically typed general-purpose programming language with type inference. Developed by JetBrains, the makers of the world’s leading IDEs, Kotlin has a syntax, which is more expressive and concise. This allows for more readable and maintainable code. It is fully interoperable with Java and comes with no limitations. It can be used almost everywhere Java is used today, for server-side development, Android apps, and much more. Kotlin introduces several improvements for programmers over Java, which makes it a preferred choice for many developers. With more concise code base and modern programming concept support - it’s certainly a future of Android app development."],
+        "context_set":["https://www.w3schools.com/kotlin/","https://www.youtube.com/watch?v=EExSSotojVI","https://app.daily.dev/tags/kotlin?ref=roadmapsh"]
+
+    },
+    {
+        "tag": "Pick a Language",
+        "patterns": ["Java"],
+        "responses":["Java is a popular programming language used for Android development due to its robustness and ease of use. Its object-oriented structure allows developers to create modular programs and reusable code. The language was built with the philosophy of “write once, run anywhere” (WORA), meaning compiled Java code can run on all platforms without the need for recompilation. Android’s API and core libraries are primarily written in Java, therefore understanding Java is fundamental in creating diverse and powerful Android apps. Java is a statically-typed language, which can be beneficial for detecting errors at compile-time rather than at runtime. Oracle, who owns Java, provides comprehensive documentation and support for the language."],
+        "context_set":[""]
+
+    },
+    {
+        "tag": "The Fundamentals",
+        "patterns": ["Development IDE"],
+        "responses":["“Development IDE” refers to Development Integrated Development Environment that is vital for Android App development. For Android, the primary IDE is Android Studio. This official IDE from Google includes everything you need to build an Android app, such as a code editor, code analysis tools, emulators for all of Android’s supported OS versions and hardware configurations, and more. Other popular IDEs include Eclipse (with an Android Developer Tools plugin), NetBeans, and IntelliJ IDEA. Each of these IDEs tends to have its own set of specialized features, but all are designed to provide the tools and services needed for Android development. The choice of IDE often depends on the specific needs and preferences of the developer or development team."],
+        "context_set":[""]
+
+    },
+    {
+        "tag": "The Fundamentals",
+        "patterns": ["Basics of Kotlin"],
+        "responses":["Kotlin is a statically-typed programming language that runs on the Java Virtual Machine (JVM) and can be used to develop all types of Android apps. It is Google’s preferred language for Android app development. Kotlin’s syntax is more concise than Java, which means less code to write and read, and fewer opportunities for errors. It provides several high-level features like lambdas, coroutines and higher order functions that help making the code more clean and understandable. Key basics of Kotlin include control flow statements (if, when, for, while), variables (mutable and non-mutable), null safety, classes and objects, inheritance, interfaces, and exception handling. While learning Kotlin, experience with Java will certainly be helpful, but it’s not a prerequisite."],
+        "context_set":[""]
+
+    },
+    {
+        "tag": "The Fundamentals",
+        "patterns": ["Basics of OOP"],
+        "responses":["In Android development, understanding the Basics of Object-Oriented Programming (OOP) is crucial. OOP is a programming paradigm that uses “Objects” - entities that contain both data and functions that manipulate the data. Key concepts include Classes, which are blueprints from which objects are created; Objects, instances of a class; Inheritance, where one class acquires properties from another; Polymorphism, the ability of an object to take many forms; Abstraction, showing only necessary details and hiding implementation from the user; and Encapsulation, the concept of wrapping data and the methods that work on data within one unit. By understanding these fundamentals, you can create more efficient and effective Android apps."],
+        "context_set":[""]
+
+    },
+    {
+        "tag": "The Fundamentals",
+        "patterns": ["DataStructures and Algorithms"],
+        "responses":["In Android, data structures are primarily used to collect, organize and perform operations on the stored data more effectively. They are essential for designing advanced-level Android applications. Examples include Array, Linked List, Stack, Queue, Hash Map, and Tree. Meanwhile, algorithms are a sequence of instructions or rules for performing a particular task. In Android, algorithms can be used for data searching, sorting, or performing complex business logic. Some commonly used algorithms are Binary Search, Bubble Sort, Selection Sort, etc. A deep understanding of data structures and algorithms is crucial in optimizing the performance and the memory consumption of the Android applications."],
+        "context_set":[""]
+
+    },
+    {
+        "tag": "The Fundamentals",
+        "patterns": ["What is and How to use Gradle?"],
+        "responses":["Using Gradle: Gradle is a powerful build system used in Android development that allows you to define your project and dependencies, and distinguish between different build types and flavors. Gradle uses a domain-specific language (DSL) which gives developers almost complete control over the build process. When you trigger a build in Android Studio, Gradle is the tool working behind the scenes to compile and package your app. It looks at the dependencies you declared in your build.gradle files and create a build script accordingly. Using Gradle in Android development requires continuous editing of the build.gradle files to manage app dependencies, build variants, signing configurations, and other essential aspects related to building your app."],
+        "context_set":["https://assets.tomgregory.com/get-going-with-gradle/get-going-with-gradle-book.pdf","https://www.youtube.com/watch?v=-dtcEMLNmn0","https://www.youtube.com/watch?v=R6Z-Sxb837I","https://app.daily.dev/tags/gradle?ref=roadmapsh"]
+
+    },
+    {
+        "tag": "The Fundamentals",
+        "patterns": ["Create a basic Hello World App"],
+        "responses":["The “Hello World” app is a simple project that you can build when you’re getting started with Android development. It’s often the first program that beginners learn to build in a new system. It’s usually considered the simplest form of program that displays a message to the user - “Hello, World!” In Android, this involves creating a new project from the Android Studio and setting up the main activity. The main activity file is primarily written in Java or Kotlin where you can code for the display message, while the layout design view can be created in the XML file."],
+        "context_set":["https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app"]
+
+    },
+    {
+        "tag": "Version Control",
+        "patterns": ["Intro"],
+        "responses":["Version Control is a system that records changes to a file or set of files over time so that you can recall specific versions later. An essential tool for software development, it helps to track changes, enhance collaboration, and manage different versions of a project. Two common types of version control systems are Centralized Version Control System (CVCS) and Distributed Version Control System (DVCS). CVCS uses a central server to store all versions of a project, with users getting snapshots from that server. Examples include SVN and Perforce. On the other hand, DVCS allows multiple developers to work on a single project simultaneously. Each user has a complete backup of all versions of the work. Examples include Git and Mercurial."],
+        "context_set":[""]
+
+    },
+    {
+        "tag": "Version Control",
+        "patterns": ["Git"],
+        "responses":["Git is a highly efficient and flexible distributed version control system that was created by Linus Torvalds, the creator of Linux. It allows multiple developers to work on a project concurrently, providing tools for non-linear development and tracking changes in any set of files. Git has a local repository with a complete history and version-tracking capabilities, allowing offline operations, unlike SVN. It ensures data integrity and provides strong support for non-linear development with features such as branching and merging. Yet, Git has a high learning curve and can be complex for beginners to understand the command line interface. Furthermore, Git also allows you to create tags to reference certain points in your history for milestone or version releases."],
+        "context_set":[""]
+
+    },
+    {
+        "tag": "Version Control",
+        "patterns": ["GitHub"],
+        "responses":["GitHub is a cloud-based hosting service for managing software version control using Git. It provides a platform for enabling multiple developers to work together on the same project at the same time. With GitHub, codes can be stored publicly, allowing for collaboration with other developers or privately for individual projects. Key features of GitHub include code sharing, task management, and version control, among others. GitHub also offers functionalities such as bug tracking, feature requests, and task management for the project. For Android development, it supports Gradle-based android projects, plugins for Android Studio and JetBrains IntelliJ IDEA, making version control operations more user-friendly."],
+        "context_set":[""]
+
+    },
+    {
+        "tag": "Version Control",
+        "patterns": ["BitBucket"],
+        "responses":["Bitbucket is a web-based hosting service that is owned by Atlassian. Bitbucket uses either Mercurial or Git revision control systems, allowing users to manage and maintain their code. This platform is mainly used for code and code review. Bitbucket provides both commercial plans and free accounts. It offers free accounts with an unlimited number of private repositories (which can have up to five users in the case of free accounts) as of September 2010. It originally offered only Mercurial support. Bitbucket integrates with other Atlassian software like JIRA, HipChat, Confluence and Bamboo."],
+        "context_set":[""]
+
+    },
+    {
+        "tag": "Version Control",
+        "patterns": ["GitLab"],
+        "responses":["Gitlab is a web-based DevOps lifecycle tool which provides a Git-repository manager, along with continuous integration and deployment pipeline features, using an open-source license, developed by GitLab Inc. Users can manage and create their software projects and repositories, and collaborate on these projects with other members. Gitlab also allows users to view analytics and open issues of their project. It stands next to other version control tools like GitHub and Bitbucket, but comes with its own set of additional features and nuances. For Android development, Gitlab can be particularly useful owing to its continuous integration and deployment system which can automate large parts of the app testing and deployment."],
+        "context_set":[""]
+
+    },
+    {
+        "tag": "App Components",
+        "patterns": ["Intro"],
+        "responses":["Android apps are primarily made up of five different types of components: Activities: These are individual screens that a user can interact with. Any UI action like touching a button or swiping a screen will usually take place within an activity. Services: Unlike activities, services run in the background and don’t have a user interface. They’re used for repetitive or long running operations, like playing music or pulling in a feed of data from a server. Broadcast Receivers: These are event listeners. The Android operating system uses them to respond to system-wide events. Content Providers: They manage and share app data with other apps installed on the device. For security, data is not generally shared across apps. Intents: These serve as messages or commands to the Android system. They’re used to signal to the Android system that certain events have occurred. Each app component is designed to serve different purposes and to have a well-defined lifecycle which defines how the component is created and destroyed"],
+        "context_set":[""]
+
+    },
+    {
+        "tag": "",
+        "patterns": [""],
+        "responses":[""],
+        "context_set":[""]
+
+    },
+]
+}

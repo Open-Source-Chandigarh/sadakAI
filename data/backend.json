@@ -1,0 +1,1004 @@
+{"intents": [
+  {
+    "tag": "",
+    "patterns": [""],
+    "responses": [""],
+    "context_set": [""]
+  },
+
+  {
+    "tag": "Internet",
+    "patterns": ["Intro to internet"],
+    "responses": ["The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols."],
+    "context_set": ["https://cs.fyi/guide/how-does-internet-work", "https://www.vox.com/2014/6/16/18076282/the-internet", "https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm", "https://www.youtube.com/watch?v=x3c1ih2NJEg", "https://www.youtube.com/watch?v=7_LPdttKXPc", "https://www.youtube.com/watch?v=zN8YNNHcaZc"]
+  },
+
+  {
+    "tag": "Internet",
+    "patterns": ["Intro to HTTP"],
+    "responses": ["HTTP is the TCP/IP based application layer communication protocol which standardizes how the client and server communicate with each other. It defines how the content is requested and transmitted across the internet."],
+    "context_set": ["https://cs.fyi/guide/http-in-depth", "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview", "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/", "https://www.youtube.com/watch?v=j9QmMEWmcfo", "https://www.youtube.com/watch?v=iYM2zFP3Zn0", "https://www.youtube.com/watch?v=a-sBfyiXysI", "https://www.youtube.com/watch?v=2JYT5f2isg4"]
+  },
+
+ {
+    "tag": "Internet",
+    "patterns": ["Intro to Domain Name"],
+    "responses": ["A domain name is a unique, easy-to-remember address used to access websites, such as ‘google.com’, and ‘facebook.com’. Users can connect to websites using domain names thanks to the DNS system."],
+    "context_set": ["https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name", "https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/", "https://www.youtube.com/watch?v=Y4cRx19nhJk"]
+  },
+
+ {
+    "tag": "Internet",
+    "patterns": ["Intro to Hosting"],
+    "responses": ["Web hosting is an online service that allows you to publish your website files onto the internet. So, anyone who has access to the internet has access to your website."],
+    "context_set": ["https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines", "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server", "https://www.youtube.com/watch?v=htbY9-yggB0", "https://www.youtube.com/watch?v=AXVZYzw8geg", "https://www.youtube.com/watch?v=Kx_1NYYJS7Q"]
+},
+
+ {
+    "tag": "Internet",
+    "patterns": ["Intro to DNS and How it works?"],
+    "responses": ["The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources."],
+    "context_set": ["https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/", "https://howdns.works/", "https://developer.mozilla.org/en-US/docs/Glossary/DNS", "https://www.youtube.com/watch?v=Wj0od2ag5sk", "https://www.youtube.com/watch?v=7lxgpKh_fRY", "https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K", "https://app.daily.dev/tags/dns?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Internet",
+    "patterns": ["Intro to Browsers and how they work"],
+    "responses": ["A web browser is a software application that enables a user to access and display web pages or other online content through its graphical user interface."],
+    "context_set": ["https://web.dev/articles/howbrowserswork", "https://www.browserstack.com/guide/browser-rendering-engine", "https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work", "https://app.daily.dev/tags/browsers?ref=roadmapsh"]
+  },
+ {
+    "tag": "Pick a Language",
+    "patterns": ["Learning a language"],
+    "responses": ["Even if you’re a beginner the least you would have known is that Web Development is majorly classified into two facets: Frontend Development and Backend Development. And obviously, they both have their respective set of tools and technologies. For instance, when we talk about Frontend Development, there always comes 3 names first and foremost – HTML, CSS, and JavaScript. In the same way, when it comes to Backend Web Development – we primarily require a backend (or you can say server-side) programming language to make the website function along with various other tools & technologies such as databases, frameworks, web servers, etc. Pick a language from the given list and make sure to learn its quirks, core details about its runtime e.g. concurrency, memory model etc."],
+    "context_set": ["https://www.google.com/search?q=learn%20a%20language%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=learn+a+language+for+backend+developer"]
+  },
+
+ {
+    "tag": "Pick a Language",
+    "patterns": ["JavaScript"],
+    "responses": ["JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on."],
+    "context_set": ["https://javascript.info/", "https://javascript30.com/", "https://www.youtube.com/watch?v=hdI2bqOjy3c&t=2s", "https://app.daily.dev/tags/javascript?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Pick a Language",
+    "patterns": ["Go"],
+    "responses": ["Go is an open source programming language supported by Google. Go can be used to write cloud services, CLI tools, used for API development, and much more."],
+    "context_set": ["https://go.dev/tour/welcome/1", "https://go.dev/doc/","https://gobyexample.com/", "https://www.w3schools.com/go/","https://thenewstack.io/make-a-restful-json-api-go/", "https://thenewstack.io/go-the-programming-language-of-the-cloud/", "https://www.youtube.com/playlist?list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6", "https://app.daily.dev/tags/golang?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "Pick a Language",
+    "patterns": ["Python"],
+    "responses": ["Python is a well known programming language which is both a strongly typed and a dynamically typed language. Being an interpreted language, code is executed as soon as it is written and the Python syntax allows for writing code in functional, procedural or object-oriented programmatic ways."],
+    "context_set": ["https://www.python.org/", "https://www.python.org/about/gettingstarted/","https://automatetheboringstuff.com/", "https://pythonprinciples.com/","https://www.w3schools.com/python/", "https://ehmatthes.github.io/pcc/", "https://thenewstack.io/an-introduction-to-python-for-non-programmers/", "https://thenewstack.io/getting-started-with-python-and-influxdb/", "https://app.daily.dev/tags/python?ref=roadmapsh", "https://app.daily.dev/onboarding"]
+  },
+
+
+ {
+    "tag": "Pick a Language",
+    "patterns": ["Ruby"],
+    "responses": ["Ruby is a high-level, interpreted programming language that blends Perl, Smalltalk, Eiffel, Ada, and Lisp. Ruby focuses on simplicity and productivity along with a syntax that reads and writes naturally. Ruby supports procedural, object-oriented and functional programming and is dynamically typed."],
+    "context_set": ["https://www.ruby-lang.org/en/", "https://www.ruby-lang.org/en/documentation/quickstart/", "https://thenewstack.io/ruby-a-programmers-best-friend/", "https://www.youtube.com/playlist?list=PL_EzhIKp343lBMH4UuklrMRL_WkilGoXe", "https://app.daily.dev/tags/ruby?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "Pick a Language",
+    "patterns": ["Java"],
+    "responses": ["Java is general-purpose language, primarily used for Internet-based applications. It was created in 1995 by James Gosling at Sun Microsystems and is one of the most popular options for backend developers."],
+    "context_set": ["https://www.java.com/en/","https://www.w3schools.com/java/","https://www.youtube.com/watch?v=eIrMbAQSU34","https://www.youtube.com/watch?v=xk4_1vDrzzo","https://app.daily.dev/tags/java?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "Pick a Language",
+    "patterns": ["C#"],
+    "responses": ["C# (pronounced “C sharp”) is a general purpose programming language made by Microsoft. It is used to perform different tasks and can be used to create web apps, games, mobile apps, etc."],
+    "context_set": ["https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-1/?WT.mc_id=dotnet-35129-website", "https://www.w3schools.com/cs/index.php", "https://learn.microsoft.com/en-us/shows/csharp-for-beginners/?WT.mc_id=Educationalcsharp-c9-scottha", "https://www.youtube.com/watch?v=gfkTfcpWqAY&list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef", "https://app.daily.dev/tags/c###########################?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "Pick a Language",
+    "patterns": ["PHP"],
+    "responses": ["PHP is a general purpose scripting language often used for making dynamic and interactive Web pages. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994. The PHP reference implementation is now produced by The PHP Group and supported by PHP Foundation. PHP supports procedural and object-oriented styles of programming with some elements of functional programming as well."],
+    "context_set": ["https://www.php.net/", "https://www.w3schools.com/php/", "https://phptherightway.com/", "https://www.youtube.com/watch?v=U2lQWR6uIuo&list=PL3VM-unCzF8ipG50KDjnzhugceoSG3RTC", "https://www.youtube.com/watch?v=2eebptXfEvw", "https://www.youtube.com/watch?v=sVbEyFZKgqk&list=PLr3d3QYzkw2xabQRUpcZ_IBk9W50M9pe-", "https://app.daily.dev/tags/php?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "Pick a Language",
+    "patterns": ["Rust"],
+    "responses": ["Rust is a modern systems programming language focusing on safety, speed, and concurrency. It accomplishes these goals by being memory safe without using garbage collection."],
+    "context_set": ["https://doc.rust-lang.org/book/", "https://doc.rust-lang.org/stable/rust-by-example/index.html", "https://thenewstack.io/rust-by-the-numbers-the-rust-programming-language-in-2021/", "https://app.daily.dev/tags/rust?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "Version Control Systems",
+    "patterns": ["Intro to Version Control Systems"],
+    "responses": ["Version control/source control systems allow developers to track and control changes to code over time. These services often include the ability to make atomic revisions to code, branch/fork off of specific points, and to compare versions of code. They are useful in determining the who, what, when, and why code changes were made."],
+    "context_set": ["https://www.atlassian.com/git/tutorials/what-is-version-control", "https://git-scm.com/"]
+  },
+
+  {
+    "tag": "Version Control Sytems",
+    "patterns": ["Git"],
+    "responses": ["Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."],
+    "context_set": ["https://learn.microsoft.com/en-us/training/modules/intro-to-git/", "https://www.atlassian.com/git", "https://cs.fyi/guide/git-cheatsheet", "https://learngitbranching.js.org/", "https://www.w3schools.com/git/", "https://www.youtube.com/watch?v=SWYqp7iY_Tc", "https://app.daily.dev/tags/git?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "Repo Hosting Services",
+    "patterns": ["Intro to Repo Hosting Services"],
+    "responses": ["When working on a team, you often need a remote place to put your code so others can access it, create their own branches, and create or review pull requests. These services often include issue tracking, code review, and continuous integration features. A few popular choices are GitHub, GitLab, BitBucket, and AWS CodeCommit."],
+    "context_set": ["https://github.com/features/", "https://about.gitlab.com/", "https://bitbucket.org/product/guides/getting-started/overview#a-brief-overview-of-bitbucket", "https://blockandcapital.com/en/choose-code-repository/"]
+  },
+
+  {
+    "tag": "Repo Hosting Services",
+    "patterns": ["GitHub"],
+    "responses": ["GitHub is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features."],
+    "context_set": ["https://github.com/", "https://docs.github.com/en/get-started/start-your-journey", "https://ooloo.io/project/github-flow", "https://learngitbranching.js.org/?locale=en_us", "https://www.youtube.com/watch?v=w3jLJU7DT5E", "https://www.youtube.com/watch?v=wpISo9TNjfU", "https://www.youtube.com/watch?v=RGOj5yH7evk", "https://www.youtube.com/watch?v=eulnSXkhE7I", "https://app.daily.dev/tags/github?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "Repo Hosting Services",
+    "patterns": ["GitLab"],
+    "responses": ["GitLab is a provider of internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features."],
+    "context_set": ["https://about.gitlab.com/", "https://docs.gitlab.com/", "https://app.daily.dev/tags/gitlab?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "Repo Hosting Services",
+    "patterns": ["Bitbucket"],
+    "responses": ["Bitbucket is a Git based hosting and source code repository service that is Atlassian’s alternative to other products like GitHub, GitLab etc.Bitbucket offers hosting options via Bitbucket Cloud (Atlassian’s servers), Bitbucket Server (customer’s on-premise) or Bitbucket Data Centre (number of servers in customers on-premise or cloud environment"],
+    "context_set": ["https://bitbucket.org/product/", "https://bitbucket.org/product/guides/basics/bitbucket-interface#your-work", "https://bitbucket.org/product/guides/getting-started/overview#a-brief-overview-of-bitbucket", "https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud", "https://www.youtube.com/watch?v=M44nEyd_5To", "https://www.youtube.com/watch?v=i5T-DB8tb4A", "https://app.daily.dev/tags/bitbucket?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Relational Databases",
+    "patterns": ["Intro to Relational Databases"],
+    "responses": ["A relational database is a type of database that stores and provides access to data points that are related to one another. Relational databases store data in a series of tables. Interconnections between the tables are specified as foreign keys. A foreign key is a unique reference from one row in a relational table to another row in a table, which can be the same table but is most commonly a different table."],
+    "context_set": ["https://www.edx.org/learn/relational-databases/stanford-university-databases-relational-databases-and-sql", "https://www.ibm.com/topics/relational-databases", "https://learnsql.com/blog/codd-article-databases/", "https://www.udacity.com/course/intro-to-relational-databases--ud197", "https://www.youtube.com/watch?v=OqjJjpjDRLc", "https://app.daily.dev/tags/backend?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Relational Databases",
+    "patterns": ["MySQL"],
+    "responses": ["MySQL is an incredibly popular open source relational database management system (RDBMS). MySQL can be used as a stand-alone client or in conjunction with other services to provide database connectivity. The M in LAMP stack stands for MySQL; that alone should provide an idea of its prevalence."],
+    "context_set": ["https://www.mysql.com/", "https://www.w3schools.com/mySQl/default.asp", "https://planetscale.com/learn/courses/mysql-for-developers", "https://www.mysqltutorial.org/", "https://www.youtube.com/watch?v=7S_tz1z_5bA", "https://app.daily.dev/tags/mysql?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Relational Databases",
+    "patterns": ["MariaDB"],
+    "responses": ["MariaDB server is a community developed fork of MySQL server. Started by core members of the original MySQL team, MariaDB actively works with outside developers to deliver the most featureful, stable, and sanely licensed open SQL server in the industry. MariaDB was created with the intention of being a more versatile, drop-in replacement version of MySQL"],
+    "context_set": ["https://mariadb.org/", "https://www.guru99.com/mariadb-vs-mysql.html", "https://www.w3schools.blog/mariadb-tutorial", "https://www.youtube.com/watch?v=_AMj02sANpI", "https://app.daily.dev/tags/infrastructure?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Relational Databases",
+    "patterns": ["MS SQL"],
+    "responses": ["MS SQL (or Microsoft SQL Server) is the Microsoft developed relational database management system (RDBMS). MS SQL uses the T-SQL (Transact-SQL) query language to interact with the relational databases. There are many different versions and editions available of MS SQL"],
+    "context_set": ["https://www.microsoft.com/en-ca/sql-server/", "https://learn.microsoft.com/en-us/sql/sql-server/tutorials-for-sql-server-2016?view=sql-server-ver15", "https://www.youtube.com/watch?v=-EPMOaV7h_Q"]
+  },
+
+ {
+    "tag": "Relational Databases",
+    "patterns": ["Oracle"],
+    "responses": ["Oracle Database Server or sometimes called Oracle RDBMS or even simply Oracle is a world leading relational database management system produced by Oracle Corporation."],
+    "context_set": ["https://www.oracle.com/database/", "https://docs.oracle.com/en/database/index.html", "https://www.youtube.com/watch?v=ObbNGhcxXJA", "https://app.daily.dev/tags/oracle?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Relational Databases",
+    "patterns": ["PostgreSQL"],
+    "responses": ["PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance."],
+    "context_set": ["https://www.postgresql.org/", "https://www.postgresqltutorial.com/", "https://www.youtube.com/watch?v=qw--VYLpxG4", "https://www.youtube.com/watch?v=eMIxuk0nOkU", "https://app.daily.dev/tags/postgresql?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "API_p",
+    "patterns": ["REST"],
+    "responses": ["REST, or Representational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other."],
+    "context_set": ["https://dev.to/cassiocappellari/fundamentals-of-rest-api-2nag", "https://www.redhat.com/en/topics/api/what-is-a-rest-api", "https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm", "https://restapitutorial.com/", "https://app.daily.dev/tags/rest-api?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "API_p",
+    "patterns": ["JSON APIs"],
+    "responses": ["JSON or JavaScript Object Notation is an encoding scheme that is designed to eliminate the need for an ad-hoc code for each application to communicate with servers that communicate in a defined way. JSON API module exposes an implementation for data stores and data structures, such as entity types, bundles, and fields."],
+    "context_set": ["https://jsonapi.org/", "https://jsonapi.org/implementations/", "https://www.youtube.com/watch?v=N-4prIh7t38"]
+  },
+
+ {
+    "tag": "APS_o",
+    "patterns": ["SOAP"],
+    "responses": ["Simple Object Access Protocol (SOAP) is a message protocol for exchanging information between systems and applications. When it comes to application programming interfaces (APIs), a SOAP API is developed in a more structured and formalized way. SOAP messages can be carried over a variety of lower-level protocols, including the web-related Hypertext Transfer Protocol (HTTP)"],
+    "context_set": ["https://www.w3schools.com/xml/xml_soap.asp"]
+  },
+
+ {
+    "tag": "API_o",
+    "patterns": ["gRPC"],
+    "responses": ["gRPC is a high-performance, open source universal RPC framework. RPC stands for Remote Procedure Call, there’s an ongoing debate on what the g stands for. RPC is a protocol that allows a program to execute a procedure of another program located on another computer. The great advantage is that the developer doesn’t need to code the details of the remote interaction. The remote procedure is called like any other function. But the client and the server can be coded in different languages."],
+    "context_set": ["https://grpc.io/", "https://grpc.io/docs/", "https://www.wallarm.com/what/the-concept-of-grpc", "https://www.youtube.com/watch?v=hVrwuMnCtok", "https://app.daily.dev/tags/grpc?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "API_o",
+    "patterns": ["GraphQL"],
+    "responses": ["GraphQL is a query language and runtime system for APIs (application programming interfaces). It is designed to provide a flexible and efficient way for clients to request data from servers, and it is often used as an alternative to REST (representational state transfer) APIs. One of the main features of GraphQL is its ability to specify exactly the data that is needed, rather than receiving a fixed set of data from an endpoint. This allows clients to request only the data that they need, and it reduces the amount of data that needs to be transferred over the network. GraphQL also provides a way to define the structure of the data that is returned from the server, allowing clients to request data in a predictable and flexible way. This makes it easier to build and maintain client applications that depend on data from the server. GraphQL is widely used in modern web and mobile applications, and it is supported by a large and active developer community."],
+    "context_set": ["https://graphql.org/", "https://www.youtube.com/watch?v=eIQh02xuVw4", "https://app.daily.dev/tags/graphql?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "API_auth_p",
+    "patterns": ["JWT"],
+    "responses": ["JWT stands for JSON Web Token is a token-based encryption open standard/methodology that is used to transfer information securely as a JSON object. Clients and Servers use JWT to securely share information, with the JWT containing encoded JSON objects and claims. JWT tokens are designed to be compact, safe to use within URLs, and ideal for SSO contexts."],
+    "context_set": ["https://jwt.io/", "https://jwt.io/introduction", "https://www.akana.com/blog/what-is-jwt", "https://www.youtube.com/watch?v=7Q17ubqLfaM", "https://www.youtube.com/watch?v=926mknSW9Lo", "https://app.daily.dev/tags/jwt?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "API_auth_p",
+    "patterns": ["OAuth"],
+    "responses": ["OAuth stands for Open Authorization and is an open standard for authorization. It works to authorize devices, APIs, servers and applications using access tokens rather than user credentials, known as “secure delegated access”. In its most simplest form, OAuth delegates authentication to services like Facebook, Amazon, Twitter and authorizes third-party applications to access the user account without having to enter their login and password. It is mostly utilized for REST/APIs and only provides a limited scope of a user’s data."],
+    "context_set": ["https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth", "https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2", "https://www.youtube.com/watch?v=t4-416mg6iU", "https://www.youtube.com/watch?v=CPbvxxslDTU", "https://app.daily.dev/tags/oauth?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "API_auth_p",
+    "patterns": ["Basic Authentication"],
+    "responses": ["Given the name “Basic Authentication”, you should not confuse Basic Authentication with the standard username and password authentication. Basic authentication is a part of the HTTP specification, and the details can be found in the RFC7617. Because it is a part of the HTTP specifications, all the browsers have native support for “HTTP Basic Authentication”."],
+    "context_set": ["https://roadmap.sh/guides/http-basic-authentication", "https://www.youtube.com/watch?v=mwccHwUn7Gc",  "https://app.daily.dev/tags/authentication?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "API_auth_p",
+    "patterns": ["Token Authentication"],
+    "responses": ["Token-based authentication is a protocol which allows users to verify their identity, and in return receive a unique access token. During the life of the token, users then access the website or app that the token has been issued for, rather than having to re-enter credentials each time they go back to the same webpage, app, or any resource protected with that same token. Auth tokens work like a stamped ticket. The user retains access as long as the token remains valid. Once the user logs out or quits an app, the token is invalidated. Token-based authentication is different from traditional password-based or server-based authentication techniques. Tokens offer a second layer of security, and administrators have detailed control over each action and transaction. But using tokens requires a bit of coding know-how. Most developers pick up the techniques quickly, but there is a learning curve."],
+    "context_set": ["https://www.okta.com/identity-101/what-is-token-based-authentication/", "https://app.daily.dev/tags/authentication?ref=roadmapsh", "https://www.google.com/search?q=token%20authentication%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=token+authentication+for+backend+developer"]
+  },
+
+ {
+    "tag": "API_auth_p",
+    "patterns": ["Cookie-Based Authentication"],
+    "responses": ["Cookies are pieces of data used to identify the user and their preferences. The browser returns the cookie to the server every time the page is requested. Specific cookies like HTTP cookies are used to perform cookie-based authentication to maintain the session for each user."],
+    "context_set": ["https://stackoverflow.com/questions/17769011/how-does-cookie-based-authentication-work", "https://www.google.com/search?q=cookie-based%20authentication%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=cookie-based+authentication+for+backend+developer"]
+  },
+
+ {
+    "tag": "API_auth_o",
+    "patterns": ["OpenID"],
+    "responses": ["OpenID is a protocol that utilizes the authorization and authentication mechanisms of OAuth 2.0 and is now widely adopted by many identity providers on the Internet. It solves the problem of needing to share user’s personal info between many different web services(e.g. online shops, discussion forums etc."],
+    "context_set": ["https://openid.net/", "https://openid.net/developers/how-connect-works/", "https://www.securew2.com/blog/oauth-vs-openid-which-is-better", "https://www.youtube.com/watch?v=t18YB3xDfXI", "https://www.youtube.com/watch?v=996OiexHze0", "https://app.daily.dev/tags/authentication?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "API_auth_o",
+    "patterns": ["SAML"],
+    "responses": ["SAML stands for Security Assertion Markup Language. It is an XML-based standard for exchanging authentication and authorization data between parties, particularly between an identity provider (IdP) and a service provider (SP). In a SAML-based system, a user requests access to a protected resource. The service provider asks the identity provider to authenticate the user and assert whether they are granted access to the resource."],
+    "context_set": ["https://www.google.com/search?q=%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=+for+backend+developer"]
+  },
+
+  {
+    "tag": "API_o",
+    "patterns": ["HATEOAS"],
+    "responses": ["HATEOAS is an acronym for Hypermedia As The Engine Of Application State, it’s the concept that when sending information over a RESTful API the document received should contain everything the client needs in order to parse and use the data that is they don’t have to contact any other endpoint not explicitly mentioned within the Document."],
+    "context_set": ["https://restcookbook.com/Basics/hateoas/", "https://www.google.com/search?q=hateoas%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=hateoas+for+backend+developer"]
+  },
+
+  {
+    "tag": "API_o",
+    "patterns": ["OpenAPI"],
+    "responses": ["The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. When properly defined, a consumer can understand and interact with the remote service with a minimal amount of implementation logic. An OpenAPI definition can then be used by documentation generation tools to display the API, code generation tools to generate servers and clients in various programming languages, testing tools, and many other use cases."],
+    "context_set": ["https://swagger.io/specification/", "https://swagger.io/tools/swagger-editor/", "https://swagger.io/docs/specification/about/", "https://www.youtube.com/watch?v=6kwmW_p_Tig"]
+  },
+
+
+{
+    "tag": "Caching",
+    "patterns": ["Intro to Caching"],
+    "responses": ["Caching is a technique of storing frequently used data or results of complex computations in a local memory, for a certain period. So, next time, when the client requests the same information, instead of retrieving the information from the database, it will give the information from the local memory. The main advantage of caching is that it improves performance by reducing the processing burden. NB! Caching is a complicated topic that has obvious benefits but can lead to pitfalls like stale data, cache invalidation, distributed caching etc."],
+    "context_set": ["https://www.google.com/search?q=caching%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=caching+for+backend+developer"]
+  },
+
+
+{
+    "tag": "Caching",
+    "patterns": ["Server_Side_p"],
+    "responses": ["Server-side caching temporarily stores web files and data on the origin server to reuse later. When the user first requests for the webpage, the website goes under the normal process of retrieving data from the server and generates or constructs the webpage of the website. After the request has happened and the response has been sent back, the server copies the webpage and stores it as a cache. Next time the user revisits the website, it loads the already saved or cached copy of the webpage, thus making it faster."],
+    "context_set": ["https://www.naukri.com/code360/library/server-side-caching-and-client-side-caching", "https://medium.com/@genchilu/cache-strategy-in-backend-d0baaacd2d79", "https://redis.io/glossary/distributed-caching/", "https://medium.com/@himani.prasad016/caching-in-hibernate-3ad4f479fcc0", "https://app.daily.dev/tags/webdev?ref=roadmapsh"]
+  },
+
+{
+    "tag": "Caching",
+    "patterns": ["ServerSide_Memcached_g"],
+    "responses": ["Memcached (pronounced variously mem-cash-dee or mem-cashed) is a general-purpose distributed memory-caching system. It is often used to speed up dynamic database-driven websites by caching data and objects in RAM to reduce the number of times an external data source (such as a database or API) must be read. Memcached is free and open-source software, licensed under the Revised BSD license. Memcached runs on Unix-like operating systems (Linux and macOS) and on Microsoft Windows. It depends on the libevent library. Memcached’s APIs provide a very large hash table distributed across multiple machines. When the table is full, subsequent inserts cause older data to be purged in the least recently used (LRU) order. Applications using Memcached typically layer requests and additions into RAM before falling back on a slower backing store, such as a database. Memcached has no internal mechanism to track misses which may happen. However, some third-party utilities provide this functionality."],
+    "context_set": ["https://github.com/memcached/memcached#readme", "https://en.wikipedia.org/wiki/Memcached", "https://www.tutorialspoint.com/memcached/index.htm"]
+  },
+
+  {
+    "tag": "Caching",
+    "patterns": ["Server_Side_Redis_p"],
+    "responses": ["Redis is an open source (BSD licensed), in-memory data structure store used as a database, cache, message broker, and streaming engine. Redis provides data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes, and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions, and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster."],
+    "context_set": ["https://redis.io/", "https://www.youtube.com/watch?v=G1rOthIU-uo", "https://app.daily.dev/tags/redis?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "Caching",
+    "patterns": ["CDN_p"],
+    "responses": ["A Content Delivery Network (CDN) service aims to provide high availability and performance improvements of websites. This is achieved with fast delivery of website assets and content typically via geographically closer endpoints to the client requests. Traditional commercial CDNs (Amazon CloudFront, Akamai, CloudFlare and Fastly) provide servers across the globe which can be used for this purpose. Serving assets and contents via a CDN reduces bandwidth on website hosting, provides an extra layer of caching to reduce potential outages and can improve website security as well"],
+    "context_set": ["https://www.cloudflare.com/en-ca/learning/cdn/what-is-a-cdn/", "https://en.wikipedia.org/wiki/Content_delivery_network", "https://www.youtube.com/watch?v=841kyd_mfH0", "https://www.youtube.com/watch?v=Bsq5cKkS33I"]
+  },
+
+  {
+    "tag": "Caching",
+    "patterns": ["Client-side_p"],
+    "responses": ["Client-side caching is the storage of network data to a local cache for future re-use. After an application fetches network data, it stores that resource in a local cache. Once a resource has been cached, the browser uses the cache on future requests for that resource to boost performance."],
+    "context_set": ["https://www.youtube.com/watch?v=HiBDZgTNpXY", "https://www.google.com/search?q=client%20side%20caching%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=client+side+caching+for+backend+developer"]
+  },
+
+  {
+    "tag": "Web Security",
+    "patterns": ["Intro to Web Security"],
+    "responses": ["Web security refers to the protective measures taken by the developers to protect the web applications from threats that could affect the business."],
+    "context_set": ["https://github.com/0xRadi/OWASP-Web-Checklist", "https://web.dev/articles/why-https-matters", "https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2020/", "https://en.wikipedia.org/wiki/OWASP", "https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html", "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP", "https://app.daily.dev/tags/security?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "Web_Security_hashing_algorithms_p",
+    "patterns": ["MD5"],
+    "responses": ["MD5 (Message-Digest Algorithm 5) is a hash function that is currently advised not to be used due to its extensive vulnerabilities. It is still used as a checksum to verify data integrity."],
+    "context_set": ["https://en.wikipedia.org/wiki/MD5", "https://www.techtarget.com/searchsecurity/definition/MD5", "https://infosecscout.com/why-md5-is-not-safe/"]
+  },
+
+  {
+    "tag": "Web_Security_hashing_algorithms_p",
+    "patterns": ["SHA"],
+    "responses": ["SHA (Secure Hash Algorithms) is a family of cryptographic hash functions created by the NIST (National Institute of Standards and Technology). The family includes: SHA-0: Published in 1993, this is the first algorithm in the family. Shortly after its release, it was discontinued for an undisclosed significant flaw. SHA-1: Created to replace SHA-0 and which resembles MD5, this algorithm has been considered insecure since 2010. SHA-2: This isn’t an algorithm, but a set of them, with SHA-256 and SHA-512 being the most popular. SHA-2 is still secure and widely used. SHA-3: Born in a competition, this is the newest member of the family. SHA-3 is very secure and doesn’t carry the same design flaws as its brethren."],
+    "context_set": ["https://en.wikipedia.org/wiki/SHA-1", "https://en.wikipedia.org/wiki/SHA-2", "https://en.wikipedia.org/wiki/SHA-3"]
+  },
+
+  {
+    "tag": "Web_Security_hashing_algorithms_p",
+    "patterns": ["Scrypt"],
+    "responses": ["Scrypt (pronounced “ess crypt”) is a password hashing function (like bcrypt). It is designed to use a lot of hardware, which makes brute-force attacks more difficult. Scrypt is mainly used as a proof-of-work algorithm for cryptocurrencies."],
+    "context_set": ["https://en.wikipedia.org/wiki/Scrypt", "https://www.google.com/search?q=scrypt%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=scrypt+for+backend+developer"]
+  },
+
+  {
+    "tag": "Web_Security_hashing_algorithms_p",
+    "patterns": ["Bcrypt"],
+    "responses": ["bcrypt is a password hashing function, that has been proven reliable and secure since it’s release in 1999. It has been implemented into most commonly-used programming languages."],
+    "context_set": ["https://www.npmjs.com/package/bcrypt", "https://auth0.com/blog/hashing-in-action-understanding-bcrypt/", "https://www.youtube.com/watch?v=O6cmuiTBZVs"]
+  },
+
+  {
+    "tag": "Web Security_p",
+    "patterns": ["HTTPS"],
+    "responses": ["HTTPS is a secure way to send data between a web server and a browser. A communication through HTTPS starts with the handshake phase during which the server and the client agree on how to encrypt the communication, in particular they choose an encryption algorithm and a secret key. After the handshake all the communication between the server and the client will be encrypted using the agreed upon algorithm and key. The handshake phase uses a particular kind of cryptography, called asymmetric cryptography, to communicate securely even though client and server have not yet agreed on a secret key. After the handshake phase the HTTPS communication is encrypted with symmetric cryptography, which is much more efficient but requires client and server to both have knowledge of the secret key."],
+    "context_set": ["https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/", "https://web.dev/articles/why-https-matters", "https://web.dev/articles/enable-https", "https://howhttps.works/", "https://baida.dev/articles/https-explained-with-carrier-pigeons", "https://www.youtube.com/watch?v=hExRDVZHhig", "https://www.youtube.com/watch?v=GoXgl9r0Kjk"]
+  },
+
+
+  {
+    "tag": "Web Security_p",
+    "patterns": ["OWASP"],
+    "responses": ["OWASP or Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security."],
+    "context_set": ["https://github.com/OWASP/ASVS", "https://en.wikipedia.org/wiki/OWASP", "https://cheatsheetseries.owasp.org/IndexTopTen.html", "https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html"]
+  },
+
+
+  {
+    "tag": "Web Security_p",
+    "patterns": ["CORS"],
+    "responses": ["Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources."],
+    "context_set": ["https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS", "https://rbika.com/blog/understanding-cors", "https://www.youtube.com/watch?v=4KHiSt0oLJ0", "https://www.youtube.com/watch?v=PNtFSVU-YTI"]
+  },
+
+
+  {
+    "tag": "Web Security_p",
+    "patterns": ["SSL/TLS"],
+    "responses": ["Secure Sockets Layer (SSL) and Transport Layer Security (TLS) are cryptographic protocols used to provide security in internet communications. These protocols encrypt the data that is transmitted over the web, so anyone who tries to intercept packets will not be able to interpret the data. One difference that is important to know is that SSL is now deprecated due to security flaws, and most modern web browsers no longer support it. But TLS is still secure and widely supported, so preferably use TLS."],
+    "context_set": ["https://en.wikipedia.org/wiki/Transport_Layer_Security", "https://www.cloudflare.com/learning/ssl/what-is-ssl/", "https://www.youtube.com/watch?v=j9QmMEWmcfo"]
+  },
+
+  {
+    "tag": "Web Security_p",
+    "patterns": ["CSP"],
+    "responses": ["Content Security Policy is a computer security standard introduced to prevent cross-site scripting, clickjacking and other code injection attacks resulting from execution of malicious content in the trusted web page context."],
+    "context_set": ["https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP", "https://web.dev/articles/csp", "https://app.daily.dev/tags/security?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "Web Security_p",
+    "patterns": ["Server Security"],
+    "responses": ["Learn about the security of your server and how to secure it. Here are some of the topics off the top of my head: Use a firewall: One of the most effective ways to secure a server is to use a firewall to block all unnecessary incoming traffic. You can use iptables on Linux systems or a hardware firewall to do this. Close unnecessary ports: Make sure to close any ports that are not needed for your server to function properly. This will reduce the attack surface of your server and make it more difficult for attackers to gain access. Use strong passwords: Use long, complex passwords for all of your accounts, and consider using a password manager to store them securely. Keep your system up to date: Make sure to keep your operating system and software up to date with the latest security patches. This will help to prevent vulnerabilities from being exploited by attackers. Use SSL/TLS for communication: Use Secure Sockets Layer (SSL) or Transport Layer Security (TLS) to encrypt communication between your server and client devices. This will help to protect against man-in-the-middle attacks and other types of cyber threats. Use a intrusion detection system (IDS): An IDS monitors network traffic and alerts you to any suspicious activity, which can help you to identify and respond to potential threats in a timely manner. Enable two-factor authentication: Two-factor authentication adds an extra layer of security to your accounts by requiring a second form of authentication, such as a code sent to your phone, in addition to your password."],
+    "context_set": ["https://www.google.com/search?q=server%20security%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=server+security+for+backend+developer"]
+  },
+
+  {
+    "tag": "Testing",
+    "patterns": ["Intro to Testing"],
+    "responses": ["A key to building software that meets requirements without defects is testing. Software testing helps developers know they are building the right software. When tests are run as part of the development process (often with continuous integration tools), they build confidence and prevent regressions in the code."],
+    "context_set": ["https://www.guru99.com/software-testing-introduction-importance.html", "https://www.browserstack.com/guide/testing-pyramid-for-test-automation", "https://app.daily.dev/tags/testing?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "Testing_p",
+    "patterns": ["Integration testing"],
+    "responses": ["Integration testing is a broad category of tests where multiple software modules are integrated and tested as a group. It is meant to test the interaction between multiple services, resources, or modules. For example, an API’s interaction with a backend service, or a service with a database."],
+    "context_set": ["https://www.guru99.com/integration-testing.html", "https://thenewstack.io/how-to-integrate-and-test-your-tech-stack/", "https://www.youtube.com/watch?v=QYCaaNz8emY", "https://app.daily.dev/tags/testing?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "Testing_p",
+    "patterns": ["Unit testing"],
+    "responses": ["Unit testing is where individual units (modules, functions/methods, routines, etc.) of software are tested to ensure their correctness. This low-level testing ensures smaller components are functionally sound while taking the burden off of higher-level tests. Generally, a developer writes these tests during the development process and they are run as automated tests."],
+    "context_set": [""]
+  },
+
+  {
+    "tag": "Testing_p",
+    "patterns": ["Functional Testing"],
+    "responses": ["Functional testing is where software is tested to ensure functional requirements are met. Usually, it is a form of black box testing in which the tester has no understanding of the source code; testing is performed by providing input and comparing expected/actual output. It contrasts with non-functional testing, which includes performance, load, scalability, and penetration testing."],
+    "context_set": ["https://www.guru99.com/functional-testing.html", "https://www.youtube.com/watch?v=j_79AXkG4PY", "https://app.daily.dev/tags/testing?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "CI/CD",
+    "patterns": "Intro to CI/ CD",
+    "responses": ["CI/CD (Continuous Integration/Continuous Deployment) is the practice of automating building, testing, and deployment of applications with the main goal of detecting issues early, and provide quicker releases to the production environment."],
+    "context_set": ["https://about.gitlab.com/topics/ci-cd/", "https://thenewstack.io/a-primer-continuous-integration-and-continuous-delivery-ci-cd/", "https://thenewstack.io/3-ways-to-use-automation-in-ci-cd-pipelines/", "https://thenewstack.io/ci-cd/", "https://www.youtube.com/watch?v=scEDHsr3APg", "https://www.youtube.com/watch?v=nyKZTKQS_EQ", "https://app.daily.dev/tags/cicd?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "More about Databases",
+    "patterns": ["Intro to Databases"],
+    "responses": ["A database is a collection of useful data of one or more related organizations structured in a way to make data an asset to the organization. A database management system is a software designed to assist in maintaining and extracting large collections of data in a timely fashion."],
+    "context_set": ["https://www.oracle.com/database/what-is-database/", "https://www.prisma.io/dataguide/intro/what-are-databases", "https://app.daily.dev/tags/backend?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "More about Databases",
+    "patterns": ["ORM's"],
+    "responses": ["Object-Relational Mapping (ORM) is a technique that lets you query and manipulate data from a database using an object-oriented paradigm. When talking about ORM, most people are referring to a library that implements the Object-Relational Mapping technique, hence the phrase “an ORM”."],
+    "context_set": ["https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping", "https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one/1279678#1279678", "https://app.daily.dev/tags/backend?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "More about Databases",
+    "patterns": ["ACID"],
+    "responses": ["ACID are the four properties of relational database systems that help in making sure that we are able to perform the transactions in a reliable manner. It’s an acronym which refers to the presence of four properties: atomicity, consistency, isolation and durability"],
+    "context_set": ["https://retool.com/blog/whats-an-acid-compliant-database"]
+  },
+
+  {
+    "tag": "More about Databases",
+    "patterns": ["TRANSACTION"],
+    "responses": ["In short, a database transaction is a sequence of multiple operations performed on a database, and all served as a single logical unit of work — taking place wholly or not at all. In other words, there’s never a case where only half of the operations are performed and the results saved."],
+    "context_set": ["https://fauna.com/blog/database-transaction", "https://www.google.com/search?q=transactions%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=transactions+for+backend+developer"]
+  },
+
+  {
+    "tag": "More about Databases",
+    "patterns": ["N+1"],
+    "responses": ["The N+1 query problem happens when your code executes N additional query statements to fetch the same data that could have been retrieved when executing the primary query."],
+    "context_set": ["https://medium.com/doctolib/understanding-and-fixing-n-1-query-30623109fe89", "https://planetscale.com/blog/what-is-n-1-query-problem-and-how-to-solve-it", "https://dev.to/jackynote/solving-the-notorious-n1-problem-optimizing-database-queries-for-java-backend-developers-2o0p"]
+  },
+
+  {
+    "tag": "More about Databases",
+    "patterns": ["Normalisation"],
+    "responses": ["Database normalization is the process of structuring a relational database in accordance with a series of so-called normal forms in order to reduce data redundancy and improve data integrity. It was first proposed by Edgar F. Codd as part of his relational model. Normalization entails organizing the columns (attributes) and tables (relations) of a database to ensure that their dependencies are properly enforced by database integrity constraints. It is accomplished by applying some formal rules either by a process of synthesis (creating a new database design) or decomposition (improving an existing database design)."],
+    "context_set": ["https://www.guru99.com/database-normalization.html", "https://en.wikipedia.org/wiki/Database_normalization", "https://www.youtube.com/watch?v=xoTyrdT9SZI", "https://app.daily.dev/tags/database?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "More about Databases",
+    "patterns": ["Failure Modes"],
+    "responses": ["There are several different failure modes that can occur in a database, including: 1.Read contention: This occurs when multiple clients or processes are trying to read data from the same location in the database at the same time, which can lead to delays or errors. 2.Write contention: This occurs when multiple clients or processes are trying to write data to the same location in the database at the same time, which can lead to delays or errors. 3.Thundering herd: This occurs when a large number of clients or processes try to access the same resource simultaneously, which can lead to resource exhaustion and reduced performance. 4.Cascade: This occurs when a failure in one part of the database system causes a chain reaction that leads to failures in other parts of the system. 5.Deadlock: This occurs when two or more transactions are waiting for each other to release a lock on a resource, leading to a standstill. 6.Corruption: This occurs when data in the database becomes corrupted, which can lead to errors or unexpected results when reading or writing to the database. 7.Hardware failure: This occurs when hardware components, such as disk drives or memory, fail, which can lead to data loss or corruption. 8.Software failure: This occurs when software components, such as the database management system or application, fail, which can lead to errors or unexpected results. 9.Network failure: This occurs when the network connection between the database and the client is lost, which can lead to errors or timeouts when trying to access the database. 10.Denial of service (DoS) attack: This occurs when a malicious actor attempts to overwhelm the database with requests, leading to resource exhaustion and reduced performance."],
+    "context_set": ["https://www.google.com/search?q=failure%20modes%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=failure+modes+for+backend+developer"]
+  },
+
+  {
+    "tag": "More-about-Databases",
+    "patterns": ["Profiling Performance"],
+    "responses": ["There are several ways to profile the performance of a database 1.Monitor system performance: You can use tools like the Windows Task Manager or the Unix/Linux top command to monitor the performance of your database server. These tools allow you to see the overall CPU, memory, and disk usage of the system, which can help identify any resource bottlenecks. 2.Use database-specific tools: Most database management systems (DBMSs) have their own tools for monitoring performance. For example, Microsoft SQL Server has the SQL Server Management Studio (SSMS) and the sys.dm_os_wait_stats dynamic management view, while Oracle has the Oracle Enterprise Manager and the v$waitstat view. These tools allow you to see specific performance metrics, such as the amount of time spent waiting on locks or the number of physical reads and writes. 3.Use third-party tools: There are also several third-party tools that can help you profile the performance of a database. Some examples include SolarWinds Database Performance Analyzer, Quest Software Foglight, and Redgate SQL Monitor. These tools often provide more in-depth performance analysis and can help you identify specific issues or bottlenecks. 4.Analyze slow queries: If you have specific queries that are running slowly, you can use tools like EXPLAIN PLAN or SHOW PLAN in MySQL or SQL Server to see the execution plan for the query and identify any potential issues. You can also use tools like the MySQL slow query log or the SQL Server Profiler to capture slow queries and analyze them further. 5.Monitor application performance: If you are experiencing performance issues with a specific application that is using the database, you can use tools like Application Insights or New Relic to monitor the performance of the application and identify any issues that may be related to the database."],
+    "context_set": ["https://www.google.com/search?q=profiling%20performance%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=profiling+performance+for+backend+developer"]
+  },
+
+
+  {
+    "tag": "Scaling Databases",
+    "patterns": ["Intro to Scaling Databases"],
+    "responses": ["Scaling databases is the process of adapting them to handle more data and users efficiently. It’s achieved by either upgrading existing hardware (vertical scaling) or adding more servers (horizontal scaling). Techniques like sharding and replication are key. This ensures databases continue to be a robust asset as they grow."],
+    "context_set": ["https://app.daily.dev/tags/backend?ref=roadmapsh", "https://www.mongodb.com/resources/basics/scaling", "https://www.google.com/search?q=scaling%20databases%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=scaling+databases+for+backend+developer"]
+  },
+
+  {
+    "tag": "Scaling Databases",
+    "patterns": ["Database Indexes_p"],
+    "responses": ["An index is a data structure that you build and assign on top of an existing table that basically looks through your table and tries to analyze and summarize so that it can create shortcuts."],
+     "context_set": ["https://www.youtube.com/watch?v=-qNSXK7s7_w", "https://app.daily.dev/tags/database?ref=roadmapsh", "https://www.google.com/search?q=database%20indexes%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=database+indexes+for+backend+developer"]
+  },
+
+  {
+    "tag": "Scaling Databases",
+    "patterns": ["Data replication_o"],
+    "responses": ["Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance (standby instance). Organizations replicate data to support high availability, backup, and/or disaster recovery."],
+    "context_set": ["https://www.youtube.com/watch?v=fUrKt-AQYtE", "]https://www.google.com/search?q=data%20replication%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=data+replication+for+backend+developer"]
+  },
+
+  {
+    "tag": "Scaling Databases",
+    "patterns": ["Sharding Strategy"],
+    "responses": ["Sharding strategy is a technique to split a large dataset into smaller chunks (logical shard) in which we distribute these chunks in different machines/database nodes in order to distribute the traffic load. It’s a good mechanism to improve the scalability of an application. Many databases support sharding, but not all."],
+    "context_set": ["https://en.wikipedia.org/wiki/Shard_(database_architecture)", "https://stackoverflow.blog/2022/03/14/how-sharding-a-database-can-make-it-faster/", "https://app.daily.dev/tags/backend?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Scaling Databases",
+    "patterns": ["Cap_o"],
+    "responses": ["CAP is an acronym that stands for Consistency, Availability and Partition Tolerance. According to CAP theorem, any distributed system can only guarantee two of the three properties at any point of time. You can’t guarantee all three properties at once."],
+    "context_set": ["https://www.bmc.com/blogs/cap-theorem/", "https://en.wikipedia.org/wiki/CAP_theorem", "https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/", "https://www.ibm.com/topics/cap-theorem", "https://www.youtube.com/watch?v=_RbsFXWRZ10"]
+  },
+
+ {
+    "tag": "Architectural Patterns",
+    "patterns": ["Intro to Architectural Patterns"],
+    "responses": ["An architectural pattern is a general, reusable solution to a commonly occurring problem in software architecture within a given context. The architectural patterns address various issues in software engineering, such as computer hardware performance limitations, high availability and minimization of a business risk."],
+    "context_set": ["https://www.redhat.com/architect/14-software-architecture-patterns", "https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013", "https://www.google.com/search?q=architectural%20patterns%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=architectural+patterns+for+backend+developer"]
+  },
+
+ {
+    "tag": "Architectural Patterns",
+    "patterns": ["Monolithic architecture"],
+    "responses": ["Monolithic architecture is a pattern in which an application handles requests, executes business logic, interacts with the database, and creates the HTML for the front end. In simpler terms, this one application does many things. It’s inner components are highly coupled and deployed as one unit. It is recommended to build simple applications as a monolith for faster development cycle. Also suitable for Proof-of-Concept(PoC) projects."],
+    "context_set": ["https://microservices.io/patterns/monolithic.html", "https://datamify.medium.com/monolithic-architecture-advantages-and-disadvantages-e71a603eec89", "https://www.google.com/search?q=monolithic%20apps%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=monolithic+apps+for+backend+developer"]
+  },
+
+ {
+    "tag": "Architectural Patterns",
+    "patterns": ["Microservices"],
+    "responses": ["Microservice architecture is a pattern in which highly cohesive, loosely coupled services are separately developed, maintained, and deployed. Each component handles an individual function, and when combined, the application handles an overall business function."],
+    "context_set": ["https://microservices.io/patterns/microservices.html", "https://smartbear.com/learn/api-design/microservices/", "https://thenewstack.io/microservices/microservices-101/", "https://thenewstack.io/microservices/primer-microservices-explained/", "https://thenewstack.io/microservices/", "https://app.daily.dev/tags/microservices?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Architectural Patterns",
+    "patterns": ["Serverless"],
+    "responses": ["Serverless is an architecture in which a developer builds and runs applications without provisioning or managing servers. With cloud computing/serverless, servers exist but are managed by the cloud provider. Resources are used as they are needed, on demand and often using auto scaling."],
+    "context_set": ["https://www.ibm.com/topics/serverless", "https://aws.amazon.com/serverless/", "https://www.youtube.com/watch?v=W_VV2Fx32_Y", "https://app.daily.dev/tags/serverless?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "Architectural Patterns",
+    "patterns": ["Service Mesh"],
+    "responses": ["A service mesh is an architectural pattern for enhancing communication, security, and management between microservices in a distributed network. It employs a collection of intelligent proxies to manage service-to-service communication, ensuring high availability, efficient load balancing, and robust service discovery. Additionally, a service mesh offers advanced features like observability for monitoring network behavior, and various traffic management capabilities. In a typical service mesh setup, each microservice is paired with a proxy. This proxy, often deployed using a sidecar pattern, is responsible not only for handling communication to and from its associated microservice but also for implementing various network functionalities. These functionalities include load balancing, intelligent routing, and ensuring secure data transfer. The sidecar pattern, integral to service meshes, involves deploying the proxy as a sidecar container alongside the main microservice container, especially in Kubernetes environments. This design allows the service mesh to function independently from the microservices themselves, simplifying management and updates. Popular service mesh implementations include Istio and Linkerd, which offer robust solutions tailored to modern, cloud-based application architectures."],
+    "context_set": ["https://aws.amazon.com/what-is/service-mesh/", "https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh", "https://www.youtube.com/watch?v=QiXK0B9FhO0", "https://app.daily.dev/tags/service-mesh?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "",
+    "patterns": ["Twelve Factor"],
+    "responses": ["The Twelve-Factor App is a methodology for building scalable and maintainable software-as-a-service (SaaS) applications. It is based on a set of best practices that were identified by the authors of the methodology as being essential for building modern, cloud-native applications. The Twelve-Factor App methodology consists of the following principles: 1.Codebase: There should be a single codebase for the application, with multiple deployments. 2.Dependencies: The application should explicitly declare and isolate its dependencies. 3.Config: The application should store configuration in the environment. 4.Backing services: The application should treat backing services as attached resources. 5.Build, release, run: The application should be built, released, and run as an isolated unit. 6.Processes: The application should be executed as one or more stateless processes. 7.Port binding: The application should expose its services through port binding. 8.Concurrency: The application should scale out by adding more processes, not by adding threads. 9.Disposability: The application should be designed to start and stop quickly. 10.Dev/prod parity: The development, staging, and production environments should be as similar as possible. 11.Logs: The application should treat logs as event streams. 12.Admin processes: The application should run admin/maintenance tasks as one-off processes.  The Twelve-Factor App methodology is widely adopted by developers of SaaS applications, and it is seen as a best practice for building cloud-native applications that are scalable, maintainable, and easy to deploy."],
+    "context_set": ["https://12factor.net/", "https://www.google.com/search?q=twelve-factor%20apps%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=twelve-factor+apps+for+backend+developer"]
+  },
+
+ {
+    "tag": "Design and Development Principles",
+    "patterns": ["Intro to Design and Development Principles"],
+    "responses": ["In this section, we’ll discuss some essential design and development principles to follow while building the backend of any application. These principles will ensure that the backend is efficient, scalable, and maintainable. 1. Separation of Concerns (SoC)- Separation of Concerns is a fundamental principle that states that different functionalities of a system should be as independent as possible. This approach improves maintainability and scalability by allowing developers to work on separate components without affecting each other. Divide your backend into clear modules and layers, such as data storage, business logic, and network communication.2. Reusability- Reusability is the ability to use components, functions, or modules in multiple places without duplicating code. While designing the backend, look for opportunities where you can reuse existing code. Use techniques like creating utility functions, abstract classes, and interfaces to promote reusability and reduce redundancy. 3. Keep It Simple and Stupid (KISS)- KISS principle states that the simpler the system, the easier it is to understand, maintain, and extend. When designing the backend, try to keep the architecture and code as simple as possible. Use clear naming conventions and modular structures, and avoid over-engineering and unnecessary complexity. 4. Don’t Repeat Yourself (DRY)- Do not duplicate code or functionality across your backend. Duplication can lead to inconsistency and maintainability issues. Instead, focus on creating reusable components, functions or modules, which can be shared across different parts of the backend. 5. Scalability- A scalable system is one that can efficiently handle an increasing number of users, requests, or data. Design the backend with scalability in mind, considering factors such as data storage, caching, load balancing, and horizontal scaling (adding more instances of the backend server). 6. Security- Security is a major concern when developing any application. Always follow best practices to prevent security flaws, such as protecting sensitive data, using secure communication protocols (e.g., HTTPS), implementing authentication and authorization mechanisms, and sanitizing user inputs. 7. Testing- Testing is crucial for ensuring the reliability and stability of the backend. Implement a comprehensive testing strategy, including unit, integration, and performance tests. Use automated testing tools and set up continuous integration (CI) and continuous deployment (CD) pipelines to streamline the testing and deployment process. 8. Documentation- Proper documentation helps developers understand and maintain the backend codebase. Write clear and concise documentation for your code, explaining the purpose, functionality, and how to use it. Additionally, use comments and appropriate naming conventions to make the code itself more readable and self-explanatory. By following these design and development principles, you’ll be well on your way to creating an efficient, secure, and maintainable backend for your applications."],
+    "context_set": ["https://www.google.com/search?q=design%20and%20development%20principles%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=design+and+development+principles+for+backend+developer"]
+  },
+
+ {
+    "tag": "Design and Development Principles",
+    "patterns": ["Gof Patterns"],
+    "responses": ["The Gang of Four (GoF) design patterns are a set of design patterns for object-oriented software development that were first described in the book “Design Patterns: Elements of Reusable Object-Oriented Software” by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides (also known as the Gang of Four). The GoF design patterns are divided into three categories: Creational, Structural and Behavioral. 1.Creational Patterns 2.Structural Patterns 3.Behavioral Patterns"],
+    "context_set": ["https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns", "https://www.youtube.com/watch?v=_sa2WlAFWQo", "https://www.google.com/search?q=gof%20design%20patterns%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=gof+design+patterns+for+backend+developer"]
+  },
+
+ {
+    "tag": "Design and Development Principles",
+    "patterns": ["Domain-driven Design"],
+    "responses": ["Domain-driven design (DDD) is a software design approach focusing on modeling software to match a domain according to input from that domain’s experts. In terms of object-oriented programming, it means that the structure and language of software code (class names, class methods, class variables) should match the business domain. For example, if a software processes loan applications, it might have classes like LoanApplication and Customer, and methods such as AcceptOffer and Withdraw. DDD connects the implementation to an evolving model and it is predicated on the following goals: 1.Placing the project’s primary focus on the core domain and domain logic. 2.Basing complex designs on a model of the domain; 3.Initiating a creative collaboration between technical and domain experts to iteratively refine a conceptual model that addresses particular domain problems."],
+    "context_set": ["https://redis.io/glossary/domain-driven-design-ddd/", "https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215", "https://app.daily.dev/tags/domain-driven-design?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Design and Development Principles",
+    "patterns": ["Test Driven Development"],
+    "responses": ["Test driven development (TDD) is the process of writing tests for software’s requirements which will fail until the software is developed to meet those requirements. Once those tests pass, then the cycle repeats to refactor code or develop another feature/requirement. In theory, this ensures that software is written to meet requirements in the simplest form, and avoids code defects."],
+    "context_set": ["https://www.guru99.com/test-driven-development.html", "https://www.ibm.com/garage", "https://www.youtube.com/watch?v=uGaNkTahrIw", "https://app.daily.dev/tags/tdd?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "Design and Development Principles",
+    "patterns": ["CQRS_o"],
+    "responses": ["CQRS, or command query responsibility segregation, defines an architectural pattern where the main focus is to separate the approach of reading and writing operations for a data store. CQRS can also be used along with Event Sourcing pattern in order to persist application state as an ordered of sequence events, making it possible to restore data to any point in time."],
+    "context_set": ["https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs", "https://www.google.com/search?q=cqrs%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=cqrs+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "Design and Development Principles",
+    "patterns": ["Event sourcing"],
+    "responses": ["Event sourcing is a design pattern in which the state of a system is represented as a sequence of events that have occurred over time. In an event-sourced system, changes to the state of the system are recorded as events and stored in an event store. The current state of the system is derived by replaying the events from the event store. One of the main benefits of event sourcing is that it provides a clear and auditable history of all the changes that have occurred in the system. This can be useful for debugging and for tracking the evolution of the system over time. Event sourcing is often used in conjunction with other patterns, such as Command Query Responsibility Segregation (CQRS) and domain-driven design, to build scalable and responsive systems with complex business logic. It is also useful for building systems that need to support undo/redo functionality or that need to integrate with external systems."],
+    "context_set": ["https://martinfowler.com/eaaDev/EventSourcing.html", "https://app.daily.dev/tags/architecture?ref=roadmapsh", "https://www.google.com/search?q=event%20sourcing%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=event+sourcing+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "Containerization vs. Virtualization",
+    "patterns": ["Introduction"],
+    "responses": ["Containers and virtual machines are the two most popular approaches to setting up a software infrastructure for your organization."],
+    "context_set": ["https://middleware.io/blog/containerization-vs-virtualization/", "https://www.youtube.com/watch?v=1WnDHitznGY", "https://app.daily.dev/tags/containers?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "Containerization vs. Virtualization",
+    "patterns": ["Kubernetes"],
+    "responses": ["Kubernetes, also known as k8s, is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It provides a way to abstract the underlying infrastructure and manage applications at scale, while also offering flexibility, portability, and a rich feature set. Kubernetes has become the de facto standard for container orchestration due to its widespread adoption, active community, and ability to handle complex, multi-tiered applications."],
+    "context_set": ["https://roadmap.sh/kubernetes"]
+  },
+
+
+
+ {
+    "tag": "Containerization vs. Virtualization",
+    "patterns": ["LXC"],
+    "responses": ["LXC is an abbreviation used for Linux Containers which is an operating system that is used for running multiple Linux systems virtually on a controlled host via a single Linux kernel. LXC is a userspace interface for the Linux kernel containment features. Through a powerful API and simple tools, it lets Linux users easily create and manage system or application containers."],
+    "context_set": ["https://linuxcontainers.org/lxc/documentation/", "https://linuxcontainers.org/lxc/introduction/", "https://www.youtube.com/watch?v=_KnmRdK69qM", "https://www.youtube.com/watch?v=CWmkSj_B-wo"]
+  },
+
+
+
+ {
+    "tag": "Containerization vs. Virtualization",
+    "patterns": ["Docker"],
+    "responses": ["Docker is an open-source platform that automates the deployment, scaling, and management of applications by isolating them into lightweight, portable containers. Containers are standalone executable units that encapsulate all necessary dependencies, libraries, and configuration files required for an application to run consistently across various environments."],
+    "context_set": ["https://roadmap.sh/docker", "https://www.google.com/search?q=what%20is%20docker?%20guide%20for%20docker", "https://www.youtube.com/results?search_query=what+is+docker%3F+for+docker"]
+  },
+
+ {
+    "tag": "Message Broker",
+    "patterns": ["Intro to Message Brokers"],
+    "responses": ["Message brokers are an inter-application communication technology to help build a common integration mechanism to support cloud-native, microservices-based, serverless, and hybrid cloud architectures. Two of the most famous message brokers are RabbitMQ and Apache Kafka"],
+    "context_set": ["https://www.youtube.com/watch?v=57Qr9tk6Uxc", "https://www.google.com/search?q=message%20brokers%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=message+brokers+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "Message Broker",
+    "patterns": ["RabbitMQ_g"],
+    "responses": ["With tens of thousands of users, RabbitMQ is one of the most popular open-source message brokers. RabbitMQ is lightweight and easy to deploy on-premises and in the cloud. It supports multiple messaging protocols. RabbitMQ can be deployed in distributed and federated configurations to meet high-scale, high-availability requirements."],
+    "context_set": ["https://www.rabbitmq.com/tutorials", "https://www.youtube.com/watch?v=nFxjaVmFj5E", "https://www.youtube.com/watch?v=NQ3fZtyXji0", "https://app.daily.dev/tags/rabbitmq?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "Message Broker",
+    "patterns": ["Kafka"],
+    "responses": ["Apache Kafka is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications."],
+    "context_set": ["https://kafka.apache.org/quickstart", "https://www.youtube.com/watch?v=B5j3uNBH8X4", "https://app.daily.dev/tags/kafka?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "Search Engine",
+    "patterns": ["Intro to Search Engine"],
+    "responses": ["A search engine is a software program that helps people find information on the internet by using keywords or phrases. Search engines work by constantly scanning the internet and indexing every page they find, which allows them to quickly return results."],
+    "context_set": ["https://en.wikipedia.org/wiki/Search_engine"]
+  },
+
+
+ {
+    "tag": "Search Engine",
+    "patterns": ["Elastic Engine"],
+    "responses": ["Elastic search at its core is a document-oriented search engine. It is a document based database that lets you INSERT, DELETE , RETRIEVE and even perform analytics on the saved records. But, Elastic Search is unlike any other general purpose database you have worked with, in the past. It’s essentially a search engine and offers an arsenal of features you can use to retrieve the data stored in it, as per your search criteria. And that too, at lightning speeds"],
+    "context_set": ["https://www.elastic.co/elasticsearch", "https://www.elastic.co/docs", "https://app.daily.dev/tags/elk?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "Search Engine",
+    "patterns": ["Solr"],
+    "responses": ["Solr is highly reliable, scalable and fault tolerant, providing distributed indexing, replication and load-balanced querying, automated failover and recovery, centralized configuration and more. Solr powers the search and navigation features of many of the world’s largest internet sites."],
+    "context_set": ["https://solr.apache.org/", "https://solr.apache.org/resources.html#documentation", "https://www.google.com/search?q=solr%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=solr+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "Web Servers",
+    "patterns": ["Intro and its types"],
+    "responses": ["Web servers can be either hardware or software, or perhaps a combination of the two. 1.Hardware Side: A hardware web server is a computer that houses web server software and the files that make up a website (for example, HTML documents, images, CSS stylesheets, and JavaScript files). A web server establishes a connection to the Internet and facilitates the physical data exchange with other web-connected devices. 2.Software side: A software web server has a number of software components that regulate how hosted files are accessed by online users. This is at the very least an HTTP server. Software that knows and understands HTTP and URLs (web addresses) is known as an HTTP server (the protocol your browser uses to view webpages). The content of these hosted websites is sent to the end user’s device through an HTTP server, which may be accessed via the domain names of the websites it holds. Basically, an HTTP request is made by a browser anytime it wants a file that is stored on a web server. The relevant (hardware) web server receives the request, which is then accepted by the appropriate (software) HTTP server, which then locates the requested content and returns it to the browser over HTTP. (If the server cannot locate the requested page, it responds with a 404 error.)"],
+    "context_set": ["https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server", "https://www.youtube.com/watch?v=9J1nJOivdyw", "https://www.google.com/search?q=web%20servers%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=web+servers+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "Web Servers",
+    "patterns": ["NGINX"],
+    "responses": ["NGINX is a powerful web server and uses a non-threaded, event-driven architecture that enables it to outperform Apache if configured correctly. It can also do other important things, such as load balancing, HTTP caching, or be used as a reverse proxy."],
+    "context_set": ["https://nginx.org/", "https://www.youtube.com/watch?v=JKxlsvZXG7c", "https://app.daily.dev/tags/nginx?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "Web Servers",
+    "patterns": ["Apache"],
+    "responses": ["Apache is a free, open-source HTTP server, available on many operating systems, but mainly used on Linux distributions. It is one of the most popular options for web developers, as it accounts for over 30% of all the websites, as estimated by W3Techs."],
+    "context_set": ["https://httpd.apache.org/", "https://www.youtube.com/watch?v=kaaenHXO4t4", "https://app.daily.dev/tags/apache?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Web Servers",
+    "patterns": ["Caddy"],
+    "responses": ["The Caddy web server is an extensible, cross-platform, open-source web server written in Go. It has some really nice features like automatic SSL/HTTPs and a really easy configuration file."],
+    "context_set": ["https://caddyserver.com/", "https://www.youtube.com/watch?v=t4naLFSlBpQ", "https://www.google.com/search?q=caddy%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=caddy+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "Web Servers",
+    "patterns": ["MS IIS"],
+    "responses": ["Internet Information Services (IIS) for Windows® Server is a flexible, secure and manageable Web server for hosting anything on the Web."],
+    "context_set": ["https://www.iis.net/", "https://www.youtube.com/watch?v=1VdxPWwtISA", "https://app.daily.dev/tags/.net?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "Real time data",
+    "patterns": ["Types"],
+    "responses":["There are many ways to get real time data from the backend. Some of them are: 1.Websockets 2.Server Sent Events 3.Long Polling 4.Short Polling"],
+    "context_set": ["https://www.google.com/search?q=real%20time%20data%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=real+time+data+for+backend+developer", "https://www.youtube.com/watch?v=OsgrJDMPl58", "https://www.pubnub.com/guides/long-polling/"]
+  },
+
+
+ {
+    "tag": "Real time data",
+    "patterns": ["Server-sent Events"],
+    "responses": ["Server-Sent Events (SSE) is a technology that allows a web server to push data to a client in real-time. It uses an HTTP connection to send a stream of data from the server to the client, and the client can listen for these events and take action when they are received. SSE is useful for applications that require real-time updates, such as chat systems, stock tickers, and social media feeds. It is a simple and efficient way to establish a long-lived connection between a client and a server, and it is supported by most modern web browsers. To use SSE, the client must create an EventSource object and specify the URL of the server-side script that will send the events. The server can then send events by writing them to the response stream with the proper formatting."],
+    "context_set": ["https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events", "https://www.google.com/search?q=server%20sent%20events%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=server+sent+events+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "Real time data",
+    "patterns": ["Web Sockets"],
+    "responses": ["Web sockets are defined as a two-way communication between the servers and the clients, which mean both the parties, communicate and exchange data at the same time. This protocol defines a full duplex communication from the ground up. Web sockets take a step forward in bringing desktop rich functionalities to the web browsers."],
+    "context_set": ["https://socket.io/", "https://www.tutorialspoint.com/websockets/index.htm", "https://www.youtube.com/watch?v=8ARodQ4Wlf4"]
+  },
+
+
+ {
+    "tag": "Real time data",
+    "patterns": ["Long polling"],
+    "responses": ["Long polling is a technique where the client polls the server for new data. However, if the server does not have any data available for the client, instead of sending an empty response, the server holds the request and waits for some specified period of time for new data to be available. If new data becomes available during that time, the server immediately sends a response to the client, completing the open request. If no new data becomes available and the timeout period specified by the client expires, the server sends a response indicating that fact. The client will then immediately re-request data from the server, creating a new request-response cycle."],
+    "context_set": ["https://www.google.com/search?q=long%20polling%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=long+polling+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "Real time data",
+    "patterns": ["Short polling"],
+    "responses": ["Short polling is a technique where the client repeatedly polls the server for new data. This is the most common approach to polling. It’s simple to implement and understand, but it’s not the most efficient way of doing things."],
+    "context_set": ["https://www.google.com/search?q=short%20polling%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=short+polling+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "GraphQL",
+    "patterns": ["Intro and roadmap"],
+    "responses": ["GraphQL is a query language and runtime for APIs. It is used to build and consume web service APIs. GraphQL allows clients to make a single API call to request exactly the data they need, in a predictable format. This allows for more efficient and flexible data retrieval, compared to traditional REST APIs where the client has to make multiple API calls to different endpoints, and may receive more data than it needs. With GraphQL, the client defines the structure of the data it needs, by sending a query to the server. The server then returns the requested data in the same structure, as defined by the query. The client can also make mutations to update or create data on the server."],
+    "context_set": ["https://graphql.org/learn/", "https://roadmap.sh/graphql"]
+  },
+
+
+ {
+    "tag": "NoSQL",
+    "patterns": ["Intro"],
+    "responses": ["NoSQL databases offer data storage and retrieval that is modelled differently to “traditional” relational databases. NoSQL databases typically focus more on horizontal scaling, eventual consistency, speed and flexibility and is used commonly for big data and real-time streaming applications. NoSQL is often described as a BASE system (Basically Available, Soft state, Eventual consistency) as opposed to SQL/relational which typically focus on ACID (Atomicity, Consistency, Isolation, Durability). Common NoSQL data structures include key-value pair, wide column, graph and document."],
+    "context_set": ["https://www.mongodb.com/resources/basics/databases/nosql-explained", "https://www.youtube.com/watch?v=0buKQHokLK8", "https://www.youtube.com/watch?v=ruz-vK8IesE", "https://app.daily.dev/tags/nosql?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "NoSQL",
+    "patterns": ["NoSQL_Key-value"],
+    "responses": ["A key-value database (KV database) is a type of database that stores data as a collection of key-value pairs. In a KV database, each piece of data is identified by a unique key, and the value is the data associated with that key. KV databases are designed for fast and efficient storage and retrieval of data, and they are often used in applications that require high performance and low latency. They are particularly well-suited for storing large amounts of unstructured data, such as log data and user profiles. Some popular KV databases include Redis, Memcached, and LevelDB. These databases are often used in combination with other types of databases, such as relational databases or document databases, to provide a complete and scalable data storage solution."],
+    "context_set": ["https://en.wikipedia.org/wiki/Key%E2%80%93value_database", "https://app.daily.dev/tags/backend?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "NoSQL",
+    "patterns": ["DynamoDB_g"],
+    "responses": ["DynamoDB is a fully managed NoSQL database service provided by AWS, designed for high-performance applications that require low-latency data access at any scale. It supports key-value and document data models, allowing developers to store and retrieve any amount of data with predictable performance. DynamoDB is known for its seamless scalability, automatic data replication across multiple AWS regions, and built-in security features, making it ideal for use cases like real-time analytics, mobile apps, gaming, IoT, and more. Key features include flexible schema design, powerful query capabilities, and integration with other AWS services."],
+    "context_set": ["https://www.google.com/search?q=dynamodb%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=dynamodb+for+backend+developer"]
+  },
+
+ {
+    "tag": "NoSQL",
+    "patterns": ["DocumentDBs_MongoDB_p"],
+    "responses": ["MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License (SSPL)."],
+    "context_set": ["https://www.mongodb.com/", "https://www.mongodb.com/docs/", "https://mongoplayground.net/", "https://learn.mongodb.com/catalog", "https://docs.aws.amazon.com/dynamodb/", "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html"]
+  },
+
+ {
+    "tag": "NoSQL",
+    "patterns": ["DocumentDBs_CouchDB_g"],
+    "responses": ["Apache CouchDB is an open-source document-oriented NoSQL database. It uses JSON to store data, JavaScript as its query language using MapReduce, and HTTP for an API. Unlike a relational database, a CouchDB database does not store data and relationships in tables. Instead, each database is a collection of independent documents. Each document maintains its own data and self-contained schema."],
+    "context_set": ["https://docs.couchdb.org/en/stable/", "https://couchdb.apache.org/", "https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis/", "https://pouchdb.com/", "https://app.daily.dev/tags/couchdb?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "NoSQL",
+    "patterns": ["Real time"],
+    "responses": ["A real-time database is broadly defined as a data store designed to collect, process, and/or enrich an incoming series of data points (i.e., a data stream) in real time, typically immediately after the data is created. Example- FireBase_p, RethinkDB_g"],
+    "context_set": ["https://www.google.com/search?q=realtime%20databases%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=realtime+databases+for+backend+developer", "https://firebase.google.com/", "https://rethinkdb.com/"]
+  },
+
+ {
+    "tag": "NoSQL",
+    "patterns": ["TimeSeries_infuxDB_p"],
+    "responses": ["InfluxDB was built from the ground up to be a purpose-built time series database; i.e., it was not repurposed to be time series. Time was built-in from the beginning. InfluxDB is part of a comprehensive platform that supports the collection, storage, monitoring, visualization and alerting of time series data. It’s much more than just a time series database."],
+    "context_set": ["https://www.influxdata.com/", "https://www.influxdata.com/time-series-database/", "https://app.daily.dev/tags/backend?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "NoSQL",
+    "patterns": ["TimeSeries_TimeScale_g"],
+    "responses": ["TimescaleDB is an open-source time-series database built on top of PostgreSQL, designed for efficiently storing and querying time-series data. It introduces the concept of hypertables, which automatically partition data by time and space, making it ideal for high-volume data scenarios like monitoring, IoT, and financial analytics. TimescaleDB combines the power of relational databases with the performance of a specialized time-series solution, offering advanced features like continuous aggregates, real-time analytics, and seamless integration with PostgreSQL’s ecosystem. It’s a robust choice for developers looking to manage time-series data in scalable and efficient ways."],
+    "context_set": ["https://www.youtube.com/watch?v=69Tzh_0lHJ8", "https://www.google.com/search?q=timescale%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=timescale+for+backend+developer"]
+  },
+
+ {
+    "tag": "NoSQL",
+    "patterns": ["ColumnDatabases_Cassandra"],
+    "responses": ["A wide-column database (sometimes referred to as a column database) is similar to a relational database. It store data in tables, rows and columns. However in opposite to relational databases here each row can have its own format of the columns. Column databases can be seen as a two-dimensional key-value database. One of such database system is Apache Cassandra."],
+    "context_set": ["https://cassandra.apache.org/_/index.html", "https://www.youtube.com/watch?v=J-cSy5MeMOA", "https://app.daily.dev/tags/backend?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "NoSQL",
+    "patterns": ["Graph Database"],
+    "responses": ["A graph database stores nodes and relationships instead of tables, or documents. Data is stored just like you might sketch ideas on a whiteboard. Your data is stored without restricting it to a pre-defined model, allowing a very flexible way of thinking about and using it."],
+    "context_set": ["https://neo4j.com/docs/getting-started/get-started-with-neo4j/graph-database/", "https://app.daily.dev/tags/backend?ref=roadmapsh", "https://www.google.com/search?q=graph%20databases%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=graph+databases+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "NoSQL",
+    "patterns": ["AWS Neptune"],
+    "responses": ["AWS Neptune is a fully managed graph database service designed for applications that require highly connected data. It supports two popular graph models: Property Graph and RDF (Resource Description Framework), allowing you to build applications that traverse billions of relationships with millisecond latency. Neptune is optimized for storing and querying graph data, making it ideal for use cases like social networks, recommendation engines, fraud detection, and knowledge graphs. It offers high availability, automatic backups, and multi-AZ (Availability Zone) replication, ensuring data durability and fault tolerance. Additionally, Neptune integrates seamlessly with other AWS services and supports open standards like Gremlin, SPARQL, and Apache TinkerPop, making it flexible and easy to integrate int  existing applications."],
+    "context_set": ["https://www.google.com/search?q=aws%20neptune%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=aws+neptune+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "Building for Scale",
+    "patterns": ["Intro"],
+    "responses": ["Speaking in general terms, scalability is the ability of a system to handle a growing amount of work by adding resources to it. A software that was conceived with a scalable architecture in mind, is a system that will support higher workloads without any fundamental changes to it, but don’t be fooled, this isn’t magic. You’ll only get so far with smart thinking without adding more sources to it. For a system to be scalable, there are certain things you must pay attention to, like: 1.Coupling 2.Observability 3.Evolvability 4.Infrastructure When you think about the infrastructure of a scalable system, you have two main ways of building it: using on-premises resources or leveraging all the tools a cloud provider can give you. The main difference between on-premises and cloud resources will be FLEXIBILITY, on cloud providers you don’t really need to plan ahead, you can upgrade your infrastructure with a couple of clicks, while with on-premises resources you will need a certain level of planning."],
+    "context_set": ["https://www.sentinelone.com/blog/scalable-architecture/", "https://www.youtube.com/watch?v=gxfERVP18-g", "https://www.google.com/search?q=building%20for%20scale%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=building+for+scale+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "Building for Scale",
+    "patterns": ["Migration Strategies"],
+    "responses": ["Learn how to run database migrations effectively. Especially zero downtime multi-phase schema migrations. Rather than make all changes at once, do smaller incremental changes to allow old code, and new code to work with the database at the same time, before removing old code, and finally removing the parts of the database schema which is no longer used."],
+    "context_set": ["https://phauer.com/2015/databases-challenge-continuous-delivery/", "https://www.google.com/search?q=migration%20strategies%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=migration+strategies+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "Building for Scale",
+    "patterns": ["Migration_Strategies_Circuit_breaker"],
+    "responses": ["The circuit breaker design pattern is a way to protect a system from failures or excessive load by temporarily stopping certain operations if the system is deemed to be in a failed or overloaded state. It is commonly used in cloud computing environments to prevent cascading failures and to improve the resilience and availability of a system. A circuit breaker consists of three states: closed, open, and half-open. In the closed state, the circuit breaker allows operations to proceed as normal. If the system encounters a failure or becomes overloaded, the circuit breaker moves to the open state, and all subsequent operations are immediately stopped. After a specified period of time, the circuit breaker moves to the half-open state, and a small number of operations are allowed to proceed. If these operations are successful, the circuit breaker moves back to the closed state; if they fail, the circuit breaker moves back to the open state. The circuit breaker design pattern is useful for protecting a system from failures or excessive load by providing a way to temporarily stop certain operations and allow the system to recover. It is often used in conjunction with other design patterns, such as retries and fallbacks, to provide a more robust and resilient cloud environment"],
+    "context_set": ["https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_mitigate_interaction_failure_graceful_degradation.html", "https://mateus4k.github.io/posts/circuit-breakers/"]
+  },
+
+
+ {
+    "tag": "Building for Scale",
+    "patterns": ["Migration_Strategies_Load_Shifting"],
+    "responses": ["Load shifting is a design pattern that is used to manage the workload of a system by shifting the load to different components or resources at different times. It is commonly used in cloud computing environments to balance the workload of a system and to optimize the use of resources. There are several ways to implement load shifting in a cloud environment: Scheduling: This involves scheduling the execution of tasks or workloads to occur at specific times or intervals. Load balancing: This involves distributing the workload of a system across multiple resources, such as servers or containers, to ensure that the workload is balanced and that resources are used efficiently. Auto-scaling: This involves automatically adjusting the number of resources that are available to a system based on the workload, allowing the system to scale up or down as needed. Load shifting is an important aspect of cloud design, as it helps to ensure that resources are used efficiently and that the system remains stable and available. It is often used in conjunction with other design patterns, such as throttling and backpressure, to provide a scalable and resilient cloud environment."],
+    "context_set": ["https://www.google.com/search?q=load%20shifting%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=load+shifting+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "Building for Scale",
+    "patterns": ["Migration_Strategies_Back_pressure"],
+    "responses": ["Backpressure is a design pattern that is used to manage the flow of data through a system, particularly in situations where the rate of data production exceeds the rate of data consumption. It is commonly used in cloud computing environments to prevent overloading of resources and to ensure that data is processed in a timely and efficient manner.There are several ways to implement backpressure in a cloud environment: Buffering: This involves storing incoming data in a buffer until it can be processed, allowing the system to continue receiving data even if it is temporarily unable to process it. Batching: This involves grouping incoming data into batches and processing the batches in sequence, rather than processing each piece of data individually. Flow control: This involves using mechanisms such as flow control signals or windowing to regulate the rate at which data is transmitted between systems. Backpressure is an important aspect of cloud design, as it helps to ensure that data is processed efficiently and that the system remains stable and available. It is often used in conjunction with other design patterns, such as auto-scaling and load balancing, to provide a scalable and resilient cloud environment."],
+    "context_set": ["https://awesome-architecture.com/back-pressure/", "https://www.google.com/search?q=backpressure%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=backpressure+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "Building for Scale",
+    "patterns": ["Migration_Strategies_Throttling"],
+    "responses": ["Throttling is a design pattern that is used to limit the rate at which a system or component can be used. It is commonly used in cloud computing environments to prevent overuse of resources, such as compute power, network bandwidth, or storage capacity. There are several ways to implement throttling in a cloud environment: Rate limiting: This involves setting a maximum number of requests that can be made to a system or component within a specified time period. Resource allocation: This involves allocating a fixed amount of resources to a system or component, and then limiting the use of those resources if they are exceeded. Token bucket: This involves using a “bucket” of tokens to represent the available resources, and then allowing a certain number of tokens to be “consumed” by each request. When the bucket is empty, additional requests are denied until more tokens become available. Throttling is an important aspect of cloud design, as it helps to ensure that resources are used efficiently and that the system remains stable and available. It is often used in conjunction with other design patterns, such as auto-scaling and load balancing, to provide a scalable and resilient cloud environment."],
+    "context_set": ["https://docs.aws.amazon.com/wellarchitected/2022-03-31/framework/rel_mitigate_interaction_failure_throttle_requests.html", "https://www.google.com/search?q=throttling%20guide%20for%20backend%20developer", "https://www.youtube.com/results?search_query=throttling+for+backend+developer"]
+  },
+
+
+ {
+    "tag": "Building for Scale",
+    "patterns": ["Migration_Strategies_Graceful_Degradation"],
+    "responses": ["Graceful degradation is a design principle that states that a system should be designed to continue functioning, even if some of its components or features are not available. In the context of web development, graceful degradation refers to the ability of a web page or application to continue functioning, even if the user’s browser or device does not support certain features or technologies. Graceful degradation is often used as an alternative to progressive enhancement, a design principle that states that a system should be designed to take advantage of advanced features and technologies if they are available."],
+    "context_set": ["https://blog.hubspot.com/website/graceful-degradation", "https://newrelic.com/blog/best-practices/design-software-for-graceful-degradation"]
+  },
+
+
+ {
+    "tag": "Building for Scale",
+    "patterns": ["Types of Scaling"],
+    "responses": ["Horizontal scaling is a change in the number of a resource. For example, increasing the number of virtual machines processing messages in a queue. Vertical scaling is a change in the size/power of a resource. For example, increasing the memory or disk space available to a machine. Scaling can be applied to databases, cloud resources, and other areas of computing."],
+    "context_set": ["https://touchstonesecurity.com/horizontal-vs-vertical-scaling-what-you-need-to-know/", "https://www.youtube.com/watch?v=xpDnVSmNFX0", "https://www.youtube.com/watch?v=Y-Gl4HEyeUQ"]
+  },
+
+
+ {
+    "tag": "Building for Scale",
+    "patterns": ["Observability"],
+    "responses": ["In software development, observability is the measure of how well we can understand a system from the work it does, and how to make it better. So what makes a system to be “observable”? It is its ability of producing and collecting metrics, logs and traces in order for us to understand what happens under the hood and identify issues and bottlenecks faster. You can of course implement all those features by yourself, but there are a lot of softwares out there that can help you with it like Datadog, Sentry and CloudWatch."],
+    "context_set": ["https://docs.datadoghq.com/", "https://aws.amazon.com/cloudwatch/getting-started/", "https://docs.sentry.io/", "https://newrelic.com/blog/best-practices", "https://www.youtube.com/watch?v=Wx0SHRb2xcI", "https://app.daily.dev/tags/observability?ref=roadmapsh"]
+  },
+
+
+
+ {
+    "tag": "Building for Scale",
+    "patterns": ["Intrumentation"],
+    "responses": ["Instrumentation refers to the measure of a product’s performance, in order to diagnose errors and to write trace information. Instrumentation can be of two types: source instrumentation and binary instrumentation. Backend monitoring allows the user to view the performance of infrastructure i.e. the components that run a web application. These include the HTTP server, middleware, database, third-party API services, and more. Telemetry is the process of continuously collecting data from different components of the application. This data helps engineering teams to troubleshoot issues across services and identify the root causes. In other words, telemetry data powers observability for your distributed applications."],
+    "context_set": ["https://en.wikipedia.org/wiki/Instrumentation_(computer_programming)", "https://www.yottaa.com/performance-monitoring-backend-vs-front-end-solutions/", "https://www.sumologic.com/glossary/telemetry/", "https://app.daily.dev/tags/monitoring?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "Building for Scale",
+    "patterns": ["Distributed Systems"],
+    "responses": [" Distributed systems are hard to build, deploy and maintain. They consist of multiple components which communicate with each other. In parallel to that, users use the system, resulting in multiple requests. Making sense of this noise is important to understand: 1.how the system behaves 2.is it broken3.is it fast enough 4.what can be improved A product can integrate with existing monitoring products (APM - application performance management). They can show a detailed view of each request - its user, time, components involved, state(error or OK) etc. We can build dashboards with custom events or metrics according to our needs. Automatic alert rules can be configured on top of these events/metrics. A few popular tools are Grafana, Sentry, Mixpanel, NewRelic etc"],
+    "context_set": ["https://www.dynatrace.com/news/blog/observability-vs-monitoring/", "https://www.sumologic.com/blog/the-role-of-apm-and-distributed-tracing-in-observability/", "https://thectoclub.com/tools/best-application-monitoring-software/", "https://medium.com/@genchilu/cache-strategy-in-backend-d0baaacd2d79"]
+  },
+
+  {
+    "tag": "OContinue Learning",
+    "patterns": ["Basic Infrastructure knowledge_DevOps"],
+    "responses": ["Roadmap Linked"],
+    "context_set": ["https://roadmap.sh/devops?r=devops-beginner"]
+  },
+
+  {
+    "tag": "Continue Learning",
+    "patterns": ["Basic Infrastructure knowledge_fullstack"],
+    "responses": ["Roadmap Linked"],
+    "context_set": ["https://roadmap.sh/full-stack"]
+  }
+
+]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

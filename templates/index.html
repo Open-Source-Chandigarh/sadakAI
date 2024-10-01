@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SadaakAI</title>
+</head>
+<body>
+    <h1>SadaakAI</h1>
+    <form method="POST">
+        <label for="input_message">Input Message:</label><br>
+        <textarea id="input_message" name="input_message" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <label for="result_message">Result Message:</label><br>
+    <textarea id="result_message" rows="4" cols="50" readonly>{{ result_message }}</textarea>
+</body>
+</html>

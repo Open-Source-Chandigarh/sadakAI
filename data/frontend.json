@@ -1,0 +1,739 @@
+{"intents": [
+  {
+    "tag": "",
+    "patterns": [""],
+    "responses": [""],
+    "context_set": [""]
+  },
+
+  {
+    "tag": "Internet",
+    "patterns": ["Intro to internet"],
+    "responses": ["The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols."],
+    "context_set": ["https://cs.fyi/guide/how-does-internet-work", "https://www.vox.com/2014/6/16/18076282/the-internet", "https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm", "https://www.youtube.com/watch?v=x3c1ih2NJEg", "https://www.youtube.com/watch?v=7_LPdttKXPc", "https://www.youtube.com/watch?v=zN8YNNHcaZc"]
+  },
+
+  {
+    "tag": "Internet",
+    "patterns": ["Intro to HTTP"],
+    "responses": ["HTTP is the TCP/IP based application layer communication protocol which standardizes how the client and server communicate with each other. It defines how the content is requested and transmitted across the internet."],
+    "context_set": ["https://cs.fyi/guide/http-in-depth", "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview", "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/", "https://www.youtube.com/watch?v=j9QmMEWmcfo", "https://www.youtube.com/watch?v=iYM2zFP3Zn0", "https://www.youtube.com/watch?v=a-sBfyiXysI", "https://www.youtube.com/watch?v=2JYT5f2isg4"]
+  },
+
+ {
+    "tag": "Internet",
+    "patterns": ["Intro to Domain Name"],
+    "responses": ["A domain name is a unique, easy-to-remember address used to access websites, such as ‘google.com’, and ‘facebook.com’. Users can connect to websites using domain names thanks to the DNS system."],
+    "context_set": ["https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name", "https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/", "https://www.youtube.com/watch?v=Y4cRx19nhJk"]
+  },
+
+ {
+    "tag": "Internet",
+    "patterns": ["Intro to Hosting"],
+    "responses": ["Web hosting is an online service that allows you to publish your website files onto the internet. So, anyone who has access to the internet has access to your website."],
+    "context_set": ["https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines", "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server", "https://www.youtube.com/watch?v=htbY9-yggB0", "https://www.youtube.com/watch?v=AXVZYzw8geg", "https://www.youtube.com/watch?v=Kx_1NYYJS7Q"]
+},
+
+ {
+    "tag": "Internet",
+    "patterns": ["Intro to DNS and How it works?"],
+    "responses": ["The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources."],
+    "context_set": ["https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/", "https://howdns.works/", "https://developer.mozilla.org/en-US/docs/Glossary/DNS", "https://www.youtube.com/watch?v=Wj0od2ag5sk", "https://www.youtube.com/watch?v=7lxgpKh_fRY", "https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K", "https://app.daily.dev/tags/dns?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Internet",
+    "patterns": ["Intro to Browsers and how they work"],
+    "responses": ["A web browser is a software application that enables a user to access and display web pages or other online content through its graphical user interface."],
+    "context_set": ["https://web.dev/articles/howbrowserswork", "https://www.browserstack.com/guide/browser-rendering-engine", "https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work", "https://app.daily.dev/tags/browsers?ref=roadmapsh"]
+  },
+
+{
+    "tag": "HTML",
+    "patterns": ["Intro to HTML"],
+    "responses": ["HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript."],
+    "context_set": ["https://www.w3schools.com/html/html_intro.asp", "https://www.youtube.com/watch?v=mJgBOIoGihA", "https://www.youtube.com/watch?v=pQN-pnXPaVg", "https://app.daily.dev/tags/html?ref=roadmapsh", "https://app.daily.dev/tags/html?ref=roadmapsh", "https://www.udemy.com/course/modern-html-css-from-the-beginning/?ranMID=39197&ranEAID=35IlOPehnho&ranSiteID=35IlOPehnho-mWM3EBjw8G53RNIkFOn0cA&LSNPUBID=35IlOPehnho&couponCode=OF83024F"]
+  },
+
+{
+    "tag": "HTML",
+    "patterns": ["Learn the Basics"],
+    "responses": ["HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript."],
+    "context_set": ["https://www.w3schools.com/html/html_intro.asp", "https://web.dev/learn/html", "https://www.youtube.com/watch?v=pQN-pnXPaVg", "https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/?ranMID=39197&ranEAID=35IlOPehnho&ranSiteID=35IlOPehnho-BM.siVceZ0_.6lEkq.vr1g&LSNPUBID=35IlOPehnho&couponCode=OF83024F", "https://www.udemy.com/course/modern-html-css-from-the-beginning/?ranMID=39197&ranEAID=35IlOPehnho&ranSiteID=35IlOPehnho-6p8m778B19TVl2P5c6zrYg&LSNPUBID=35IlOPehnho&couponCode=OF83024F"]
+  },
+
+{
+    "tag": "HTML",
+    "patterns": ["Semantic HTML"],
+    "responses": ["Semantic element clearly describes its meaning to both the browser and the developer. In HTML, semantic element are the type of elements that can be used to define different parts of a web page such as <form>, <table>, <article>, <header>, <footer>, etc."],
+    "context_set": ["https://cs.fyi/guide/writing-semantic-html", "https://www.w3schools.com/html/html5_semantic_elements.asp", "https://html.com/semantic-markup/", "https://web.dev/learn/html/semantic-html/"]
+  },
+
+{
+    "tag": "HTML",
+    "patterns": ["Forms and Validations"],
+    "responses": ["Before submitting data to the server, it is important to ensure all required form controls are filled out, in the correct format. This is called client-side form validation, and helps ensure data submitted matches the requirements set forth in the various form controls."],
+    "context_set": ["https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation", "https://web.dev/learn/forms/", "https://www.w3schools.com/js/js_validation.asp"]
+  },
+
+{
+    "tag": "HTML",
+    "patterns": ["Accessibility"],
+    "responses": ["Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily."],
+    "context_set": ["https://www.w3.org/WAI/tips/developing/", "https://www.w3schools.com/accessibility/index.php", "https://web.dev/articles/accessibility", "https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g", "https://app.daily.dev/tags/accessibility?ref=roadmapsh"]
+  },
+
+{
+    "tag": "HTML",
+    "patterns": ["Basics of SEO"],
+    "responses": ["SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines such as Google, Bing etc."],
+    "context_set": ["https://developers.google.com/search/docs", "https://www.youtube.com/watch?v=xsVTqzratPs", "https://www.youtube.com/watch?v=SnxeXZpZkI0", "https://app.daily.dev/tags/seo?ref=roadmapsh"]
+  },
+
+{
+    "tag": "CSS",
+    "patterns": ["Intro to CSS"],
+    "responses": ["CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript."],
+    "context_set": ["https://www.w3schools.com/css/", "https://web.dev/learn/css/", "https://www.youtube.com/watch?v=n4R2E7O-Ngo", "https://www.youtube.com/watch?v=D-h8L5hgW-w", "https://app.daily.dev/tags/css?ref=roadmapsh"]
+  },
+
+{
+    "tag": "CSS",
+    "patterns": ["CSS BASICS"],
+    "responses": ["CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript."],
+    "context_set": ["https://www.w3schools.com/css/", "https://web.dev/learn/css/", "https://learn.shayhowe.com/html-css/building-your-first-web-page/", "https://www.youtube.com/watch?v=yfoY53QXEnI", "https://www.youtube.com/watch?v=D-h8L5hgW-w", "https://www.youtube.com/watch?v=FqmB-Zj2-PA"]
+  },
+
+{
+    "tag": "Javascript",
+    "patterns": ["Intro to Javascript"],
+    "responses": ["JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on. "],
+    "context_set": ["https://roadmap.sh/javascript", "https://javascript.info/", "https://javascript30.com/", "https://www.youtube.com/watch?v=hdI2bqOjy3c&t=2s", "https://app.daily.dev/tags/javascript?ref=roadmapsh",]
+  },
+
+{
+    "tag": "Javascript",
+    "patterns": ["Learn the basics"],
+    "responses": ["JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on."],
+    "context_set": ["https://www.w3schools.com/js/", "https://javascript.info/", "https://www.youtube.com/watch?v=hdI2bqOjy3c&t=2s", "https://www.youtube.com/watch?v=P7t13SGytRk&t=22s"]
+  },
+
+{
+    "tag": "Version Control System",
+    "patterns": ["Intro to the topic"],
+    "responses": ["Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code – if you’ve ever collaborated with other people on a project, you might already know the frustration of copying and merging the changes from someone else into your codebase; version control systems allow you to get rid of this issue."],
+    "context_set": ["https://git-scm.com/docs", "https://www.atlassian.com/git", "https://www.youtube.com/watch?v=zbKdDsNNOhg", "https://www.youtube.com/watch?v=SWYqp7iY_Tc", "https://www.youtube.com/watch?v=Y9XZQO1n_7c&t=21s"]
+  },
+
+{
+    "tag": "Version Control System",
+    "patterns": ["Git"],
+    "responses": ["Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."],
+    "context_set": ["https://www.atlassian.com/git", "https://cs.fyi/guide/git-cheatsheet", "https://thenewstack.io/tutorial-git-for-absolutely-everyone/", "https://www.youtube.com/watch?v=SWYqp7iY_Tc", "https://app.daily.dev/tags/git?ref=roadmapsh"]
+  },
+
+{
+    "tag": "VCS Hosting System",
+    "patterns": ["Introduction to VCS Hosting system "],
+    "responses": ["There are different repository hosting services with the most famous one being GitHub, GitLab and BitBucket. I would recommend creating an account on GitHub because that is where most of the OpenSource work is done and most of the developers are."],
+    "context_set": ["https://github.com/", "https://about.gitlab.com/", "https://bitbucket.org/"]
+  },
+
+{
+    "tag": "Package Managers",
+    "patterns": ["Intro to Package Managers"],
+    "responses": ["Package managers allow you to manage the dependencies (external code written by you or someone else) that your project needs to work correctly."],
+    "context_set": ["https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html", "https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/", "https://classic.yarnpkg.com/en/docs/getting-started", "https://www.youtube.com/watch?v=2V1UUhBJ62Y", "https://www.youtube.com/watch?v=jHDhaSSKmB0", "https://www.youtube.com/watch?v=g9_6KmiBISk"]
+  },
+
+{
+    "tag": "Package Managers",
+    "patterns": ["npm_p"],
+    "responses": ["npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js."],
+    "context_set": ["https://github.com/workshopper/how-to-npm", "https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html", "https://www.youtube.com/watch?v=2V1UUhBJ62Y", "https://www.youtube.com/watch?v=2V1UUhBJ62Y", "https://www.youtube.com/watch?v=jHDhaSSKmB0", "https://app.daily.dev/tags/npm?ref=roadmapsh"]
+  },
+
+{
+    "tag": "Package Managers",
+    "patterns": ["PNPM_g"],
+    "responses": ["PNPM is an alternative package manager for Node. js which stands for “Performant NPM”. The main purpose of PNPM is to hold all the packages at a global (centralized) store and use them if needed by other projects too by creating hard links to it."],
+    "context_set": ["https://pnpm.io/", "https://blog.bitsrc.io/pnpm-javascript-package-manager-4b5abd59dc9"]
+  },
+
+{
+    "tag": "Package Managers",
+    "patterns": ["Yarn_g"],
+    "responses": ["Yarn is a software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm (package manager)."],
+    "context_set": ["https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html", "https://classic.yarnpkg.com/en/docs/getting-started", "https://www.youtube.com/watch?v=g9_6KmiBISk", "https://app.daily.dev/tags/yarn?ref=roadmapsh"]
+  },
+
+{
+    "tag": "Framework",
+    "patterns": ["Intro to Frameworks"],
+    "responses": ["Web frameworks are designed to write web applications. Frameworks are collections of libraries that aid in the development of a software product or website. Frameworks for web application development are collections of various tools. Frameworks vary in their capabilities and functions, depending on the tasks set. They define the structure, establish the rules, and provide the development tools required."],
+    "context_set": ["https://www.youtube.com/watch?v=D_MO9vIRBcA", "https://www.youtube.com/watch?v=cuHDQhDhvPE"]
+  },
+
+{
+    "tag": "Framework",
+    "patterns": ["React_p"],
+    "responses": ["React is the most popular front-end JavaScript library for building user interfaces. React can also render on the server using Node and power mobile apps using React Native."],
+    "context_set": ["https://roadmap.sh/react", "https://react.dev/", "https://react.dev/learn/tutorial-tic-tac-toe", "https://www.youtube.com/watch?v=nTeuhbP7wdE", "https://www.youtube.com/watch?v=bMknfKXIFA8", "https://www.youtube.com/watch?v=i793Qm6kv3U", "https://app.daily.dev/tags/react?ref=roadmapsh"]
+  },
+
+
+{
+    "tag":"Framework",
+    "patterns": ["Vue.js_g"],
+    "responses": ["Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications. It is mainly focused on front end development."],
+    "context_set": ["https://roadmap.sh/vue", "https://vuejs.org/", "https://vuejs.org/guide/introduction.html", "https://thenewstack.io/meet-vue-js-flexible-javascript-framework/", "https://www.youtube.com/watch?v=FXpIoQ_rT_c", "https://www.youtube.com/watch?v=qZXt1Aom3Cs", "https://app.daily.dev/tags/vuejs?ref=roadmapsh"]
+  },
+
+{
+    "tag": "Framework",
+    "patterns": ["Angular_"],
+    "responses": ["Angular is a component based front-end development framework built on TypeScript which includes a collection of well-integrated libraries that include features like routing, forms management, client-server communication, and more."],
+    "context_set": ["https://roadmap.sh/angular", "https://v17.angular.io/start", "https://www.youtube.com/watch?v=3qBXWUpoPHo", "https://app.daily.dev/tags/angular?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "Framework",
+    "patterns": ["Svelte_g"],
+    "responses": ["Svelte is a javascript framework that unlike Vue and React does not use vertical DOM diffing but instead knows exactly what and where to update when the state changes. It’s mainly focused on frontend and building user interfaces."],
+    "context_set": ["https://svelte.dev/", "https://svelte.dev/docs/introduction", "https://thenewstack.io/all-about-svelte-the-much-loved-state-driven-web-framework/", "https://thenewstack.io/svelte-and-the-future-of-front-end-development/", "https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO", "https://app.daily.dev/tags/svelte?ref=roadmapsh"]
+  },
+
+{
+    "tag": "Framework",
+    "patterns": ["Solid JS_g"],
+    "responses": ["Solid is a reactive JavaScript toolkit for building user interfaces without a virtual DOM. To ensure that only the relevant code is executed when a state update occurs, it compiles templates down to real DOM nodes once and wraps modifications into fine-grained reactions."],
+    "context_set": ["https://www.solidjs.com/", "https://www.solidjs.com/tutorial/introduction_basics", "https://app.daily.dev/tags/javascript?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "Writing CSS",
+    "patterns": ["Introduction"],
+    "responses": ["The way we write CSS in our modern front-end applications is completely different from how we used to write CSS before. There are methods such as Styled Components, CSS Modules, Styled JSX, Emotion, etc"],
+    "context_set": ["https://www.google.com/search?q=modern%20css%20guide%20for%20frontend%20developer", "https://www.youtube.com/results?search_query=modern+css+for+frontend+developer"]
+  },
+
+{
+    "tag": "Writing CSS",
+    "patterns": ["Tailwind"],
+    "responses": ["CSS Framework that provides atomic CSS classes to help you style components e.g. flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup."],
+    "context_set": ["https://www.youtube.com/results?search_query=modern+css+for+frontend+developer", "https://tailwindcss.com/", "https://www.youtube.com/watch?v=lCxcTsOHrjo", "https://www.youtube.com/watch?v=UBOj6rqRUME", "https://www.youtube.com/watch?v=hdGsFpZ0J2E", "https://www.youtube.com/c/TailwindLabs/videos", "https://app.daily.dev/tags/css?ref=roadmapsh", "https://www.google.com/search?q=modern%20css%20guide%20for%20frontend%20developer"]
+  },
+
+ {
+    "tag": "CSS Architecture",
+    "patterns": ["Introduction to the CSS Architecture"],
+    "responses": ["CSS is notoriously difficult to manage in large, complex, rapidly-iterated systems. There are different ways of writing CSS that allows in writing more maintainable CSS."],
+    "context_set": ["https://www.webfx.com/blog/web-design/css-methodologies/", "https://en.bem.info/", "http://oocss.org/", "https://smacss.com/", "https://app.daily.dev/tags/architecture?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "CSS Architecture",
+    "patterns": ["BEM"],
+    "responses": ["The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS. Developed by the team at Yandex, its goal is to help developers better understand the relationship between the HTML and CSS in a given project."],
+    "context_set": ["https://en.bem.info/", "https://en.bem.info/methodology/quick-start/", "https://css-tricks.com/bem-101/", "https://en.bem.info/tutorials/"]
+  },
+
+ {
+    "tag": "CSS Preprocessors",
+    "patterns": ["Introduction"],
+    "responses": ["CSS Preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations."],
+    "context_set": ["https://app.daily.dev/tags/css?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "CSS Preprocessors",
+    "patterns": ["Sass"],
+    "responses": ["Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. It lets you write maintainable CSS and provides features like variable, nesting, mixins, extension, functions, loops, conditionals and so on."],
+    "context_set": ["https://sass-lang.com/", "https://sass-lang.com/documentation/", "https://www.youtube.com/watch?v=_a5j7KoflTs", "https://www.youtube.com/watch?v=jfMHA8SqUL4"]
+  },
+
+ {
+    "tag": "CSS Preprocessors",
+    "patterns": ["Post CSS"],
+    "responses": ["PostCSS is a tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more."],
+    "context_set": ["https://postcss.org/", "https://app.daily.dev/tags/css?ref=roadmapsh", "https://www.google.com/search?q=postcss%20guide%20for%20frontend%20developer", "https://www.youtube.com/results?search_query=postcss+for+frontend+developer"]
+  },
+
+ {
+    "tag": "Build Tools",
+    "patterns": ["Introduction to the Build Tools"],
+    "responses": ["Task runners automatically execute commands and carry out processes behind the scenes. This helps automate your workflow by performing mundane, repetitive tasks that you would otherwise waste an egregious amount of time repeating yourself. Common usages of task runners include numerous development tasks such as: spinning up development servers, compiling code (ex. SCSS to CSS), running linters, serving files up from a local port on your computer, and many more!"],
+    "context_set": ["https://webpack.js.org/", "https://vitejs.dev/", "https://parceljs.org/", "https://app.daily.dev/tags/tools?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Linter formatters",
+    "patterns": ["Introduction to Linter Formatters"],
+    "responses": ["A linter is a tool used to analyze code and discover bugs, syntax errors, stylistic inconsistencies, and suspicious constructs. Popular linters for JavaScript include ESLint, JSLint, and JSHint. "],
+    "context_set": ["https://www.testim.io/blog/what-is-a-linter-heres-a-definition-and-quick-start-guide/", "https://www.google.com/search?q=linters%20formatters%20guide%20for%20frontend%20developer", "https://www.youtube.com/results?search_query=linters+formatters+for+frontend+developer"]
+  },
+
+ {
+    "tag": "Linter Formatters",
+    "patterns": ["Prettier"],
+    "responses": ["Prettier is an opinionated code formatter with support for JavaScript, HTML, CSS, YAML, Markdown, GraphQL Schemas. By far the biggest reason for adopting Prettier is to stop all the on-going debates over styles."],
+    "context_set": ["https://prettier.io/", "https://prettier.io/docs/en/why-prettier.html", "https://www.google.com/search?q=prettier%20guide%20for%20frontend%20developer", "https://www.youtube.com/results?search_query=prettier+for+frontend+developer"]
+  },
+
+ {
+    "tag": "Linter Formatters",
+    "patterns": ["ESLint"],
+    "responses": ["With ESLint you can impose the coding standard using a certain set of standalone rules."],
+    "context_set": ["https://eslint.org/", "https://dev.to/shivambmgupta/eslint-what-why-when-how-5f1d", "https://www.youtube.com/watch?v=qhuFviJn-es", "https://app.daily.dev/tags/javascript?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Module Bundlers",
+    "patterns": ["Intro to Module Bundler"],
+    "responses": ["A module bundler is a tool that takes pieces of JavaScript and their dependencies and bundles them into a single file, usually for use in the browser. You may have used tools such as Browserify, Webpack, Rollup or one of many others. It usually starts with an entry file, and from there it bundles up all of the code needed for that entry file."],
+    "context_set": ["https://www.youtube.com/watch?v=5IG4UmULyoA", "https://www.google.com/search?q=module%20bundlers%20guide%20for%20frontend%20developer", "https://www.youtube.com/results?search_query=module+bundlers+for+frontend+developer"]
+  },
+
+ {
+    "tag": "Module Bundlers",
+    "patterns": ["Vite"],
+    "responses": ["Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects. "],
+    "context_set": ["https://vitejs.dev/", "https://vitejs.dev/guide/", "https://www.youtube.com/watch?v=LQQ3CR2JTX8", "https://www.youtube.com/watch?v=VAeRhmpcWEQ", "https://app.daily.dev/tags/vite?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Module Bundlers",
+    "patterns": ["SWC"],
+    "responses": ["SWC (Speedy Web Compiler) is a JavaScript and TypeScript compiler and bundler built in Rust. Unlike Babel, which is JavaScript-based, SWC leverages Rust for blazing-fast performance, making it an ideal choice for large-scale projects. It focuses on speed while offering modern features like tree shaking, JSX transformation, and module bundling, catering to frontend development and build optimization."],
+    "context_set": ["https://swc.rs/", "https://swc.rs/docs/getting-started", "https://app.daily.dev/tags/swc?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "Module Bundlers",
+    "patterns": ["Introduction to the topic"],
+    "responses": ["Our current build tools for the web are 10-100x slower than they could be. The main goal of the esbuild bundler project is to bring about a new era of build tool performance, and create an easy-to-use modern bundler along the way."],
+    "context_set": ["https://esbuild.github.io/", "https://esbuild.github.io/api/", "https://www.youtube.com/watch?v=9XS_RA6zyyU", "https://www.youtube.com/watch?v=ZY8Vu8cbWF0", "https://app.daily.dev/tags/webdev?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "Module Bundlers",
+    "patterns": ["Webpack"],
+    "responses": ["Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset."],
+    "context_set": ["https://webpack.js.org/", "https://webpack.js.org/concepts/", "valentinog.com/blog/webpack/", "https://app.daily.dev/tags/webpack?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "Module Bundlers",
+    "patterns": ["RollUp"],
+    "responses": ["Rollup is a module bundler for JavaScript which compiles small pieces of code into something larger and more complex, such as a library or application."],
+    "context_set": ["https://rollupjs.org/", "https://www.youtube.com/watch?v=ICYLOZuFMz8", "https://app.daily.dev/tags/webdev?ref=roadmapsh"]
+  },
+
+
+ {
+    "tag": "Module Bundlers",
+    "patterns": ["[Parcel"],
+    "responses": ["Parcel is a web application bundler, differentiated by its developer experience. It offers blazing-fast performance utilizing multicore processing and requires zero configuration."],
+    "context_set": ["https://parceljs.org/plugin-system/bundler/", "https://www.youtube.com/watch?v=hCxvp3_o0gM", "https://app.daily.dev/tags/webdev?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Testing",
+    "patterns": ["Testing your apps"],
+    "responses": ["Before delivering your application to users, you need to be sure that your app meets the requirements it was designed for, and that it doesn’t do any weird, unintended things (called ‘bugs’). To accomplish this, we ‘test’ our applications in different ways."],
+    "context_set": ["https://www.softwaretestingmaterial.com/software-testing/", "https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing", "https://jestjs.io/docs/tutorial-react", "https://app.daily.dev/tags/testing?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Testing",
+    "patterns": ["Jest_g"],
+    "responses": ["Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!"],
+    "context_set": ["https://jestjs.io/", "https://www.youtube.com/watch?v=IPiUDhwnZxA", "https://app.daily.dev/tags/jest?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Testing",
+    "patterns": ["Vitest"],
+    "responses": ["Vitest is a fast Vite-native unit test framework with out-of-box ESM, TypeScript and JSX support. Works on React, Vue, Svelte and more projects created with Vite"],
+    "context_set": ["https://vitest.dev/"]
+  },
+
+ {
+    "tag": "Authentication strategies",
+    "patterns": ["Introduction to the topic"],
+    "responses": ["Authentication strategies are methods or techniques used to verify the identity of a user or system in order to grant access to a protected resource. There are several different authentication strategies that can be used, including: 1.Basic Authentication 2.Session Based Authentication 3.Token Based Authentication 4.JWT Authentication 5.OAuth 6.SSO You don’t necessarily need to learn all of these, how to implement and the ins and outs from the get go. But it’s important to know what they are and how they work. This will help you make better decisions when choosing an authentication strategy for your application."],
+    "context_set": ["https://roadmap.sh/guides/basic-authentication", "https://roadmap.sh/guides/session-authentication", "https://roadmap.sh/guides/token-authentication", "https://roadmap.sh/guides/jwt-authentication", "https://roadmap.sh/guides/oauth", "https://roadmap.sh/guides/sso"]
+  },
+
+ {
+    "tag": "Web Security",
+    "patterns": ["Introduction to the topic"],
+    "responses": ["Web security refers to the protective measures taken by the developers to protect the web applications from threats that could affect the business."],
+    "context_set": ["https://github.com/0xRadi/OWASP-Web-Checklist", "https://web.dev/articles/why-https-matters", "https://en.wikipedia.org/wiki/OWASP", "https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2020/", "https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html", "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP", "https://www.youtube.com/playlist?list=PLH8n_ayg-60J9i3nsLybper-DR3zJw6Z5", "https://app.daily.dev/tags/security?ref=roadmapsh"]
+  },
+
+ {
+    "tag": "Web Security",
+    "patterns": ["CORS"],
+    "responses": ["Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources."],
+    "context_set": ["https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS", "https://rbika.com/blog/understanding-cors", "https://www.youtube.com/watch?v=4KHiSt0oLJ0", "https://www.youtube.com/watch?v=PNtFSVU-YTI"]
+  },
+
+ {
+    "tag": "Web Security",
+    "patterns": ["HTTPS"],
+    "responses": ["HTTPS is a secure way to send data between a web server and a browser.Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is encrypted in order to increase security of data transfer. This is particularly important when users transmit sensitive data, such as by logging into a bank account, email service, or health insurance provider"],
+    "context_set": ["https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/", "https://web.dev/articles/why-https-matters", "https://web.dev/articles/enable-https", "https://howhttps.works/", "https://www.youtube.com/watch?v=hExRDVZHhig", "https://www.youtube.com/watch?v=GoXgl9r0Kjk"]
+  },
+
+{
+    "tag": "Web Security",
+    "patterns": ["Content Security policies"],
+    "responses": ["Content Security Policy is a computer security standard introduced to prevent cross-site scripting, clickjacking and other code injection attacks resulting from execution of malicious content in the trusted web page context."],
+    "context_set": ["https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP", "https://web.dev/articles/csp", "https://web.dev/articles/csp", "https://app.daily.dev/tags/security?ref=roadmapsh"]
+  },
+
+{
+    "tag": "OWASP Security Policies  ",
+    "patterns": ["Introduction "],
+    "responses": ["OWASP or Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security."],
+    "context_set": ["https://github.com/0xRadi/OWASP-Web-Checklist", "https://en.wikipedia.org/wiki/OWASP", "https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2020/", "https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html", "https://thenewstack.io/owasp-top-10-a-guide-to-the-worst-software-vulnerabilities/", "https://app.daily.dev/tags/security?ref=roadmapsh"]
+  },
+
+{
+    "tag": "Web Components",
+    "patterns": ["Introduction "],
+    "responses": ["Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps."],
+    "context_set": ["https://developer.mozilla.org/en-US/docs/Web/API/Web_components", "https://webcomponents.github.io/", "https://www.youtube.com/watch?v=PCWaFLy3VUo", "https://app.daily.dev/tags/web-components?ref=roadmapsh"]
+  },
+
+{
+    "tag": "Web Components",
+    "patterns": ["HTML Templates"],
+    "responses": ["The <template> HTML element is a mechanism for holding HTML that is not to be rendered immediately when a page is loaded but may be instantiated subsequently during runtime using JavaScript. Think of a template as a content fragment that is being stored for subsequent use in the document."],
+    "context_set": ["https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_templates_and_slots", "https://app.daily.dev/tags/html?ref=roadmapsh"]
+  },
+
+{
+    "tag": "Web Components",
+    "patterns": ["Custom Elements"],
+    "responses": ["One of the key features of the Web Components standard is the ability to create custom elements that encapsulate your functionality on an HTML page, rather than having to make do with a long, nested batch of elements that together provide a custom page feature."],
+    "context_set": ["https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements", "https://app.daily.dev/tags/webdev?ref=roadmapsh"]
+  },
+
+{
+    "tag": "Web Components",
+    "patterns": ["Shadow DOM "],
+    "responses": ["An important aspect of web components is encapsulation — being able to keep the markup structure, style, and behavior hidden and separate from other code on the page so that different parts do not clash, and the code can be kept nice and clean. The Shadow DOM API is a key part of this, providing a way to attach a hidden separated DOM to an element."],
+    "context_set": ["https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM", "https://www.youtube.com/watch?v=7Tok22qxPzQ", "https://app.daily.dev/tags/dom?ref=roadmapsh"]
+  },
+
+{
+    "tag": "Type Checkers",
+    "patterns": ["Introduction "],
+    "responses": ["Type checker helps developers write code with fewer bugs by adding types to their code, trying to catch type errors within your code, and then removing them during compile time. Flow and TypeScript are two popular static type checkers for JavaScript."],
+    "context_set": ["https://www.google.com/search?q=type%20checkers%20guide%20for%20frontend%20developer", "https://www.youtube.com/results?search_query=type+checkers+for+frontend+developer"]
+  },
+
+{
+    "tag": "Type Checkers",
+    "patterns": ["Typescript"],
+    "responses": ["TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."],
+    "context_set": ["https://www.typescriptlang.org/", "https://www.typescriptlang.org/docs/handbook/intro.html", "https://www.youtube.com/watch?v=BwuLxPH8IDs", "https://app.daily.dev/tags/typescript?ref=roadmapsh"]
+  },
+
+{
+    "tag": "Server Side Rendering (SSR)",
+    "patterns": ["Server-side rendering refers to the process that the service side completes the HTML structure splicing of the page, sends it to the browser, and then binds the status and events for it to become a fully interactive page."],
+    "responses": ["https://www.educative.io/answers/what-is-server-side-rendering"],
+    "context_set": ["https://www.educative.io/answers/what-is-server-side-rendering", "https://medium.com/@mbleigh/when-should-i-server-side-render-c2a383ff2d0f", "https://vuejs.org/guide/scaling-up/ssr.html", "https://www.youtube.com/watch?v=GQzn7XRdzxY", "https://www.youtube.com/watch?v=okvg3MRAPs0", "https://app.daily.dev/tags/webdev?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "SSR",
+    "patterns": ["React"],
+    "responses": ["React is the most popular front-end JavaScript library for building user interfaces. React can also render on the server using Node and power mobile apps using React Native."],
+    "context_set": ["https://roadmap.sh/react", "https://react.dev/", "https://react.dev/learn/tutorial-tic-tac-toe", "https://www.youtube.com/watch?v=nTeuhbP7wdE", "https://www.youtube.com/watch?v=bMknfKXIFA8", "https://www.youtube.com/watch?v=i793Qm6kv3U", "https://app.daily.dev/tags/react?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "SSR",
+    "patterns": ["React_next.js"],
+    "responses": ["Next.js is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites."],
+    "context_set": ["https://nextjs.org/", "https://nextjs.org/docs", "https://masteringnextjs.com/", "https://www.youtube.com/watch?v=KjY94sAKLlw", "https://www.youtube.com/watch?v=h2BcitZPMn4", "https://app.daily.dev/tags/javascript?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "SSR",
+    "patterns": ["React_Astro"],
+    "responses": ["Astro is an all-in-one web framework for building fast, content-focused websites. Astro combines the power of a modern component-based framework with the performance and flexibility of a static site generator. 1.Component Islands: A new web architecture for building faster websites. 2.Server-first API design: Move expensive hydration off of your users’ devices. 3.Zero JS, by default: No JavaScript runtime overhead to slow you down. 4.Edge-ready: Deploy anywhere, even a global edge runtime like Deno or Cloudflare. 5.Customizable: Tailwind, MDX, and 100+ other integrations to choose from. 6.UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."],
+    "context_set": ["https://astro.build/", "https://docs.astro.build/en/getting-started/", "https://www.google.com/search?q=astro%20guide%20for%20frontend%20developer", "https://www.youtube.com/results?search_query=astro+for+frontend+developer"]
+  },
+
+
+{
+    "tag": "SSR",
+    "patterns": ["React_React-router"],
+    "responses": ["There used to be Remix in this list but they announced to merge Remix into react-router after v7."],
+    "context_set": ["https://remix.run/", "https://remix.run/docs/en/1.19.3#getting-started", "https://www.google.com/search?q=react-router%20guide%20for%20frontend%20developer", "youtube.com/results?search_query=react-router+for+frontend+developer"]
+  },
+
+
+{
+    "tag": "SSR",
+    "patterns": ["Angular"],
+    "responses": ["Angular is a component based front-end development framework built on TypeScript which includes a collection of well-integrated libraries that include features like routing, forms management, client-server communication, and more."],
+    "context_set": ["https://v17.angular.io/start", "https://app.daily.dev/tags/angular?ref=roadmapsh", "https://www.google.com/search?q=angular%20guide%20for%20frontend%20developer", "https://www.youtube.com/results?search_query=angular+for+frontend+developer"]
+  },
+
+
+{
+    "tag": "SSR",
+    "patterns": ["Vue.js"],
+    "responses": ["Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications. It is mainly focused on front end development."],
+    "context_set": ["https://vuejs.org/", "https://vuejs.org/guide/introduction.html", "https://thenewstack.io/meet-vue-js-flexible-javascript-framework/", "youtube.com/watch?v=FXpIoQ_rT_c", "https://www.youtube.com/watch?v=qZXt1Aom3Cs", "https://app.daily.dev/tags/vuejs?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "SSR",
+    "patterns": ["Angular_Nuxt.js"],
+    "responses": ["Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js."],
+    "context_set": ["https://nuxt.com/", "https://v2.nuxt.com/docs/get-started/installation/", "https://v2.nuxt.com/tutorials/", "https://www.youtube.com/watch?v=Nf51xpiCMoo&list=PLzlG0L9jlhENcUiAQU1x95sBLLCUihwIX", "https://vueschool.io/courses/nuxtjs-fundamentals", "https://app.daily.dev/tags/javascript?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "SSR",
+    "patterns": ["Svelte"],
+    "responses": ["Svelte is a javascript framework that unlike Vue and React does not use vertical DOM diffing but instead knows exactly what and where to update when the state changes. It’s mainly focused on frontend and building user interfaces."],
+    "context_set": ["https://svelte.dev/", "https://svelte.dev/docs/introduction", "https://thenewstack.io/all-about-svelte-the-much-loved-state-driven-web-framework/", "https://thenewstack.io/svelte-and-the-future-of-front-end-development/", "https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO", "https://app.daily.dev/tags/svelte?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "SSR",
+    "patterns": ["Svelte_Sveltekit"],
+    "responses": ["Svelte Kit is a framework for building web applications with the Svelte JavaScript framework. It is designed to be a complete solution for building web applications, with support for server-side rendering, automatic code splitting, and optimized performance."],
+    "context_set": ["https://kit.svelte.dev/", "https://kit.svelte.dev/docs/introduction", "https://app.daily.dev/tags/svelte?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "GraphQL",
+    "patterns": ["Introduction to the topic"],
+    "responses": ["GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools."],
+    "context_set": ["https://graphql.org/learn/", "https://www.howtographql.com/", "https://www.apollographql.com/tutorials/", "https://thenewstack.io/introduction-to-graphql/", "https://thenewstack.io/how-to-execute-a-simple-graphql-query/", "https://www.youtube.com/watch?v=ed8SzALpx1Q", "https://app.daily.dev/tags/graphql?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "GraphQL",
+    "patterns": ["Apollo_p"],
+    "responses": ["Apollo is a platform for building a unified graph, a communication layer that helps you manage the flow of data between your application clients (such as web and native apps) and your back-end services."],
+    "context_set": ["https://www.apollographql.com/", "https://www.apollographql.com/docs/", "https://www.youtube.com/c/ApolloGraphQL", "https://www.youtube.com/watch?v=YyUWW04HwKY", "https://app.daily.dev/tags/apollo?ref=roadmapsh"]
+  },
+
+{
+    "tag": "GraphQL",
+    "patterns": ["Relay Modern_g"],
+    "responses": ["Relay is a JavaScript client used in the browser to fetch GraphQL data. It’s a JavaScript framework developed by Facebook for managing and fetching data in React applications. It is built with scalability in mind in order to power complex applications like Facebook. The ultimate goal of GraphQL and Relay is to deliver instant UI-response interactions."],
+    "context_set": ["https://relay.dev/", "https://relay.dev/docs/", "https://www.google.com/search?q=relay%20modern%20guide%20for%20frontend%20developer", "https://www.youtube.com/results?search_query=relay+modern+for+frontend+developer"]
+  },
+
+
+{
+    "tag": "PWA",
+    "patterns": ["Introduction "],
+    "responses": ["Progressive Web Apps (PWAs) are websites that are progressively enhanced to function like installed, native apps on supporting platforms, while functioning like regular websites on other browsers."],
+    "context_set": ["https://web.dev/learn/pwa/", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps", "https://www.amitmerchant.com/Building-Simple-Offline-Notepad-Using-Service-Worker/", "https://www.youtube.com/watch?v=sFsRylCQblw", "https://app.daily.dev/tags/webdev?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "PWA",
+    "patterns": ["PRPL Model"],
+    "responses": ["The PRPL pattern is a performance optimization pattern for web applications that focuses on minimizing the time it takes for the initial rendering of a web page. It stands for Push, Render, Pre-cache, and Lazy-load, and it involves the following steps: 1.Push: Prioritize the delivery of critical resources, such as HTML, CSS, and JavaScript, to the client as early as possible. 2.Render: Start rendering the web page as soon as the critical resources are received, even if some non-critical resources are still being downloaded. 3.Pre-cache: Pre-cache non-critical resources in the background so that they are available when needed. 4.Lazy-load: Defer the loading of non-critical resources until they are needed, such as when the user scrolls to them or interacts with them. The PRPL pattern is designed to improve the perceived performance of a web page by reducing the time it takes for the page to become interactive. It is particularly useful for applications that are served over slow or unreliable networks, as it allows the page to render as quickly as possible and then gradually load the remaining resources."],
+    "context_set": ["https://web.dev/articles/apply-instant-loading-with-prpl", "https://www.google.com/search?q=prpl%20pattern%20guide%20for%20frontend%20developer", "https://www.youtube.com/results?search_query=prpl+pattern+for+frontend+developer"]
+  },
+
+{
+    "tag": "PWA",
+    "patterns": ["Rail Model"],
+    "responses": ["The RAIL model is a performance optimization model for web applications that focuses on improving the perceived performance of a web page. It stands for Response, Animation, Idle, and Load, and it involves the following four performance goals: 1.Response: The time it takes for the web page to respond to user input should be under 100 milliseconds. 2.Animation: The time it takes for an animation to run should be under 10 milliseconds. 3.Idle: The web page should take advantage of idle time to perform non-critical tasks. 4.Load: The time it takes for the web page to fully load should be under 1 second. The RAIL model is designed to provide a framework for optimizing the performance of a web page by focusing on the four key areas that impact the user’s perception of performance. It is particularly useful for applications that require high levels of interactivity, such as games and social media applications."],
+    "context_set": ["https://web.dev/articles/rail", "https://www.google.com/search?q=rail%20model%20guide%20for%20frontend%20developer", "https://www.youtube.com/results?search_query=rail+model+for+frontend+developer"]
+  },
+
+
+
+{
+    "tag": "PWA",
+    "patterns": ["Performance Metrics"],
+    "responses": ["Web performance metrics are quantitative measures of the performance of a web page or application. They are used to assess the speed and efficiency of a web page, and they can help identify areas for improvement. Some common web performance metrics include: 1.Load time: The time it takes for a web page to fully load and become interactive. 2.First contentful paint (FCP): The time it takes for the first content to appear on the page. 3.Time to interactive (TTI): The time it takes for the page to become fully interactive. 4.First input delay (FID): The time it takes for the page to respond to the first user input. 5.Total blocking time (TBT): The time it takes for the page to become fully interactive, taking into account the time spent blocking the main thread. There are many tools and techniques available for measuring web performance metrics, including browser dev tools, performance monitoring tools, and web performance APIs. By tracking these metrics and analyzing the results, web developers can identify areas for improvement and optimize the performance of their web pages."],
+    "context_set": ["https://web.dev/articles/user-centric-performance-metrics", "https://web.dev/explore/metrics", "https://developer.mozilla.org/en-US/docs/Web/Performance", "https://app.daily.dev/tags/performance?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "PWA",
+    "patterns": ["Using Lighthouse"],
+    "responses": ["Lighthouse is an open-source tool developed by Google that is used to audit the performance, accessibility, and SEO of web pages. It is available as a browser extension and as a command-line tool, and it can be run on any web page to generate a report with recommendations for improvement. Lighthouse works by simulating the load and interaction of a web page and measuring various performance metrics, such as load time, time to first paint, and time to interactive. It also checks for common issues such as incorrect image sizes, missing alt text, and broken links. Lighthouse provides a comprehensive and easy-to-use tool for identifying and fixing performance and accessibility issues on web pages. It is widely used by web developers and is integrated into many popular development tools."],
+    "context_set": ["https://developer.chrome.com/docs/lighthouse/overview/", "https://www.youtube.com/watch?v=5fLW5Q5ODiE", "https://app.daily.dev/tags/lighthouse?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "PWA",
+    "patterns": ["Using DEV Tools"],
+    "responses": ["Most of the browsers have built-in developer tools that help you perform web development specific tasks on a webpage. My personal recommendation would be to use Chrome DevTools as it is the most advanced and has the most features. However, if you are using a different browser, you can still use the DevTools to debug your web application. Chrome DevTools is a set of web development tools built into the Google Chrome browser. It allows web developers to debug and optimize web pages by providing a range of features for inspecting and manipulating the page’s HTML, CSS, and JavaScript. Some of the features provided by Chrome DevTools include: 1.Elements panel: Inspect and modify the page’s HTML and CSS. 2.Console panel: View and debug JavaScript errors and log messages. 3.Network panel: Monitor network requests and responses, and analyze performance issues. 4.Performance panel: Analyze the performance of the page and identify bottlenecks. 5.Application panel: Inspect the page’s resources, such as cookies and local storage. Chrome DevTools is a powerful and essential tool for web developers, and it is widely used to debug and optimize web pages. It is constantly updated with new features and improvements, and it is available on all modern web browsers."],
+    "context_set": ["https://www.google.com/search?q=browser%20devtools%20guide%20for%20frontend%20developer", "https://www.youtube.com/results?search_query=browser+devtools+for+frontend+developer", "https://developer.chrome.com/docs/devtools/", "https://app.daily.dev/tags/devtools?ref=roadmapsh"]
+  },
+
+{
+    "tag": "Static site generator",
+    "patterns": ["A static site generator is a tool that generates a full static HTML website based on raw data and a set of templates. Essentially, a static site generator automates the task of coding individual HTML pages and gets those pages ready to serve to users ahead of time. Because these HTML pages are pre-built, they can load very quickly in users’ browsers."],
+    "responses": [""],
+    "context_set": ["https://www.cloudflare.com/learning/performance/static-site-generator/", "https://nextjs.org/docs/pages/building-your-application/deploying/static-exports", "https://www.gatsbyjs.com/docs/glossary/static-site-generator/", "https://www.smashingmagazine.com/2021/10/building-ssg-11ty-vite-jam-sandwich/", "https://thenewstack.io/get-back-basics-static-website-generators/", "https://app.daily.dev/tags/webdev?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "Static site generator",
+    "patterns": ["Next.js"],
+    "responses": ["Next.js is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites."],
+    "context_set": ["https://nextjs.org/", "https://nextjs.org/docs", "https://masteringnextjs.com/", "https://masteringnextjs.com/", "https://www.youtube.com/watch?v=1WmNXEVia8I", "https://app.daily.dev/tags/javascript?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "Static site generator",
+    "patterns": ["Astro_p"],
+    "responses": ["Astro is an all-in-one web framework for building fast, content-focused websites. Astro combines the power of a modern component-based framework with the performance and flexibility of a static site generator. 1.Component Islands: A new web architecture for building faster websites. 2.Server-first API design: Move expensive hydration off of your users’ devices. 3.Zero JS, by default: No JavaScript runtime overhead to slow you down. 4.Edge-ready: Deploy anywhere, even a global edge runtime like Deno or Cloudflare. 5.Customizable: Tailwind, MDX, and 100+ other integrations to choose from. 6.UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."],
+    "context_set": ["https://astro.build/", "https://docs.astro.build/en/getting-started/", "https://www.google.com/search?q=astro%20guide%20for%20frontend%20developer", "https://www.youtube.com/results?search_query=astro+for+frontend+developer"]
+  },
+
+
+{
+    "tag": "Static site generator",
+    "patterns": ["Vuepress"],
+    "responses": ["VuePress is composed of two parts: a minimalistic static site generator (opens new window)with a Vue-powered theming system and Plugin API, and a default theme optimized for writing technical documentation. It was created to support the documentation needs of Vue’s own sub projects."],
+    "context_set": ["https://vuepress.vuejs.org/", "https://vuepress.vuejs.org/guide/getting-started.html", "https://www.youtube.com/watch?v=lIv1ItUzktc", "https://app.daily.dev/tags/vuejs?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "Static site generator",
+    "patterns": ["Eleventy"],
+    "responses": ["Eleventy (11ty) is a simple to use, easy to customize, highly performant and powerful static site generator with a helpful set of plugins (e.g. navigation, build-time image transformations, cache assets). Pages can be built and written with a variety of template languages (HTML, Markdown, JavaScript, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug or JS template literals). But it also offers the possibility to dynamically create pages from local data or external sources that are compiled at build time. It has zero client-side JavaScript dependencies."],
+    "context_set": ["https://www.11ty.dev/", "https://11ty.rocks/", "https://www.youtube.com/watch?v=-dM6AmNmMFA"]
+  },
+
+
+{
+    "tag": "Static site generator",
+    "patterns": ["Nuxt.js"],
+    "responses": ["Nuxt.js is an open-source development framework built on top of Node.js enabling Vue based web applications functionalities such as server-side rendering and generating static websites."],
+    "context_set": ["https://nuxt.com/", "https://v2.nuxt.com/docs/get-started", "https://masteringnuxt.com/", "https://www.youtube.com/watch?v=FXpIoQ_rT_c", "https://app.daily.dev/tags/javascript?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "Mobile Applications",
+    "patterns": ["Introduction to the topic"],
+    "responses": ["A while back, developing a mobile app using JavaScript was impossible. But now JavaScript developers can create mobile applications using their knowledge for web development. Here is the list of options to create mobile applications in JavaScript."],
+    "context_set": ["https://reactnative.dev/", "https://flutter.dev/", "https://ionicframework.com/", "https://nativescript.org/", "https://app.daily.dev/tags/mobile?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "Mobile Applications",
+    "patterns": ["Ionic"],
+    "responses": ["Ionic framework is an open-source UI toolkit for building performant, high-quality mobile apps, desktop apps, and progressive web apps using web technologies such as HTML, CSS, and JavaScript."],
+    "context_set": ["https://ionicframework.com/", "https://ionicframework.com/docs", "https://www.youtube.com/watch?v=AvbuIRg8_Jg", "https://app.daily.dev/tags/ionic?ref=roadmapsh"]
+  },
+
+
+
+{
+    "tag": "Mobile Application",
+    "patterns": ["React Native"],
+    "responses": ["React Native is a popular JavaScript-based mobile app framework that allows you to build natively-rendered mobile apps for iOS and Android. The framework lets you create an application for various platforms by using the same codebase."],
+    "context_set": ["https://reactnative.dev/", "https://reactnative.dev/docs/getting-started", "https://app.daily.dev/tags/react?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "Mobile Application",
+    "patterns": ["Flutter"],
+    "responses": ["Flutter is a free and open-source mobile UI framework created by Google and released in May 2017. In a few words, it allows you to create a native mobile application with only one codebase. This means that you can use one programming language and one codebase to create two different apps (for iOS and Android). Flutter consists of two important parts: An SDK (Software Development Kit): A collection of tools that are going to help you develop your applications. This includes tools to compile your code into native machine code (code for iOS and Android). A Framework (UI Library based on widgets): A collection of reusable UI elements (buttons, text inputs, sliders, and so on) that you can personalize for your own needs. To develop with Flutter, you will use a programming language called Dart. The language was created by Google in October 2011, but it has improved a lot over these past years.
+Dart focuses on front-end development, and you can use it to create mobile and web applications. If you know a bit of programming, Dart is a typed object programming language. You can compare Dart’s syntax to JavaScript."],
+    "context_set": ["https://roadmap.sh/flutter", "https://flutter.dev/", "https://www.tutorialspoint.com/dart_programming/index.htm", "https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ", "https://app.daily.dev/tags/flutter?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "Desktop apps",
+    "patterns": ["Desktop Applications in JavaScript"],
+    "responses": ["A while back, developing a desktop app using JavaScript was impossible. But now JavaScript developers can create desktop applications using their knowledge for web development. Here is the list of options to create desktop applications in JavaScript."],
+    "context_set": ["https://www.electronjs.org/", "https://docs.nodegui.org/", "https://nwjs.io/", "https://www.meteor.com/"]
+  },
+
+
+{
+    "tag": "Desktop apps",
+    "patterns": ["Electron"],
+    "responses": ["Electron allows you to build cross-platform desktop applications with HTML, CSS, and Javascript/Typescript. It uses Chromium and Node.js, so essentially it is a “Browser” like application that is compatible with Mac, Windows, and Linux."],
+    "context_set": ["https://www.electronjs.org/", "https://www.electronjs.org/docs/latest/", "https://www.youtube.com/watch?v=ML743nrkMHw", "https://app.daily.dev/tags/electron?ref=roadmapsh"]
+  },
+
+
+{
+    "tag": "Desktop apps",
+    "patterns": ["Tauri"],
+    "responses": ["Tauri is a toolkit that helps developers make applications for the major desktop platforms - using virtually any frontend framework in existence. The core is built with Rust, and the CLI leverages Node.js making Tauri a genuinely polyglot approach to creating and maintaining great apps."],
+    "context_set": ["https://tauri.app/", "https://tauri.app/v1/guides/", "https://thenewstack.io/how-tauri-turns-web-designs-into-compact-native-apps/"]
+  },
+
+
+{
+    "tag": "Desktop apps",
+    "patterns": ["Flutter"],
+    "responses": ["Flutter is a free and open-source mobile UI framework created by Google and released in May 2017. In a few words, it allows you to create a native mobile application with only one codebase. This means that you can use one programming language and one codebase to create two different apps (for iOS and Android). Flutter consists of two important parts: An SDK (Software Development Kit): A collection of tools that are going to help you develop your applications. This includes tools to compile your code into native machine code (code for iOS and Android). A Framework (UI Library based on widgets): A collection of reusable UI elements (buttons, text inputs, sliders, and so on) that you can personalize for your own needs. To develop with Flutter, you will use a programming language called Dart. The language was created by Google in October 2011, but it has improved a lot over these past years.
+Dart focuses on front-end development, and you can use it to create mobile and web applications. If you know a bit of programming, Dart is a typed object programming language. You can compare Dart’s syntax to JavaScript."],
+    "context_set": ["https://roadmap.sh/flutter", "https://flutter.dev/", "https://www.tutorialspoint.com/dart_programming/index.htm", "https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ", "https://app.daily.dev/tags/flutter?ref=roadmapsh"]
+  },
+
+  {
+    "tag": "OContinue Learning",
+    "patterns": ["TypeScript"],
+    "responses": ["Roadmap Linked"],
+    "context_set": ["https://roadmap.sh/typescript"]
+  },
+
+  {
+    "tag": "Continue Learning",
+    "patterns": ["Node.js"],
+    "responses": ["Roadmap Linked"],
+    "context_set": ["https://roadmap.sh/nodejs"]
+  }
+
+  {
+    "tag": "Continue Learning",
+    "patterns": ["full-stack"],
+    "responses": ["Roadmap Linked"],
+    "context_set": ["https://roadmap.sh/full-stack"]
+  }
+
+
+
+
+
+
