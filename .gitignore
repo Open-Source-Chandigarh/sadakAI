@@ -1,0 +1,14 @@
+test.py
+.vscode
+settup.py
+.vscode/
+.idea/
+.workshop/
+__pycache__/
+checkpoints/
+model/02_tokenization/__pycache__/
+model/03_pretraining/__pycache__/
+model/04_weightloading/__pycache__/
+model/04_weightloading/gpt2/
+model/04_weightloading/checkpoints/
+model/05_finetuning/checkpoints/
