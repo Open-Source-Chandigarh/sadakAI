@@ -1,0 +1,596 @@
+[
+    {
+      "instruction": "Intro to internet",
+      "output": "The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols. Learn more here: https://cs.fyi/guide/how-does-internet-work"
+    },
+    {
+      "instruction": "What is the internet?",
+      "output": "The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols. Learn more here: https://cs.fyi/guide/how-does-internet-work"
+    },
+    {
+      "instruction": "Explain the internet",
+      "output": "The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols. Learn more here: https://cs.fyi/guide/how-does-internet-work"
+    },
+    {
+      "instruction": "Intro to HTTP",
+      "output": "HTTP is the TCP/IP based application layer communication protocol which standardizes how the client and server communicate with each other. It defines how the content is requested and transmitted across the internet. Learn more: https://cs.fyi/guide/http-in-depth"
+    },
+    {
+      "instruction": "What is HTTP?",
+      "output": "HTTP is the TCP/IP based application layer communication protocol which standardizes how the client and server communicate with each other. It defines how the content is requested and transmitted across the internet. Learn more: https://cs.fyi/guide/http-in-depth"
+    },
+    {
+      "instruction": "Explain HTTP",
+      "output": "HTTP is the TCP/IP based application layer communication protocol which standardizes how the client and server communicate with each other. It defines how the content is requested and transmitted across the internet. Learn more: https://cs.fyi/guide/http-in-depth"
+    },
+    {
+      "instruction": "Intro to Domain Name",
+      "output": "A domain name is a unique, easy-to-remember address used to access websites, such as ‘google.com’, and ‘facebook.com’. Users can connect to websites using domain names thanks to the DNS system. Learn more: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name"
+    },
+    {
+      "instruction": "What is a domain name?",
+      "output": "A domain name is a unique, easy-to-remember address used to access websites, such as ‘google.com’, and ‘facebook.com’. Users can connect to websites using domain names thanks to the DNS system. Learn more: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name"
+    },
+    {
+      "instruction": "Explain domain name",
+      "output": "A domain name is a unique, easy-to-remember address used to access websites, such as ‘google.com’, and ‘facebook.com’. Users can connect to websites using domain names thanks to the DNS system. Learn more: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name"
+    },
+    {
+      "instruction": "Intro to Hosting",
+      "output": "Web hosting is an online service that allows you to publish your website files onto the internet. So, anyone who has access to the internet has access to your website. Learn more: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines"
+    },
+    {
+      "instruction": "What is web hosting?",
+      "output": "Web hosting is an online service that allows you to publish your website files onto the internet. So, anyone who has access to the internet has access to your website. Learn more: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines"
+    },
+    {
+      "instruction": "Explain web hosting",
+      "output": "Web hosting is an online service that allows you to publish your website files onto the internet. So, anyone who has access to the internet has access to your website. Learn more: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines"
+    },
+    {
+      "instruction": "Intro to DNS and How it works?",
+      "output": "The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources. Learn more: https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
+    },
+    {
+      "instruction": "What is DNS?",
+      "output": "The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources. Learn more: https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
+    },
+    {
+      "instruction": "Explain DNS",
+      "output": "The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources. Learn more: https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
+    },
+    {
+        "instruction": "Intro to Browsers and how they work",
+        "output": "A web browser is a software application that enables a user to access and display web pages or other online content through its graphical user interface. Learn more: https://web.dev/articles/howbrowserswork"
+      },
+      {
+        "instruction": "What is a browser?",
+        "output": "A web browser is a software application that enables a user to access and display web pages or other online content through its graphical user interface. Learn more: https://web.dev/articles/howbrowserswork"
+      },
+      {
+        "instruction": "Explain browser",
+        "output": "A web browser is a software application that enables a user to access and display web pages or other online content through its graphical user interface. Learn more: https://web.dev/articles/howbrowserswork"
+      },
+      {
+        "instruction": "Intro to Browsers and how they work",
+        "output": "A web browser is a software application that enables a user to access and display web pages or other online content. More info: https://www.browserstack.com/guide/browser-rendering-engine"
+      },
+      {
+        "instruction": "What is a browser?",
+        "output": "A web browser is a software application that enables a user to access and display web pages or other online content. More info: https://www.browserstack.com/guide/browser-rendering-engine"
+      },
+      {
+        "instruction": "Explain browser",
+        "output": "A web browser is a software application that enables a user to access and display web pages or other online content. More info: https://www.browserstack.com/guide/browser-rendering-engine"
+      },
+      {
+        "instruction": "Intro to HTML",
+        "output": "HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript. Learn more: https://www.w3schools.com/html/html_intro.asp"
+      },
+      {
+        "instruction": "What is HTML?",
+        "output": "HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript. Learn more: https://www.w3schools.com/html/html_intro.asp"
+      },
+      {
+        "instruction": "Explain HTML",
+        "output": "HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript. Learn more: https://www.w3schools.com/html/html_intro.asp"
+      },
+      {
+        "instruction": "Intro to HTML",
+        "output": "HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage. More info: https://www.youtube.com/watch?v=mJgBOIoGihA"
+      },
+      {
+        "instruction": "What is HTML?",
+        "output": "HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage. More info: https://www.youtube.com/watch?v=mJgBOIoGihA"
+      },
+      {
+        "instruction": "Explain HTML",
+        "output": "HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage. More info: https://www.youtube.com/watch?v=mJgBOIoGihA"
+      },
+      {
+        "instruction": "Learn the Basics",
+        "output": "HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript. Learn more: https://www.w3schools.com/html/html_intro.asp"
+      },
+      {
+        "instruction": "HTML Basics",
+        "output": "HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript. Learn more: https://www.w3schools.com/html/html_intro.asp"
+      },
+      {
+        "instruction": "Basic HTML",
+        "output": "HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript. Learn more: https://www.w3schools.com/html/html_intro.asp"
+      },
+      {
+        "instruction": "Learn the Basics",
+        "output": "HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage. More info: https://web.dev/learn/html"
+      },
+      {
+        "instruction": "HTML Basics",
+        "output": "HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage. More info: https://web.dev/learn/html"
+      },
+      {
+        "instruction": "Basic HTML",
+        "output": "HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage. More info: https://web.dev/learn/html"
+      },
+      {
+        "instruction": "Semantic HTML",
+        "output": "Semantic element clearly describes its meaning to both the browser and the developer. In HTML, semantic element are the type of elements that can be used to define different parts of a web page such as <form>, <table>, <article>, <header>, <footer>, etc. Learn more: https://cs.fyi/guide/writing-semantic-html"
+      },
+      {
+        "instruction": "What is Semantic HTML?",
+        "output": "Semantic element clearly describes its meaning to both the browser and the developer. In HTML, semantic element are the type of elements that can be used to define different parts of a web page such as <form>, <table>, <article>, <header>, <footer>, etc. Learn more: https://cs.fyi/guide/writing-semantic-html"
+      },
+      {
+        "instruction": "Explain Semantic HTML",
+        "output": "Semantic element clearly describes its meaning to both the browser and the developer. In HTML, semantic element are the type of elements that can be used to define different parts of a web page such as <form>, <table>, <article>, <header>, <footer>, etc. Learn more: https://cs.fyi/guide/writing-semantic-html"
+      },
+      {
+        "instruction": "Semantic HTML",
+        "output": "Semantic element clearly describes its meaning to both the browser and the developer. More info: https://www.w3schools.com/html/html5_semantic_elements.asp"
+      },
+      {
+        "instruction": "What is Semantic HTML?",
+        "output": "Semantic element clearly describes its meaning to both the browser and the developer. More info: https://www.w3schools.com/html/html5_semantic_elements.asp"
+      },
+      {
+        "instruction": "Explain Semantic HTML",
+        "output": "Semantic element clearly describes its meaning to both the browser and the developer. More info: https://www.w3schools.com/html/html5_semantic_elements.asp"
+      },
+      {
+        "instruction": "Forms and Validations",
+        "output": "Before submitting data to the server, it is important to ensure all required form controls are filled out, in the correct format. This is called client-side form validation, and helps ensure data submitted matches the requirements set forth in the various form controls. Learn more: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation"
+      },
+      {
+        "instruction": "HTML Forms",
+        "output": "Before submitting data to the server, it is important to ensure all required form controls are filled out, in the correct format. This is called client-side form validation, and helps ensure data submitted matches the requirements set forth in the various form controls. Learn more: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation"
+      },
+      {
+        "instruction": "Form Validation",
+        "output": "Before submitting data to the server, it is important to ensure all required form controls are filled out, in the correct format. This is called client-side form validation, and helps ensure data submitted matches the requirements set forth in the various form controls. Learn more: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation"
+      },
+      {
+        "instruction": "Forms and Validations",
+        "output": "Before submitting data to the server, it is important to ensure all required form controls are filled out, in the correct format. More info: https://web.dev/learn/forms/"
+      },
+      {
+        "instruction": "HTML Forms",
+        "output": "Before submitting data to the server, it is important to ensure all required form controls are filled out, in the correct format. More info: https://web.dev/learn/forms/"
+      },
+      {
+        "instruction": "Form Validation",
+        "output": "Before submitting data to the server, it is important to ensure all required form controls are filled out, in the correct format. More info: https://web.dev/learn/forms/"
+      },
+      {
+        "instruction": "Accessibility",
+        "output": "Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily. Learn more: https://www.w3.org/WAI/tips/developing/"
+      },
+      {
+        "instruction": "Web Accessibility",
+        "output": "Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily. Learn more: https://www.w3.org/WAI/tips/developing/"
+      },
+      {
+        "instruction": "Explain Accessibility",
+        "output": "Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily. Learn more: https://www.w3.org/WAI/tips/developing/"
+      },
+      {
+        "instruction": "Accessibility",
+        "output": "Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily. More info: https://www.w3schools.com/accessibility/index.php"
+      },
+      {
+        "instruction": "Web Accessibility",
+        "output": "Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily. More info: https://www.w3schools.com/accessibility/index.php"
+      },
+      {
+        "instruction": "Explain Accessibility",
+        "output": "Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily. More info: https://www.w3schools.com/accessibility/index.php"
+      },
+      {
+        "instruction": "Basics of SEO",
+        "output": "SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines such as Google, Bing etc. Learn more: https://developers.google.com/search/docs"
+      },
+      {
+        "instruction": "What is SEO?",
+        "output": "SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines such as Google, Bing etc. Learn more: https://developers.google.com/search/docs"
+      },
+      {
+        "instruction": "Explain SEO",
+        "output": "SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines such as Google, Bing etc. Learn more: https://developers.google.com/search/docs"
+      },
+      {
+        "instruction": "Basics of SEO",
+        "output": "SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines. More info: https://www.youtube.com/watch?v=xsVTqzratPs"
+      },
+      {
+        "instruction": "What is SEO?",
+        "output": "SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines. More info: https://www.youtube.com/watch?v=xsVTqzratPs"
+      },
+      {
+        "instruction": "Explain SEO",
+        "output": "SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines. More info: https://www.youtube.com/watch?v=xsVTqzratPs"
+      },
+      {
+        "instruction": "Intro to CSS",
+        "output": "CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. Learn more: https://www.w3schools.com/css/"
+      },
+      {
+        "instruction": "What is CSS?",
+        "output": "CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. Learn more: https://www.w3schools.com/css/"
+      },
+      {
+        "instruction": "Explain CSS",
+        "output": "CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. Learn more: https://www.w3schools.com/css/"
+      },
+      {
+        "instruction": "Intro to CSS",
+        "output": "CSS or Cascading Style Sheets is the language used to style the frontend of any website. More info: https://web.dev/learn/css/"
+      },
+      {
+        "instruction": "What is CSS?",
+        "output": "CSS or Cascading Style Sheets is the language used to style the frontend of any website. More info: https://web.dev/learn/css/"
+      },
+      {
+        "instruction": "Explain CSS",
+        "output": "CSS or Cascading Style Sheets is the language used to style the frontend of any website. More info: https://web.dev/learn/css/"
+      },
+      {
+        "instruction": "CSS BASICS",
+        "output": "CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. Learn more: https://www.w3schools.com/css/"
+      },
+      {
+        "instruction": "What is CSS?",
+        "output": "CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. Learn more: https://www.w3schools.com/css/"
+      },
+      {
+        "instruction": "Explain CSS",
+        "output": "CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. Learn more: https://www.w3schools.com/css/"
+      },
+      {
+        "instruction": "CSS BASICS",
+        "output": "CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. More info: https://web.dev/learn/css/"
+      },
+      {
+        "instruction": "What is CSS?",
+        "output": "CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. More info: https://web.dev/learn/css/"
+      },
+      {
+        "instruction": "Explain CSS",
+        "output": "CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. More info: https://web.dev/learn/css/"
+      },
+      {
+        "instruction": "Intro to Javascript",
+        "output": "JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on. Learn more: https://roadmap.sh/javascript"
+      },
+      {
+        "instruction": "What is Javascript?",
+        "output": "JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on. Learn more: https://roadmap.sh/javascript"
+      },
+      {
+        "instruction": "Explain Javascript",
+        "output": "JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on. Learn more: https://roadmap.sh/javascript"
+      },
+      {
+        "instruction": "Intro to Javascript",
+        "output": "JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on. More info: https://javascript.info/"
+      },
+      {
+        "instruction": "What is Javascript?",
+        "output": "JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on. More info: https://javascript.info/"
+      },
+      {
+        "instruction": "Explain Javascript",
+        "output": "JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on. More info: https://javascript.info/"
+      },
+      {
+        "instruction": "What is Vue.js g?",
+        "output": ["Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications. It is mainly focused on front end development."]
+    },
+    {
+        "instruction": "What is Angular?",
+        "output": ["Angular is a component based front-end development framework built on TypeScript which includes a collection of well-integrated libraries that include features like routing, forms management, client-server communication, and more."]
+    },
+    {
+        "instruction": "What is Svelte g?",
+        "output": ["Svelte is a javascript framework that unlike Vue and React does not use vertical DOM diffing but instead knows exactly what and where to update when the state changes. It’s mainly focused on frontend and building user interfaces."]
+    },
+    {
+        "instruction": "What is Solid JS g?",
+        "output": ["Solid is a reactive JavaScript toolkit for building user interfaces without a virtual DOM. To ensure that only the relevant code is executed when a state update occurs, it compiles templates down to real DOM nodes once and wraps modifications into fine-grained reactions."]
+    },
+    {
+        "instruction": "What is Introduction?",
+        "output": ["The way we write CSS in our modern front-end applications is completely different from how we used to write CSS before. There are methods such as Styled Components, CSS Modules, Styled JSX, Emotion, etc"]
+    },
+    {
+        "instruction": "What is Tailwind?",
+        "output": ["CSS Framework that provides atomic CSS classes to help you style components e.g. flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup."]
+    },
+    {
+        "instruction": "What is Introduction to the CSS Architecture?",
+        "output": ["CSS is notoriously difficult to manage in large, complex, rapidly-iterated systems. There are different ways of writing CSS that allows in writing more maintainable CSS."]
+    },
+    {
+        "instruction": "What is BEM?",
+        "output": ["The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS. Developed by the team at Yandex, its goal is to help developers better understand the relationship between the HTML and CSS in a given project."]
+    },
+    {
+        "instruction": "What is Introduction?",
+        "output": ["CSS Preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations."]
+    },
+    {
+        "instruction": "What is Sass?",
+        "output": ["Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. It lets you write maintainable CSS and provides features like variable, nesting, mixins, extension, functions, loops, conditionals and so on."]
+    },
+    {
+        "instruction": "What is Post CSS?",
+        "output": ["PostCSS is a tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more."]
+    },
+    {
+        "instruction": "What is Introduction to the Build Tools?",
+        "output": ["Task runners automatically execute commands and carry out processes behind the scenes. This helps automate your workflow by performing mundane, repetitive tasks that you would otherwise waste an egregious amount of time repeating yourself. Common usages of task runners include numerous development tasks such as: spinning up development servers, compiling code (ex. SCSS to CSS), running linters, serving files up from a local port on your computer, and many more!"]
+    },
+    {
+      "instruction": "What is Introduction to Linter Formatters?",
+      "output": ["A linter is a tool used to analyze code and discover bugs, syntax errors, stylistic inconsistencies, and suspicious constructs. Popular linters for JavaScript include ESLint, JSLint, and JSHint."]
+    },
+    {
+        "instruction": "What is Prettier?",
+        "output": ["Prettier is an opinionated code formatter with support for JavaScript, HTML, CSS, YAML, Markdown, GraphQL Schemas. By far the biggest reason for adopting Prettier is to stop all the on-going debates over styles."]
+    },
+    {
+        "instruction": "What is ESLint?",
+        "output": ["With ESLint you can impose the coding standard using a certain set of standalone rules."]
+    },
+    {
+        "instruction": "What is Intro to Module Bundler?",
+        "output": ["A module bundler is a tool that takes pieces of JavaScript and their dependencies and bundles them into a single file, usually for use in the browser. You may have used tools such as Browserify, Webpack, Rollup or one of many others. It usually starts with an entry file, and from there it bundles up all of the code needed for that entry file."]
+    },
+    {
+        "instruction": "What is Vite?",
+        "output": ["Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects."]
+    },
+    {
+        "instruction": "What is SWC?",
+        "output": ["SWC (Speedy Web Compiler) is a JavaScript and TypeScript compiler and bundler built in Rust. Unlike Babel, which is JavaScript-based, SWC leverages Rust for blazing-fast performance, making it an ideal choice for large-scale projects. It focuses on speed while offering modern features like tree shaking, JSX transformation, and module bundling, catering to frontend development and build optimization."]
+    },
+    {
+        "instruction": "What is Introduction to the topic?",
+        "output": ["Our current build tools for the web are 10-100x slower than they could be. The main goal of the esbuild bundler project is to bring about a new era of build tool performance, and create an easy-to-use modern bundler along the way."]
+    },
+    {
+        "instruction": "What is Webpack?",
+        "output": ["Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset."]
+    },
+    {
+        "instruction": "What is RollUp?",
+        "output": ["Rollup is a module bundler for JavaScript which compiles small pieces of code into something larger and more complex, such as a library or application."]
+    },
+    {
+        "instruction": "What is Parcel?",
+        "output": ["Parcel is a web application bundler, differentiated by its developer experience. It offers blazing-fast performance utilizing multicore processing and requires zero configuration."]
+    },
+    {
+        "instruction": "What is Testing your apps?",
+        "output": ["Before delivering your application to users, you need to be sure that your app meets the requirements it was designed for, and that it doesn’t do any weird, unintended things (called ‘bugs’). To accomplish this, we ‘test’ our applications in different ways."]
+    },
+    {
+        "instruction": "What is Jest_g?",
+        "output": ["Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!"]
+    },
+    {
+      "instruction": "What is Vitest?",
+      "output": ["Vitest is a fast Vite-native unit test framework with out-of-box ESM, TypeScript and JSX support. Works on React, Vue, Svelte and more projects created with Vite"]
+    },
+    {
+        "instruction": "What is Introduction to the topic?",
+        "output": ["Authentication strategies are methods or techniques used to verify the identity of a user or system in order to grant access to a protected resource. There are several different authentication strategies that can be used, including: 1.Basic Authentication 2.Session Based Authentication 3.Token Based Authentication 4.JWT Authentication 5.OAuth 6.SSO You don’t necessarily need to learn all of these, how to implement and the ins and outs from the get go. But it’s important to know what they are and how they work. This will help you make better decisions when choosing an authentication strategy for your application."]
+    },
+    {
+        "instruction": "What is Introduction to the topic?",
+        "output": ["Web security refers to the protective measures taken by the developers to protect the web applications from threats that could affect the business."]
+    },
+    {
+        "instruction": "What is CORS?",
+        "output": ["Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources."]
+    },
+    {
+        "instruction": "What is HTTPS?",
+        "output": ["HTTPS is a secure way to send data between a web server and a browser.Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is encrypted in order to increase security of data transfer. This is particularly important when users transmit sensitive data, such as by logging into a bank account, email service, or health insurance provider"]
+    },
+    {
+        "instruction": "What are Content Security policies?",
+        "output": ["Content Security Policy is a computer security standard introduced to prevent cross-site scripting, clickjacking and other code injection attacks resulting from execution of malicious content in the trusted web page context."]
+    },
+    {
+        "instruction": "What is Introduction?",
+        "output": ["OWASP or Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security."]
+    },
+    {
+        "instruction": "What is Introduction?",
+        "output": ["Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps."]
+    },
+    {
+        "instruction": "What are HTML Templates?",
+        "output": ["The <template> HTML element is a mechanism for holding HTML that is not to be rendered immediately when a page is loaded but may be instantiated subsequently during runtime using JavaScript. Think of a template as a content fragment that is being stored for subsequent use in the document."]
+    },
+    {
+        "instruction": "What are Custom Elements?",
+        "output": ["One of the key features of the Web Components standard is the ability to create custom elements that encapsulate your functionality on an HTML page, rather than having to make do with a long, nested batch of elements that together provide a custom page feature."]
+    },
+    {
+        "instruction": "What is Shadow DOM?",
+        "output": ["An important aspect of web components is encapsulation — being able to keep the markup structure, style, and behavior hidden and separate from other code on the page so that different parts do not clash, and the code can be kept nice and clean. The Shadow DOM API is a key part of this, providing a way to attach a hidden separated DOM to an element."]
+    },
+    {
+        "instruction": "What is Introduction?",
+        "output": ["Type checker helps developers write code with fewer bugs by adding types to their code, trying to catch type errors within your code, and then removing them during compile time. Flow and TypeScript are two popular static type checkers for JavaScript."]
+    },
+    {
+        "instruction": "What is Typescript?",
+        "output": ["TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."]
+    },
+    {
+        "instruction": "What is Server-side rendering?",
+        "output": ["Server-side rendering refers to the process that the service side completes the HTML structure splicing of the page, sends it to the browser, and then binds the status and events for it to become a fully interactive page."]
+    },
+    {
+        "instruction": "What is React?",
+        "output": ["React is the most popular front-end JavaScript library for building user interfaces. React can also render on the server using Node and power mobile apps using React Native."]
+    },
+    {
+        "instruction": "What is React_next.js?",
+        "output": ["Next.js is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites."]
+    },
+    {
+      "instruction": "What is React_Astro?",
+      "output": ["Astro is an all-in-one web framework for building fast, content-focused websites. Astro combines the power of a modern component-based framework with the performance and flexibility of a static site generator. 1.Component Islands: A new web architecture for building faster websites. 2.Server-first API design: Move expensive hydration off of your users’ devices. 3.Zero JS, by default: No JavaScript runtime overhead to slow you down. 4.Edge-ready: Deploy anywhere, even a global edge runtime like Deno or Cloudflare. 5.Customizable: Tailwind, MDX, and 100+ other integrations to choose from. 6.UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."]
+  },
+  {
+      "instruction": "What is React_React-router?",
+      "output": ["There used to be Remix in this list but they announced to merge Remix into react-router after v7."]
+  },
+  {
+      "instruction": "What is Angular?",
+      "output": ["Angular is a component based front-end development framework built on TypeScript which includes a collection of well-integrated libraries that include features like routing, forms management, client-server communication, and more."]
+  },
+  {
+      "instruction": "What is Vue.js?",
+      "output": ["Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications. It is mainly focused on front end development."]
+  },
+  {
+      "instruction": "What is Angular_Nuxt.js?",
+      "output": ["Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js."]
+  },
+  {
+      "instruction": "What is Svelte?",
+      "output": ["Svelte is a javascript framework that unlike Vue and React does not use vertical DOM diffing but instead knows exactly what and where to update when the state changes. It’s mainly focused on frontend and building user interfaces."]
+  },
+  {
+      "instruction": "What is Svelte_Sveltekit?",
+      "output": ["Svelte Kit is a framework for building web applications with the Svelte JavaScript framework. It is designed to be a complete solution for building web applications, with support for server-side rendering, automatic code splitting, and optimized performance."]
+  },
+  {
+      "instruction": "What is Introduction to the topic?",
+      "output": ["GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools."]
+  },
+  {
+      "instruction": "What is Apollo_p?",
+      "output": ["Apollo is a platform for building a unified graph, a communication layer that helps you manage the flow of data between your application clients (such as web and native apps) and your back-end services."]
+  },
+  {
+      "instruction": "What is Relay Modern_g?",
+      "output": ["Relay is a JavaScript client used in the browser to fetch GraphQL data. It’s a JavaScript framework developed by Facebook for managing and fetching data in React applications. It is built with scalability in mind in order to power complex applications like Facebook. The ultimate goal of GraphQL and Relay is to deliver instant UI-response interactions."]
+  },
+  {
+      "instruction": "What is Introduction?",
+      "output": ["Progressive Web Apps (PWAs) are websites that are progressively enhanced to function like installed, native apps on supporting platforms, while functioning like regular websites on other browsers."]
+  },
+  {
+      "instruction": "What is PRPL Model?",
+      "output": ["The PRPL pattern is a performance optimization pattern for web applications that focuses on minimizing the time it takes for the initial rendering of a web page. It stands for Push, Render, Pre-cache, and Lazy-load, and it involves the following steps: 1.Push: Prioritize the delivery of critical resources, such as HTML, CSS, and JavaScript, to the client as early as possible. 2.Render: Start rendering the web page as soon as the critical resources are received, even if some non-critical resources are still being downloaded. 3.Pre-cache: Pre-cache non-critical resources in the background so that they are available when needed. 4.Lazy-load: Defer the loading of non-critical resources until they are needed, such as when the user scrolls to them or interacts with them. The PRPL pattern is designed to improve the perceived performance of a web page by reducing the time it takes for the page to become interactive. It is particularly useful for applications that are served over slow or unreliable networks, as it allows the page to render as quickly as possible and then gradually load the remaining resources."]
+  },
+  {
+      "instruction": "What is Rail Model?",
+      "output": ["The RAIL model is a performance optimization model for web applications that focuses on improving the perceived performance of a web page. It stands for Response, Animation, Idle, and Load, and it involves the following four performance goals: 1.Response: The time it takes for the web page to respond to user input should be under 100 milliseconds. 2.Animation: The time it takes for an animation to run should be under 10 milliseconds. 3.Idle: The web page should take advantage of idle time to perform non-critical tasks. 4.Load: The time it takes for the web page to fully load should be under 1 second. The RAIL model is designed to provide a framework for optimizing the performance of a web page by focusing on the four key areas that impact the user’s perception of performance. It is particularly useful for applications that require high levels of interactivity, such as games and social media applications."]
+  },
+  {
+      "instruction": "What are Performance Metrics?",
+      "output": ["Web performance metrics are quantitative measures of the performance of a web page or application. They are used to assess the speed and efficiency of a web page, and they can help identify areas for improvement. Some common web performance metrics include: 1.Load time: The time it takes for a web page to fully load and become interactive. 2.First contentful paint (FCP): The time it takes for the first content to appear on the page. 3.Time to interactive (TTI): The time it takes for the page to become fully interactive. 4.First input delay (FID): The time it takes for the page to respond to the first user input. 5.Total blocking time (TBT): The time it takes for the page to become fully interactive, taking into account the time spent blocking the main thread. There are many tools and techniques available for measuring web performance metrics, including browser dev tools, performance monitoring tools, and web performance APIs. By tracking these metrics and analyzing the results, web developers can identify areas for improvement and optimize the performance of their web pages."]
+  },
+  {
+    "instruction": "What is Using Lighthouse?",
+    "output": ["Lighthouse is an open-source tool developed by Google that is used to audit the performance, accessibility, and SEO of web pages. It is available as a browser extension and as a command-line tool, and it can be run on any web page to generate a report with recommendations for improvement. Lighthouse works by simulating the load and interaction of a web page and measuring various performance metrics, such as load time, time to first paint, and time to interactive. It also checks for common issues such as incorrect image sizes, missing alt text, and broken links. Lighthouse provides a comprehensive and easy-to-use tool for identifying and fixing performance and accessibility issues on web pages. It is widely used by web developers and is integrated into many popular development tools."]
+},
+{
+    "instruction": "What is Using DEV Tools?",
+    "output": ["Most of the browsers have built-in developer tools that help you perform web development specific tasks on a webpage. My personal recommendation would be to use Chrome DevTools as it is the most advanced and has the most features. However, if you are using a different browser, you can still use the DevTools to debug your web application. Chrome DevTools is a set of web development tools built into the Google Chrome browser. It allows web developers to debug and optimize web pages by providing a range of features for inspecting and manipulating the page’s HTML, CSS, and JavaScript. Some of the features provided by Chrome DevTools include: 1.Elements panel: Inspect and modify the page’s HTML and CSS. 2.Console panel: View and debug JavaScript errors and log messages. 3.Network panel: Monitor network requests and responses, and analyze performance issues. 4.Performance panel: Analyze the performance of the page and identify bottlenecks. 5.Application panel: Inspect the page’s resources, such as cookies and local storage. Chrome DevTools is a powerful and essential tool for web developers, and it is widely used to debug and optimize web pages. It is constantly updated with new features and improvements, and it is available on all modern web browsers."]
+},
+{
+    "instruction": "What is a static site generator?",
+    "output": ["A static site generator is a tool that generates a full static HTML website based on raw data and a set of templates. Essentially, a static site generator automates the task of coding individual HTML pages and gets those pages ready to serve to users ahead of time. Because these HTML pages are pre-built, they can load very quickly in users’ browsers."]
+},
+{
+    "instruction": "What is Next.js?",
+    "output": ["Next.js is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites."]
+},
+{
+    "instruction": "What is Astro_p?",
+    "output": ["Astro is an all-in-one web framework for building fast, content-focused websites. Astro combines the power of a modern component-based framework with the performance and flexibility of a static site generator. 1.Component Islands: A new web architecture for building faster websites. 2.Server-first API design: Move expensive hydration off of your users’ devices. 3.Zero JS, by default: No JavaScript runtime overhead to slow you down. 4.Edge-ready: Deploy anywhere, even a global edge runtime like Deno or Cloudflare. 5.Customizable: Tailwind, MDX, and 100+ other integrations to choose from. 6.UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."]
+},
+{
+    "instruction": "What is Vuepress?",
+    "output": ["VuePress is composed of two parts: a minimalistic static site generator (opens new window)with a Vue-powered theming system and Plugin API, and a default theme optimized for writing technical documentation. It was created to support the documentation needs of Vue’s own sub projects."]
+},
+{
+    "instruction": "What is Eleventy?",
+    "output": ["Eleventy (11ty) is a simple to use, easy to customize, highly performant and powerful static site generator with a helpful set of plugins (e.g. navigation, build-time image transformations, cache assets). Pages can be built and written with a variety of template languages (HTML, Markdown, JavaScript, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug or JS template literals). But it also offers the possibility to dynamically create pages from local data or external sources that are compiled at build time. It has zero client-side JavaScript dependencies."]
+},
+{
+    "instruction": "What is Nuxt.js?",
+    "output": ["Nuxt.js is an open-source development framework built on top of Node.js enabling Vue based web applications functionalities such as server-side rendering and generating static websites."]
+},
+{
+    "instruction": "What is Introduction to the topic?",
+    "output": ["A while back, developing a mobile app using JavaScript was impossible. But now JavaScript developers can create mobile applications using their knowledge for web development. Here is the list of options to create mobile applications in JavaScript."]
+},
+{
+    "instruction": "What is Ionic?",
+    "output": ["Ionic framework is an open-source UI toolkit for building performant, high-quality mobile apps, desktop apps, and progressive web apps using web technologies such as HTML, CSS, and JavaScript."]
+},
+{
+    "instruction": "What is React Native?",
+    "output": ["React Native is a popular JavaScript-based mobile app framework that allows you to build natively-rendered mobile apps for iOS and Android. The framework lets you create an application for various platforms by using the same codebase."]
+},
+{
+  "instruction": "What is Flutter?",
+  "output": ["Flutter is a free and open-source mobile UI framework created by Google and released in May 2017. In a few words, it allows you to create a native mobile application with only one codebase. This means that you can use one programming language and one codebase to create two different apps (for iOS and Android). Flutter consists of two important parts: An SDK (Software Development Kit): A collection of tools that are going to help you develop your applications. This includes tools to compile your code into native machine code (code for iOS and Android). A Framework (UI Library based on widgets): A collection of reusable UI elements (buttons, text inputs, sliders, and so on) that you can personalize for your own needs. To develop with Flutter, you will use a programming language called Dart. The language was created by Google in October 2011, but it has improved a lot over these past years. Dart focuses on front-end development, and you can use it to create mobile and web applications. If you know a bit of programming, Dart is a typed object programming language. You can compare Dart’s syntax to JavaScript."]
+},
+{
+  "instruction": "What are Desktop Applications in JavaScript?",
+  "output": ["A while back, developing a desktop app using JavaScript was impossible. But now JavaScript developers can create desktop applications using their knowledge for web development. Here is the list of options to create desktop applications in JavaScript."]
+},
+{
+  "instruction": "What is Electron?",
+  "output": ["Electron allows you to build cross-platform desktop applications with HTML, CSS, and Javascript/Typescript. It uses Chromium and Node.js, so essentially it is a “Browser” like application that is compatible with Mac, Windows, and Linux."]
+},
+{
+  "instruction": "What is Tauri?",
+  "output": ["Tauri is a toolkit that helps developers make applications for the major desktop platforms - using virtually any frontend framework in existence. The core is built with Rust, and the CLI leverages Node.js making Tauri a genuinely polyglot approach to creating and maintaining great apps."]
+},
+{
+  "instruction": "What is Flutter?",
+  "output": ["Flutter is a free and open-source mobile UI framework created by Google and released in May 2017. In a few words, it allows you to create a native mobile application with only one codebase. This means that you can use one programming language and one codebase to create two different apps (for iOS and Android). Flutter consists of two important parts: An SDK (Software Development Kit): A collection of tools that are going to help you develop your applications. This includes tools to compile your code into native machine code (code for iOS and Android). A Framework (UI Library based on widgets): A collection of reusable UI elements (buttons, text inputs, sliders, and so on) that you can personalize for your own needs. To develop with Flutter, you will use a programming language called Dart. The language was created by Google in October 2011, but it has improved a lot over these past years. Dart focuses on front-end development, and you can use it to create mobile and web applications. If you know a bit of programming, Dart is a typed object programming language. You can compare Dart’s syntax to JavaScript."]
+},
+{
+  "instruction": "Where do I learn TypeScript?",
+  "output": ["Roadmap Linked: https://roadmap.sh/typescript"]
+},
+{
+  "instruction": "Where do I learn Node.js?",
+  "output": ["Roadmap Linked: https://roadmap.sh/nodejs"]
+},
+{
+  "instruction": "Where do I learn full-stack?",
+  "output": ["Roadmap Linked: https://roadmap.sh/full-stack"]
+}
+  ]
+      
+      
