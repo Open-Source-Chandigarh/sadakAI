@@ -1,0 +1,90 @@
+[
+    {
+        "instruction": "What is Intro to Mathematics?",
+        "output": "Mathematics is the foundation of AI and Data Science. It is essential to have a good understanding of mathematics to excel in these fields. Context: https://www.coursera.org/learn/algebra-and-differential-calculus-for-data-science?irclickid=ylV21N3HFxyKTgqUdCxjyTb9UkC3j32vUXoTUU0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=4863057&utm_content=b2c#syllabus, https://www.coursera.org/specializations/mathematics-machine-learning?irclickid=ylV21N3HFxyKTgqUdCxjyTb9UkC3j32vUXoTUU0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=4863057&utm_content=b2c#courses"
+    },
+    {
+        "instruction": "What is Learn Algebra, Calculus, Mathematical Analysis?",
+        "output": "Attached sources and files Context: https://www.coursera.org/specializations/mathematics-machine-learning#courses, https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab, https://app.daily.dev/tags/math?ref=roadmapsh"
+    },
+    {
+        "instruction": "What is Differential Equation?",
+        "output": "A differential equation is an equation that relates one or more unknown functions and their derivatives. In other words, it's an equation that contains one or more terms and the derivatives of one variable with respect to another variable. Context: https://www.google.com/search?q=differential%20calculus%20guide%20for%20ai%20and%20data%20scientist, https://www.youtube.com/results?search_query=differential+calculus+for+ai+and+data+scientist, https://www.coursera.org/learn/algebra-and-differential-calculus-for-data-science#syllabus"
+    },
+    {
+        "instruction": "What is Introduction to Statistics?",
+        "output": "Statistics is the science of collecting, analyzing, interpreting, presenting, and organizing data. It is a branch of mathematics that deals with the collection, analysis, interpretation, presentation, and organization of data. It is used in a wide range of fields, including science, engineering, medicine, and social science. Statistics is used to make informed decisions, to predict future events, and to test hypotheses. It is also used to summarize data, to describe relationships between variables, and to make inferences about populations based on samples. Context: https://www.google.com/search?q=statistics%20guide%20for%20ai%20and%20data%20scientist, https://www.youtube.com/results?search_query=statistics+for+ai+and+data+scientist"
+    },
+    {
+        "instruction": "What is Statistics, CLT?",
+        "output": "The central limit theorem (CLT) states that the distribution of sample means approximates a normal distribution as the sample size gets larger, regardless of the population's distribution. Sample sizes equal to or greater than 30 are often considered sufficient for the CLT to hold. Context: https://www.google.com/search?q=statistics,%20clt%20guide%20for%20ai%20and%20data%20scientist, https://www.google.com/search?q=statistics,%20clt%20guide%20for%20ai%20and%20data%20scientist, https://www.youtube.com/results?search_query=statistics%2C+clt+for+ai+and+data+scientist"
+    },
+    {
+        "instruction": "What is Hypothesis Testing?",
+        "output": "Hypothesis testing, sometimes called significance testing, is an act in statistics whereby an analyst tests an assumption regarding a population parameter. Context: https://www.coursera.org/learn/statistical-analysis-hypothesis-testing-sas#syllabus, https://app.daily.dev/tags/testing?ref=roadmapsh, https://www.google.com/search?q=hypothesis%20testing%20guide%20for%20ai%20and%20data%20scientist"
+    },
+    {
+        "instruction": "What is Probability and Sampling?",
+        "output": "Hypothesis testing, sometimes called significance testing, is an act in statistics whereby an analyst tests an assumption regarding a population parameter. Context: https://www.coursera.org/learn/probability-statistics#syllabus, https://app.daily.dev/tags/statistics?ref=roadmapsh, https://www.google.com/search?q=probability%20and%20sampling%20guide%20for%20ai%20and%20data%20scientist, https://www.youtube.com/results?search_query=probability+and+sampling+for+ai+and+data+scientist"
+    },
+    {
+        "instruction": "What is AB testing?",
+        "output": "Refer to the context Context: https://vkteam.medium.com/practitioners-guide-to-statistical-tests-ed2d580ef04f#1e3b, https://towardsdatascience.com/step-by-step-for-planning-an-a-b-test-ef3c93143c0b, https://app.daily.dev/tags/ab-testing?ref=roadmapsh"
+    },
+    {
+        "instruction": "What is Increasing Test Sensitivity?",
+        "output": "Refer to context Context: https://www.researchgate.net/publication/305997925_Improving_the_Sensitivity_of_Online_Controlled_Experiments_Case_Studies_at_Netflix, https://splitmetrics.com/resources/minimum-detectable-effect-mde/, https://kdd.org/kdd2016/papers/files/adp0945-xieA.pdf, https://exp-platform.com/Documents/2013-02-CUPED-ImprovingSensitivityOfControlledExperiments.pdf, https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d, https://careers.doordash.com/blog/improving-experimental-power-through-control-using-predictions-as-covariate-cupac/"
+    },
+    {
+        "instruction": "What is Ratio Metrics?",
+        "output": "Refer to Context Context: https://arxiv.org/pdf/1803.06336, https://www.stat.cmu.edu/~hseltman/files/ratio.pdf, https://www.google.com/search?q=ratio%20metrics%20guide%20for%20ai%20and%20data%20scientist, https://www.youtube.com/results?search_query=ratio+metrics+for+ai+and+data+scientist"
+    },
+    {
+        "instruction": "What is Intro to Econometrics?",
+        "output": "Ecenometrics is the application of statistical methods to economic data. It is a branch of economics that aims to give empirical content to economic relations. More precisely, it is “the quantitative analysis of actual economic phenomena based on the concurrent development of theory and observation, related by appropriate methods of inference.” Econometrics can be described as something that allows economists “to sift through mountains of data to extract simple relationships.” Context: https://www.google.com/search?q=econometrics%20guide%20for%20ai%20and%20data%20scientist, https://www.youtube.com/results?search_query=econometrics+for+ai+and+data+scientist"
+    },
+    {
+        "instruction": "What is Econometrics Pre-requisites?",
+        "output": "refer to the context Context: https://bookdown.org/ts_robinson1994/10EconometricTheorems/, https://www.google.com/search?q=econometrics%20pre-requisites%20guide%20for%20ai%20and%20data%20scientist, https://www.youtube.com/results?search_query=econometrics+pre-requisites+for+ai+and+data+scientist"
+    },
+    {
+        "instruction": "What is Regressions, Time series, Fitting Distributions?",
+        "output": "Refer to the context Context: https://github.com/stalkermustang/bcdc_ds_takehome, https://bookdown.org/ts_robinson1994/10EconometricTheorems/, https://bookdown.org/ts_robinson1994/10EconometricTheorems/, https://www.academia.edu/33062577/Dougherty_Intro_to_Econometrics_4th_ed_small, https://www.coursera.org/learn/erasmus-econometrics#syllabus, https://www.kaggle.com/learn/time-series, https://www.kaggle.com/code/jagangupta/time-series-basics-exploring-traditional-ts#Hierarchical-time-series, https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/, https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/, https://www.coursera.org/learn/linear-regression-business-statistics#about"
+    },
+    {
+        "instruction": "What is Introduction to Coding?",
+        "output": "Programming is a fundamental skill for data scientists. You need to be able to write code to manipulate data, build models, and deploy solutions. The most common programming languages used in data science are Python and R. Python is a general-purpose programming language that is easy to learn and has a large number of libraries for data manipulation and machine learning. R is a programming language and free software environment for statistical computing and graphics. It is widely used for statistical analysis and data visualization. Context: https://www.google.com/search?q=coding%20guide%20for%20ai%20and%20data%20scientist, https://www.youtube.com/results?search_query=coding+for+ai+and+data+scientist"
+    },
+    {
+        "instruction": "What is Python?",
+        "output": "Learn Python Programming Language Context: https://www.kaggle.com/learn/python, https://developers.google.com/edu/python, https://app.daily.dev/tags/python?ref=roadmapsh"
+    },
+    {
+        "instruction": "What is Data Structures and Algorithms?",
+        "output": "check the context Context: https://leetcode.com/explore/learn/, https://leetcode.com/studyplan/, https://www.coursera.org/specializations/algorithms#courses"
+    },
+    {
+        "instruction": "What is Learn SQL?",
+        "output": "Refer to the context Context: https://www.sqltutorial.org/, https://app.daily.dev/tags/sql?ref=roadmapsh"
+    },
+    {
+        "instruction": "What is Introduction to the topic?",
+        "output": "Exploratory Data Analysis (EDA) is an approach to analyzing data sets to summarize their main characteristics, often with visual methods. EDA is used to understand what the data can tell us beyond the formal modeling or hypothesis testing task. It is a crucial step in the data analysis process. Context: https://www.google.com/search?q=exploratory%20data%20analysis%20guide%20for%20ai%20and%20data%20scientist, https://www.youtube.com/results?search_query=exploratory+data+analysis+for+ai+and+data+scientist"
+    },
+    {
+        "instruction": "What is Introduction to the topic?",
+        "output": "Machine learning is a field of artificial intelligence that uses statistical techniques to give computer systems the ability to “learn” (e.g., progressively improve performance on a specific task) from data, without being explicitly programmed. The name machine learning was coined in 1959 by Arthur Samuel. Evolved from the study of pattern recognition and computational learning theory in artificial intelligence, machine learning explores the study and construction of algorithms that can learn from and make predictions on data – such algorithms overcome following strictly static program instructions by making data-driven predictions or decisions, through building a model from sample inputs. Machine learning is employed in a range of computing tasks where designing and programming explicit algorithms with good performance is difficult or infeasible; example applications include email filtering, detection of network intruders, and computer vision. Context: https://www.google.com/search?q=machine%20learning%20guide%20for%20ai%20and%20data%20scientist, https://www.youtube.com/results?search_query=machine+learning+for+ai+and+data+scientist"
+    },
+    {
+        "instruction": "What is Introduction to the topic?",
+        "output": "Deep learning is a subset of machine learning that deals with algorithms inspired by the structure and function of the brain called artificial neural networks. Deep learning is a key technology behind driverless cars, enabling them to recognize a stop sign, or to distinguish a pedestrian from a lamppost. It is the key to voice control in consumer devices like phones, tablets, TVs, and hands-free speakers. Deep learning is getting lots of attention lately and for good reason. It’s achieving results that were not possible before. Context: https://www.google.com/search?q=%20guide%20for%20ai%20and%20data%20scientist, https://www.youtube.com/results?search_query=+for+ai+and+data+scientist"
+    },
+    {
+        "instruction": "What is Introduction to the topic?",
+        "output": "MLOps is a practice for collaboration and communication between data scientists and operations professionals to help manage production ML lifecycle. It is a set of best practices that aims to automate the ML lifecycle, including training, deployment, and monitoring. MLOps helps organizations to scale ML models and deliver business value faster. Context: https://www.google.com/search?q=mlops%20guide%20for%20ai%20and%20data%20scientist, https://www.youtube.com/results?search_query=mlops+for+ai+and+data+scientist"
+    },
+    {
+        "instruction": "What is Python, Backend, DevOps?",
+        "output": "Roadmap Linked Respectively Context: https://roadmap.sh/python, https://roadmap.sh/backend, https://roadmap.sh/devops"
+    }
+]
