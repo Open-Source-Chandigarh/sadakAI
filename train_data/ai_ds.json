@@ -168,7 +168,5 @@
      "responses": ["Roadmap Linked Respectively"],
      "context_set": ["https://roadmap.sh/python", "https://roadmap.sh/backend", "https://roadmap.sh/devops"]
    }
-
   ]
-  
 }
