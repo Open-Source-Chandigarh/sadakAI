@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 <br>
 
-__Note:__ This is a work in progress project, due to it not being hosted on the web yet you have to download and finetune the LLM model on your machine. Before running the model, open [settup.ipynb](settup.ipynb) in jupyter lab/ your prefered text editor and execute all the code blocks inorder to download and finetune the LLM model.
+__Note:__ This is a work in progress project, due to it not being hosted on the web yet you have to download and finetune the LLM model on your machine. Before running the model, open [settup.ipynb](settup.ipynb) in jupyter lab/ your preferred text editor and execute all the code blocks inorder to download and finetune the LLM model.
 
 3. Execute the [main.py](main.py]) file.
 ``` bash
