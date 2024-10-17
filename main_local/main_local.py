@@ -20,8 +20,6 @@ logo = '''
 file_path = "main_local/data/data.csv"
 documents_cache_path = "main_local/.cache/documents_cache.pkl"
 
-print(f"Current working directory: {os.getcwd()}")
-print(f"Absolute path of the file: {os.path.abspath(file_path)}")
 
 if not os.path.exists(file_path):
     raise FileNotFoundError(f"The file {file_path} does not exist.")
