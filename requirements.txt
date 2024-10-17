@@ -10,3 +10,9 @@ pandas >= 2.2.1
 psutil >= 5.9.5
 litgpt[all] >= 0.4.1
 flask
+streamlit
+langchain
+langchain-community
+langchain_ollama
+faiss-cpu
+keyboard
