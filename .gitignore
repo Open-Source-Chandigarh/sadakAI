@@ -13,3 +13,4 @@ model/04_weightloading/__pycache__/
 model/04_weightloading/gpt2/
 model/04_weightloading/checkpoints/
 model/05_finetuning/checkpoints/
+main_local/.cache/*
