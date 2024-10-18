@@ -1,0 +1,66 @@
+[
+    {
+      "instruction": "Intro to Cybersecurity",
+      "output": "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These attacks usually aim to access, change, or destroy sensitive information, extort money from users, or interrupt normal business processes. Learn more: https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html"
+    },
+    {
+      "instruction": "What is Information Security?",
+      "output": "Information security, also known as InfoSec, involves protecting sensitive data from unauthorized access, modification, or destruction. It focuses on maintaining the confidentiality, integrity, and availability of information. Learn more: https://www.kaspersky.com/resource-center/definitions/what-is-information-security"
+    },
+    {
+      "instruction": "Explain Cybersecurity Threats",
+      "output": "Cybersecurity threats include any potential malicious attacks aimed at gaining unauthorized access to systems, networks, or data. These threats include phishing, malware, ransomware, and advanced persistent threats (APTs). Learn more: https://www.ibm.com/topics/cybersecurity-threats"
+    },
+    {
+      "instruction": "Intro to Network Security",
+      "output": "Network security involves implementing measures to protect the integrity, confidentiality, and accessibility of computer networks and data. This includes firewalls, encryption, and secure access protocols. Learn more: https://www.paloaltonetworks.com/cyberpedia/what-is-network-security"
+    },
+    {
+      "instruction": "What is Vulnerability Management?",
+      "output": "Vulnerability management is the process of identifying, assessing, and mitigating security weaknesses in systems or applications that could be exploited by attackers. It involves continuous scanning and patching. Learn more: https://www.tenable.com/cyber-exposure/what-is-vulnerability-management"
+    },
+    {
+      "instruction": "Explain Encryption",
+      "output": "Encryption is a method of securing data by transforming it into a format that is unreadable without a decryption key. It is used to protect data in transit and at rest. Learn more: https://www.kaspersky.com/resource-center/definitions/what-is-encryption"
+    },
+    {
+      "instruction": "Intro to Cryptography",
+      "output": "Cryptography is the practice of securing communication and data by using codes so that only those for whom the information is intended can read it. It plays a crucial role in secure communications. Learn more: https://www.cloudflare.com/learning/ssl/what-is-cryptography/"
+    },
+    {
+      "instruction": "What is Malware?",
+      "output": "Malware is software specifically designed to damage, disrupt, or gain unauthorized access to computer systems or networks. Examples include ransomware, viruses, and spyware. Learn more: https://www.mcafee.com/enterprise/en-us/security-awareness/ransomware/what-is-malware.html"
+    },
+    {
+      "instruction": "Explain Phishing Attacks",
+      "output": "Phishing attacks aim to steal sensitive information by tricking users into clicking on malicious links or providing personal details through fake websites or emails. Learn more: https://www.ibm.com/topics/phishing"
+    },
+    {
+      "instruction": "Intro to Firewalls",
+      "output": "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between a trusted internal network and untrusted external networks. Learn more: https://www.cloudflare.com/learning/firewall/what-is-a-firewall/"
+    },
+    {
+      "instruction": "What is Incident Response?",
+      "output": "Incident response refers to the structured approach used to handle and manage a security breach or cyberattack. The goal is to limit the damage and reduce recovery time and costs. Learn more: https://www.cisco.com/c/en/us/products/security/incident-response.html"
+    },
+    {
+      "instruction": "Explain Social Engineering",
+      "output": "Social engineering is a tactic used by attackers to manipulate individuals into revealing sensitive information or performing actions that compromise security. This can include phishing and pretexting. Learn more: https://www.kaspersky.com/resource-center/definitions/social-engineering"
+    },
+    {
+      "instruction": "Intro to Security Operations",
+      "output": "A Security Operations Center (SOC) is a team of cybersecurity professionals that monitors and analyzes an organization’s security posture on an ongoing basis to detect and respond to cybersecurity incidents. Learn more: https://www.ibm.com/topics/security-operations-center"
+    },
+    {
+      "instruction": "What is Penetration Testing?",
+      "output": "Penetration testing, or pen testing, is the practice of simulating a cyberattack on a computer system to find vulnerabilities that attackers could exploit. It helps organizations strengthen their security defenses. Learn more: https://www.synopsys.com/glossary/what-is-penetration-testing.html"
+    },
+    {
+      "instruction": "Explain Two-Factor Authentication (2FA)",
+      "output": "Two-factor authentication (2FA) adds an extra layer of security by requiring not only a password and username but also something that only the user has on them, such as a physical token or mobile device, to gain access. Learn more: https://authy.com/what-is-2fa/"
+    },
+    {
+      "instruction": "Intro to Zero Trust Security",
+      "output": "Zero trust is a security model that assumes no entity, internal or external, can be trusted by default. It requires continuous verification of identity and trustworthiness for every access request. Learn more: https://www.microsoft.com/security/blog/zero-trust/"
+    }
+]
