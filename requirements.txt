@@ -3,6 +3,8 @@ flask-cors
 gunicorn
 langchain-community
 langchain_groq
-sentence_transformers
+qdrant-client
+langchain-qdrant
+fastembed
 faiss-cpu
 keyboard
