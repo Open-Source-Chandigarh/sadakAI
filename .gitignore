@@ -1,3 +1,5 @@
+.env
+main_local/.env
 test.py
 transformed_data.json
 .DS_Store
@@ -8,4 +10,4 @@ settup.py
 __pycache__/
 checkpoints/
 model/
-main_local/.cache/*
+main_local/.cache/
