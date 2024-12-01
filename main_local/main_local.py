@@ -100,7 +100,7 @@ def type_out_text(text):
 
 
 def main():
-    # print(logo)
+    print(logo)
     while True:
         message = input("\nEnter your question (type /exit to quit): ")
         if message.lower() == "/exit":
