@@ -6,6 +6,7 @@ sadakAI is an AI model designed to help users with their software development ca
 ## Contributions
 1. Check [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 2. Follow the [issues](https://github.com/Open-Source-Chandigarh/sadakAI/issues) to look for potential contributions.
+3. The [local-llm](https://github.com/Open-Source-Chandigarh/sadakAI/tree/local-llm) branch is currently in development, head over there to look for potential issues to work on.
 
 
 ## Settup Guide

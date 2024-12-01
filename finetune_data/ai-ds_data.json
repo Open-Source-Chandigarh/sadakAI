@@ -41,7 +41,9 @@
     },
     {
         "instruction": "What is Intro to Econometrics?",
+
         "output": "Ecenometrics is the application of statistical methods to economic data. It is a branch of economics that aims to give empirical content to economic relations. More precisely, it is \u201cthe quantitative analysis of actual economic phenomena based on the concurrent development of theory and observation, related by appropriate methods of inference.\u201d Econometrics can be described as something that allows economists \u201cto sift through mountains of data to extract simple relationships.\u201d Context: https://www.google.com/search?q=econometrics%20guide%20for%20ai%20and%20data%20scientist, https://www.youtube.com/results?search_query=econometrics+for+ai+and+data+scientist"
+
     },
     {
         "instruction": "What is Econometrics Pre-requisites?",
@@ -73,11 +75,13 @@
     },
     {
         "instruction": "What is Introduction to the topic?",
+
         "output": "Machine learning is a field of artificial intelligence that uses statistical techniques to give computer systems the ability to \u201clearn\u201d (e.g., progressively improve performance on a specific task) from data, without being explicitly programmed. The name machine learning was coined in 1959 by Arthur Samuel. Evolved from the study of pattern recognition and computational learning theory in artificial intelligence, machine learning explores the study and construction of algorithms that can learn from and make predictions on data \u2013 such algorithms overcome following strictly static program instructions by making data-driven predictions or decisions, through building a model from sample inputs. Machine learning is employed in a range of computing tasks where designing and programming explicit algorithms with good performance is difficult or infeasible; example applications include email filtering, detection of network intruders, and computer vision. Context: https://www.google.com/search?q=machine%20learning%20guide%20for%20ai%20and%20data%20scientist, https://www.youtube.com/results?search_query=machine+learning+for+ai+and+data+scientist"
     },
     {
         "instruction": "What is Introduction to the topic?",
         "output": "Deep learning is a subset of machine learning that deals with algorithms inspired by the structure and function of the brain called artificial neural networks. Deep learning is a key technology behind driverless cars, enabling them to recognize a stop sign, or to distinguish a pedestrian from a lamppost. It is the key to voice control in consumer devices like phones, tablets, TVs, and hands-free speakers. Deep learning is getting lots of attention lately and for good reason. It\u2019s achieving results that were not possible before. Context: https://www.google.com/search?q=%20guide%20for%20ai%20and%20data%20scientist, https://www.youtube.com/results?search_query=+for+ai+and+data+scientist"
+
     },
     {
         "instruction": "What is Introduction to the topic?",

@@ -448,7 +448,7 @@
 
 {
     "tag": "Type Checkers",
-    "patterns": ["Introduction "],
+    "patterns": ["Introduction to Type Checkers"],
     "responses": ["Type checker helps developers write code with fewer bugs by adding types to their code, trying to catch type errors within your code, and then removing them during compile time. Flow and TypeScript are two popular static type checkers for JavaScript."],
     "context_set": ["https://www.google.com/search?q=type%20checkers%20guide%20for%20frontend%20developer", "https://www.youtube.com/results?search_query=type+checkers+for+frontend+developer"]
   },
