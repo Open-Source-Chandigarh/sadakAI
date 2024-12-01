@@ -3,7 +3,7 @@ import json
 import csv
 
 def json_to_csv(output_csv):
-    folder_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'finetune_data')
+    folder_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'embedding_data')
     
     all_data = []
 
@@ -27,4 +27,4 @@ def json_to_csv(output_csv):
             for data in all_data:
                 writer.writerow(data)
 
-json_to_csv('main_local/data/data.csv')
+json_to_csv('app/chat/data/data.csv')

@@ -1,5 +1,6 @@
-numpy
 flask
+flask-cors
+gunicorn
 langchain-community
 langchain_groq
 sentence_transformers

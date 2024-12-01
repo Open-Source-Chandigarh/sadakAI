@@ -6,7 +6,7 @@ import time
 from sentence_transformers import SentenceTransformer
 from langchain_community.document_loaders.csv_loader import CSVLoader
 from langchain_groq import ChatGroq
-from chat.config import config
+from app.chat.config import config
 from langchain_core.prompts import ChatPromptTemplate
 
 logo = '''
@@ -18,9 +18,9 @@ logo = '''
 ╚══════╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝
 '''
 
-file_path = "chat/data/data.csv"
-documents_cache_path = "chat/.cache/documents_cache.pkl"
-vector_store_path = "chat/.cache/vector_store.index"
+file_path = "app/chat/data/data.csv"
+documents_cache_path = "app/chat/.cache/documents_cache.pkl"
+vector_store_path = "app/chat/.cache/vector_store.index"
 
 if not os.path.exists(file_path):
     raise FileNotFoundError(f"The file {file_path} does not exist.")

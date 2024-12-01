@@ -1,6 +1,6 @@
 from flask import Flask, request, send_from_directory, jsonify
 from flask_cors import CORS
-from chat.chat import generate_response
+from app.chat.chat import generate_response
 
 app = Flask(__name__, static_folder='web-ui/build', static_url_path='/')
 CORS(app)
