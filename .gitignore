@@ -1,3 +1,5 @@
+.env
+main_local/.env
 test.py
 transformed_data.json
 .DS_Store
@@ -7,9 +9,8 @@ settup.py
 .idea/
 __pycache__/
 checkpoints/
-model/02_tokenization/__pycache__/
-model/03_pretraining/__pycache__/
-model/04_weightloading/__pycache__/
-model/04_weightloading/gpt2/
-model/04_weightloading/checkpoints/
-model/05_finetuning/checkpoints/
+model/
+main_local/.cache/*
+app/chat/.env
+app/chat/__pycache__/
+app/web-ui/node_modules
