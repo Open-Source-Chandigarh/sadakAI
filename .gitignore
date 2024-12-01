@@ -10,4 +10,7 @@ settup.py
 __pycache__/
 checkpoints/
 model/
-main_local/.cache/
+main_local/.cache/*
+app/chat/.env
+app/chat/__pycache__/
+app/web-ui/node_modules

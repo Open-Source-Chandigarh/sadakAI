@@ -6,7 +6,7 @@ import time
 from sentence_transformers import SentenceTransformer
 from langchain_community.document_loaders.csv_loader import CSVLoader
 from langchain_groq import ChatGroq
-from config import config
+from chat.config import config
 from langchain_core.prompts import ChatPromptTemplate
 
 logo = '''
@@ -18,9 +18,9 @@ logo = '''
 ╚══════╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝
 '''
 
-file_path = "data/data.csv"
-documents_cache_path = ".cache/documents_cache.pkl"
-vector_store_path = ".cache/vector_store.index"
+file_path = "chat/data/data.csv"
+documents_cache_path = "chat/.cache/documents_cache.pkl"
+vector_store_path = "chat/.cache/vector_store.index"
 
 if not os.path.exists(file_path):
     raise FileNotFoundError(f"The file {file_path} does not exist.")
@@ -96,20 +96,30 @@ prompt = ChatPromptTemplate.from_messages([
         {best_practice}
 
         Please write the best advice that I should provide to this developer:
+        return the message in markdown format
         """
     ),
     ("human", "{message}"),
 ])
 
 def generate_response(message):
-    best_practice = retrieve_info(message)  
-    response = prompt | llm
-    ai_response = response.invoke({
-        "message": message,
-        "best_practice": "\n".join(best_practice),  
-    })
-    content = tuple(ai_response)[0][1]
-    return content
+    try:
+        best_practice = retrieve_info(message)
+        response = prompt | llm
+        ai_response = response.invoke({
+            "message": message,
+            "best_practice": "\n".join(best_practice),
+        })
+        content = tuple(ai_response)[0][1]
+        return content
+    except Exception as e:
+        return "Error processing the request."
+
+def retrieve_info(query):
+    query_embedding = model.encode([query])
+    distances, indices = index.search(query_embedding, k=3)
+    page_contents_array = [documents[idx].page_content for idx in indices[0]]
+    return page_contents_array
 
 def type_out_text(text):
     for char in text:
@@ -118,7 +128,7 @@ def type_out_text(text):
     print()
 
 def main():
-    sys.stdout.buffer.write(logo.encode('utf-8')) #this will help run directly in the bash console
+    sys.stdout.buffer.write(logo.encode('utf-8'))
     while True:
         message = input("\nEnter your question (type /exit to quit): ")
         if message.lower() == "/exit":
